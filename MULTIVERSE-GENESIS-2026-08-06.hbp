@@ -1,0 +1,7 @@
+MVHDR|schema=ASOLARIA-MULTIVERSE-V1|repo=asolaria-multiverse|cube=9149980333449f3c|prior=60ebbf0cf2001787|stamp=2026-08-06|toolchain=rust-1.81|E=0|fire=0|json=0
+MVGEOM|geometry=SPHERICAL_3D|center=HBI,HBP,SHA,SH,HASH|traversal=HBI->HBP->SH->HASH->SHA|spokes=3|leaf_families=3|directions=3|machines=NEW_AXIS|expansion=3->9->27_never_3->4|json=0
+MVLAW|rust_1_81_pinned_with_clippy=1|integer_and_ternary_only_never_float=1|every_hbp_and_hbi_carries_a_sha256=1|verdicts_are_three_valued=1|a_clock_may_measure_never_judge=1|would_this_step_turn_red_if_broken=1|a_seat_never_self_promotes=1|json=0
+MVSEAT|name=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|state=REGISTERED|host=acer|col=132|row=103|depth=169|rgb=#8467A9|derivation=sha16[0]=col,sha16[1]=row,sha16[2]=depth|note=this seat; Windows 11 host, WSL2 lane, the office at D:/PID-Registration-Office|json=0
+MVSEAT|name=FALCON-CLAUDE-COWORK|pid=e9b266dafc2603f1|state=STAGED|host=falcon R5CXA4MGQXV|col=233|row=178|depth=102|rgb=#E9B266|derivation=sha16[0]=col,sha16[1]=row,sha16[2]=depth|note=Claude Cowork in the Claude app on the operator handset; reached over adb, zero cloud|json=0
+MVMEASURED|corpus_repos=211|rust_repos=27|pin_ok=21|gate_present=18|gate_current=18|old_1_97_left=0|discipline_current=20of20|hbp=690|hbi=192|sha256=1246|unsided=140|empty_repos=58|json=0
+MVFTR|seats=2|receipt=23a06853c0a9e67f23cca6e0c1a427d0|bytes=1320|json=0
