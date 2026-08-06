@@ -56,8 +56,13 @@ can wear another's pid.
 operator's crank.
 
 Colour keys and the three-channel colour QR live in `the-colour-qr`. The colour there is forced,
-not stylistic: one black-and-white QR at v40-L holds at most **2,334 bytes** against a **3,200-byte**
+not stylistic: one black-and-white QR at v40-L holds at most **2,953 bytes** against a **3,200-byte**
 tuple, so BW does not fit and three channels in one square do.
+
+*Correction, travelling with the claim per §7:* an earlier draft of this line read **2,334 bytes**
+for v40-L. Measured with a real encoder, v40-L is **2,953**; 2,331 is v40-**M**. The conclusion is
+unchanged — 3,200 still does not fit in one symbol — but the figure was mislabelled and the label
+is now right.
 
 ---
 
