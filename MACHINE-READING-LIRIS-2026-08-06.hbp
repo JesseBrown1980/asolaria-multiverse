@@ -1,0 +1,11 @@
+MRLHDR|schema=ASOLARIA-MACHINE-READING-V1|seat=LIRIS|stamp=2026-08-06|packet=FOUR-MACHINE-SUNG-DECISION-2026-08-06.md|route=GITHUB_PR_2|E=0|fire=0|json=0
+TOKEN|display=S S ZZZ JQPIESZ|utf8_bytes=17|sha256=91473d7f41b83fbefd1c853e8c3e438136def556617348710211827ca6940bf2|recomputed_by=LIRIS|recomputed_match=1|json=0
+READING|seat=LIRIS|text=17_BYTE_OPERATOR_TOKEN_PRESERVED_BYTE_EXACT_NO_LIRIS_SURFACE_BINDING_SEMANTIC_VALUE_UNVERIFIED|json=0
+BASIS|class=machine_measurement|surfaces=LIRIS_LOCAL_DISK,LIRIS_CANON,FABRIC_4949|json=0
+SEARCH|surface=LIRIS_LOCAL_DISK|pattern=JQPIESZ|scope=Asolaria_canon_and_this_repo|matches_outside_this_repo=0|matches_in_this_repo=5|json=0
+FABRIC|surface=127.0.0.1_4949|state=STALE_FALLBACK|cached_at=2026-07-19T02:01:15Z|reason=all_bases_unavailable|live_canon_binding=NOT_AVAILABLE|json=0
+EVIDENCE|bytes=MEASURED|meaning=UNVERIFIED|vantage=LIRIS_LOCAL|system_affirmed=0|json=0
+SOURCECOMMIT|sha256=91473d7f41b83fbefd1c853e8c3e438136def556617348710211827ca6940bf2|method=SHA256_OF_17_UTF8_BYTES_NO_TRAILING_NEWLINE|json=0
+BOUNDARY|seat_scoped=1|finalizes_collective_result=0|acer_row=PENDING|relic_row=PENDING|falcon_row=PENDING|executable_authority=0|json=0
+ACTION|decision=PUBLISH_LIRIS_READING_ROW|overwrite_prior=0|delete_prior=0|json=0
+MRLFTR|rows=10|json=0

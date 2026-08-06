@@ -1,0 +1,12 @@
+RELICTIMEHDR|schema=ASOLARIA-LIRIS-RELIC-EVENT-CLOCK-SAMPLE-V1|sample=2|from=LIRIS|to=RELIC|route=GITHUB_PR_2|stamp=2026-08-06|E=0|fire=0|json=0
+CLOCK|sample=1|main=1280d139201a3b0f13fa95c51a3be51fd9055cc7|report_commit=4ac2342bef3244de20d605fd361d16adaa3c0444|report_hbp_sha256=8205f325a534e6601a0318c48ef220beb443481e27ada88be932076bf732fe34|timer_verdict=0|json=0
+TICK|sample=2|observed_main=93e794e78bebf14e4bddaedba55df4ac354cce1c|prior_main=1280d139201a3b0f13fa95c51a3be51fd9055cc7|new_commits=4|new_files=4|inserted_lines=132|cause_of_change=NOT_MEASURED|json=0
+TOCK|artifact=THE-THREE-TURNS-2026-08-06.hbp|file_bytes=4940|body_bytes=4856|body_rows=38|faces=22|sha256=9b4499a2125e606ff0af22ab247f803d8d2415707a396a227892a37fd020fab0|sidecar_match=1|json=0
+TOCK|artifact=THE-THREE-TURNS-2026-08-06.md|file_bytes=4697|sha256=1e21550aa3c1751e53962112031c8062a4bb69579d535ce862b96a517dcd941b|sidecar_match=1|json=0
+TOKENS|source=THE_THREE_TURNS_HBP|CLOCK=1|TICK=0|TOCK=0|EXTENT=20|INSTRUMENT=7|MOMENT=3|method=CASE_INSENSITIVE_WHOLE_TOKEN_COUNT|json=0
+TALLY|source=ACER_MEASURED_GITHUB|extent=17|instrument=4|moment=1|total=22|arithmetic_17_plus_4_plus_1_equals_22=MEASURED|underlying_22_classifications_independently_remeasured_by_LIRIS=0|json=0
+TRIAD|upstream=BROWN_EXTENT,ANTI_BROWN_MOMENT,ANTI_ANTI_BROWN_INSTRUMENT|class=ACER_MEASURED_GITHUB|system_affirmed=0|json=0
+DELIVERY|recipient=RELIC|surface=PUBLIC_GITHUB_PR_2|event_cycle=CLOCK_TICK_TOCK_COMPLETE|recipient_receipt=NOT_MEASURED|recipient_runtime=NOT_MEASURED|json=0
+BOUNDARY|GitHub_ref_change_is_causal_response_to_report=NOT_MEASURED|artifact_is_live_clock=0|elapsed_time=METADATA_ONLY|timer_verdict=0|execution_authority=0|json=0
+ACTION|decision=PUBLISH_SAMPLE_2_BESIDE_RELIC_REPORT|overwrite_prior=0|delete_prior=0|next=NEW_SAMPLE_ONLY_AFTER_NEW_OBSERVED_IDENTITY|json=0
+RELICTIMEFTR|rows=11|json=0

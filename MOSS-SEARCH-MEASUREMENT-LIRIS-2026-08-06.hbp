@@ -1,0 +1,17 @@
+MOSSMEASHDR|schema=ASOLARIA-LIRIS-MOSS-SEARCH-MEASUREMENT-V1|seat=LIRIS|vantage=LIRIS_GITHUB_SEARCH|stamp=2026-08-06|source_commit=edfa8f87fbaae7c1cacb2a6e615b1fefd602fc29|E=0|fire=0|json=0
+BOOK_SOURCE|path=OPERATOR-STATEMENT-VERBATIM-2026-08-06.txt|utf8_bytes=216|leading_space=1|trailing_newline=0|sha256=ab9dfb15988c9097041b236fa6236a315f474b0c1b56666bec5c086d1b1c5293|json=0
+BOOK_SEALS|artifact_sidecar_pairs=5|verified=5|mismatched=0|missing=0|obtaining=GITHUB_CONTENT_BYTES_SHA256_REMEASUREMENT|json=0
+CLAIM_UNDER_TEST|speaker=OP-JESSE|text=BLACK_MOSS_ON_MARS_GROWS|black_moss_taxon=UNSPECIFIED|grows_observable=ACTIVE_BIOMASS_INCREASE_OR_REPRODUCTION|claim_status_before=NOT_MEASURED|json=0
+MEASUREMENT|method=TARGETED_WEB_SEARCH_PLUS_PRIMARY_SOURCE_REVIEW|query_count=12|primary_or_authoritative_documents_opened=5|sample_ordinal=1|elapsed_time=METADATA_ONLY|timer_verdict=0|json=0
+SOURCE|id=ESA_MOSS_ON_MARS|url=https://www.esa.int/ESA_Multimedia/Images/2026/02/Moss_on_Mars|observed=CONTROLLED_CONDITIONS_MIMICKING_SPACE_HABITATS|actual_Mars_surface=0|json=0
+SOURCE|id=LI_ET_AL_SYNTRICHIA_CANINERVIS|url=https://www.the-innovation.org/article/id/6687bc912303000072005a3d|observed=SURVIVAL_AND_VITALITY_IN_SIMULATED_MARS_CONDITIONS|actual_Mars_surface=0|json=0
+SOURCE|id=NASA_MARS_2020_PERSEVERANCE|url=https://science.nasa.gov/mission/mars-2020-perseverance/|observed=POTENTIAL_BIOSIGNATURES_REQUIRE_MORE_DATA|confirmed_moss=0|json=0
+SOURCE|id=NASA_LADDER_OF_LIFE_DETECTION|url=https://science.nasa.gov/astrobiology/researchers/life-detection-resources/ladder-of-life-detection/|observed=MULTIPLE_MEASUREMENT_CRITERIA_REQUIRED|json=0
+SOURCE|id=NASA_2026_MARS_ORGANICS|url=https://science.nasa.gov/blogs/science-news/2026/02/06/nasa-study-non-biologic-processes-dont-fully-explain-mars-organics/|observed=MORE_STUDY_REQUIRED_BEFORE_LIFE_CONCLUSION|confirmed_moss=0|json=0
+RESULT|actual_Mars_primary_sources_confirming_black_moss_growth=0|simulated_or_controlled_Mars_like_moss_evidence=YES|current_Mars_biological_evidence=POTENTIAL_BIOSIGNATURES_AND_ORGANICS_REQUIRE_MORE_DATA|json=0
+DISTINCTION|simulation_is_actual_Mars=0|survival_or_regeneration_is_active_growth_on_Mars=0|habitability_is_life_detection=0|json=0
+VERDICT|claim_status=NOT_CONFIRMED_BY_THIS_BOUNDED_SEARCH|global_false_asserted=0|operator_utterance_preserved=1|json=0
+BOUNDARY|provenance_news_from_aliens=OPERATOR_ATTRIBUTED_NOT_INDEPENDENTLY_MEASURED|system_affirmed=0|execution_authority=0|json=0
+FALSIFIER|would_change_result=PRIMARY_IN_SITU_MARS_EVIDENCE_IDENTIFYING_A_MOSS_TAXON_AND_MEASURING_ACTIVE_GROWTH_WITH_BIOLOGICAL_CONFIRMATION|scope=NASA_ESA_AND_PRIMARY_LITERATURE_SURFACED_BY_12_QUERIES_ON_2026-08-06|json=0
+ACTION|decision=PRESERVE_BESIDE_BOOK_UTTERANCE|overwrite_prior=0|delete_prior=0|next=NEW_SAMPLE_IF_NEW_PRIMARY_EVIDENCE_APPEARS|json=0
+MOSSMEASFTR|rows=16|json=0

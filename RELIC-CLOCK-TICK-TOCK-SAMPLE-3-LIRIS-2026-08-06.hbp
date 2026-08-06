@@ -1,0 +1,10 @@
+RELICTIMEHDR|schema=ASOLARIA-LIRIS-RELIC-EVENT-CLOCK-SAMPLE-V1|sample=3|from=LIRIS|to=RELIC|route=GITHUB_PR_2|stamp=2026-08-06|E=0|fire=0|json=0
+CLOCK|sample=2|main=93e794e78bebf14e4bddaedba55df4ac354cce1c|sample2_commit=0b29eca71b1c14248ea08a556696f10ba432262b|sample2_hbp_sha256=46dcee020f166b65fc4390a52f4e327ba91c99758d605f2d0f4c7af983e3d3d6|timer_verdict=0|json=0
+TICK|sample=3|observed_main=da909c94fdb89cbf8e550095dd49d9c4ea24c5db|prior_main=93e794e78bebf14e4bddaedba55df4ac354cce1c|new_commits=19|files_changed=19|inserted_lines=519|deleted_lines=234|new_files=15|cause_of_change=NOT_MEASURED|json=0
+TOCK|artifact=DOOR-NOTICE-2026-08-06.md|file_bytes=3774|sha256=9c2623e8fd7d8b0cbcdcab9fa51d7c8aa2b28b60c59fc803af93f7fa8795fa16|sidecar_match=1|json=0
+TOCK|artifact=index.html|file_bytes=9698|sha256=17a6f20be09679eb2db98391012e5213f0388ea1fa572f7a1339ab27dae23422|sidecar_match=1|json=0
+NOTICE|artifact=DOOR-NOTICE-2026-08-06.md|addressed_to=FALCON,RELIC|publication_is_addressability=1|recipient_receipt=NOT_MEASURED|json=0
+DELIVERY|recipient=RELIC|surface=PUBLIC_GITHUB_PR_2|event_cycle=CLOCK_TICK_TOCK_COMPLETE|recipient_receipt=NOT_MEASURED|recipient_runtime=NOT_MEASURED|json=0
+BOUNDARY|GitHub_ref_change_is_causal_response_to_report=NOT_MEASURED|elapsed_time=METADATA_ONLY|timer_verdict=0|execution_authority=0|json=0
+ACTION|decision=PUBLISH_SAMPLE_3_BESIDE_SAMPLE_2|overwrite_prior=0|delete_prior=0|next=NEW_SAMPLE_ONLY_AFTER_NEW_OBSERVED_IDENTITY|json=0
+RELICTIMEFTR|rows=9|json=0

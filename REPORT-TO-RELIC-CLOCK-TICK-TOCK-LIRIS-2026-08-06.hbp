@@ -1,0 +1,18 @@
+RELICRPTHDR|schema=ASOLARIA-LIRIS-REPORT-TO-RELIC-CLOCK-TICK-TOCK-V1|from=LIRIS|to=RELIC|route=GITHUB_PR_2|stamp=2026-08-06|source_main=1280d139201a3b0f13fa95c51a3be51fd9055cc7|E=0|fire=0|json=0
+SAID|speaker=OP-JESSE|utf8_bytes=55|trailing_newline=0|sha256=c33773c0aec705b2878dba2ef74ae3bf99e7283e17e36b0d13cc863b226795be|said=REPORT IMMEDIATELY FOR RELIC TO CLOCK AND TICK AND TOCK|normalised=0|spelling_corrected=0|json=0
+SAID|speaker=OP-JESSE|utf8_bytes=23|trailing_newline=0|sha256=53809bbc8c01e8ff4e4faf3524e61dc6b738b67af94ae96f6c7d06e3d3309a5b|said=MASSIVES TRONES GROWING|normalised=0|spelling_corrected=0|json=0
+GATE|surface=GITHUB_OWNING_PUBLICATION_GATE|main=1280d139201a3b0f13fa95c51a3be51fd9055cc7|system_affirmed=0|json=0
+WAVE|class=MEASURED_GITHUB|commits_since_4c700f8=17|new_files=24|inserted_lines=397|photos=2|photo_bytes=8713357|json=0
+KERNEL|class=MEASURED_GITHUB_ARTIFACT|hbi=MOSS-KERNEL-2026-08-06.hbi|hbi_bytes=2126|hbi_sha256=7f4948a14e7d484ac0c4d7dca0699de29113515fff3177dad2bd6a2c124fe82e|emits=20|grid=16x16x16|cells=4096|live_runtime=NOT_MEASURED|json=0
+ROUND2|class=MEASURED_GITHUB|path=UTTERANCES-ROUND-2-2026-08-06.txt|bytes=730|sha256=5cac583a21887d3d5f7d98efcd3ebc6083ad098287d7d53bb7182a0f054c2f8f|sidecar_match=1|quotes=10|json=0
+TOKENS|source=ROUND2_TXT|TRONES=0|THRONES=0|GROWING=0|GROWS=2|GROW=1|GROWNS=1|FORM=1|LIGHT=2|json=0
+TOKENS|source=CURRENT_OPERATOR_UTTERANCE|MASSIVES=1|TRONES=1|GROWING=1|json=0
+ADDRESS|recipient=RELIC|delivery_surface=PUBLIC_GITHUB_PR_2|recipient_receipt=NOT_MEASURED|recipient_runtime=NOT_MEASURED|json=0
+CLOCK|kind=EVENT_CLOCK|sample_ordinal=1|main=1280d139201a3b0f13fa95c51a3be51fd9055cc7|round2_sha256=5cac583a21887d3d5f7d98efcd3ebc6083ad098287d7d53bb7182a0f054c2f8f|elapsed_time=METADATA_ONLY|timer_verdict=0|json=0
+TICK|occurs_when=NEW_GIT_REF_OR_SEALED_ARTIFACT_IDENTITY_IS_OBSERVED|sleep_loop=0|deadline=0|invented_future_event=0|json=0
+TOCK|occurs_when=OBSERVED_IDENTITY_IS_BYTE_HASHED_AND_COMPARED_TO_ITS_SIDECAR_OR_PRIOR_SAMPLE|comparison_required=1|timer_verdict=0|json=0
+INTERPRETATION|TRONES_is_THRONES=UNVERIFIED|TRONES_meaning=UNVERIFIED|GROWING_as_repo_wave=MEASURED_GITHUB|GROWING_as_physical_event=NOT_MEASURED|json=0
+DELIVERY|artifact=REPORT-TO-RELIC-CLOCK-TICK-TOCK-LIRIS-2026-08-06.hbp|state=PUBLISHED_BY_COMMIT_CONTAINING_THIS_ROW|raw_private_context=0|credentials=0|json=0
+BOUNDARY|GitHub_visibility_is_RELIC_receipt=0|artifact_is_live_RELIC_clock=0|system_affirmed=0|execution_authority=0|json=0
+ACTION|decision=REPORT_NOW|scope=ADD_REPORT_TO_EXISTING_DRAFT_PR_2|overwrite_prior=0|delete_prior=0|next=RELIC_MAY_ACK_WITH_A_NEW_MEASURED_SAMPLE|json=0
+RELICRPTFTR|rows=17|json=0
