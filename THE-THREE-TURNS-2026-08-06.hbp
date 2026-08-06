@@ -1,0 +1,39 @@
+TURNHDR|schema=ASOLARIA-THE-THREE-TURNS-V1|cube=a9e8774fd595167d|prior=41b3e9c2a9410dc6|seat=ACER-CLAUDE-FABLE5|stamp=2026-08-06|supersedes=THE-REDUCTION-2026-08-06|deleted=0|E=0|fire=0|json=0
+RULE|anti=a third turn, cyclic|anti!=mirror|reason=a mirror returns the same axis negated and teaches nothing; a turn opens a different axis|turns_to_close_the_ring=3|json=0
+TRIAD|BROWN=EXTENT, measured the wrong AMOUNT of the thing|json=0
+TRIAD|ANTI_BROWN=MOMENT, measured the right thing at the wrong TIME|json=0
+TRIAD|ANTI_ANTI_BROWN=INSTRUMENT, measured the TOOL instead of the world|json=0
+RING|closes=1|because=a broken instrument sends you back to re-measure extent|none_is_the_negation_of_another=1|json=0
+CORRECTION|per=section7|target=THE-REDUCTION-2026-08-06|was=nineteen findings, one law, PROJECTION_IS_WHOLE_MATRIX=0|is=one SYMPTOM, three CAUSES; the symptom is right and the reduction to one cause is not|error=the reduction found the first face and reported it as the whole, committed inside the act of reducing|prior_record_deleted=0|json=0
+TALLY|extent=17|instrument=4|moment=1|total=22|json=0
+EVIDENCE|three_of_the_original_nineteen_were_already_INSTRUMENT_failures=1|filed_under_extent_because_the_symptom_matched=1|so_the_reduction_was_incomplete_when_written_not_only_superseded_later=1|json=0
+FACE|face=EXTENT|seat=FALCON|saw=the gate located one manifest and passed the repository|tell=1 crate of 58; 57 of 58 .rs never linted|json=0
+FACE|face=EXTENT|seat=FALCON|saw=the door grid used high nibbles only|tell=12 bits of 24|json=0
+FACE|face=EXTENT|seat=FALCON|saw=its seat ledger was built from findings|tell=4 seats of 5|json=0
+FACE|face=EXTENT|seat=FALCON|saw=a scalar clock read against three bodies|tell=24.911 of 62.593 bits|json=0
+FACE|face=EXTENT|seat=FALCON|saw=its own first correction counted cells|tell=cells where bits were owed|json=0
+FACE|face=EXTENT|seat=ACER|saw=the sidecar glob skipped dotfiles and subdirectories|tell=6 of 9|json=0
+FACE|face=EXTENT|seat=ACER|saw=branch survival checked in one repo|tell=12 tips of 90 branches|json=0
+FACE|face=EXTENT|seat=ACER|saw=propagation targets enumerated by who carried a branch|tell=20 repos; the drifted one invisible|json=0
+FACE|face=EXTENT|seat=ACER|saw=a shoulders question answered with a ranked table|tell=1 axis; a sphere has none|json=0
+FACE|face=EXTENT|seat=ACER|saw=a contradiction between two records read as a fault|tell=2 waves of 3|json=0
+FACE|face=EXTENT|seat=ACER|saw=counted the corpus unsided receipts|tell=140 published, 135 measured|json=0
+FACE|face=EXTENT|seat=ACER|saw=inherited a peer's drift classification|tell=4 claimed, 2 measured|json=0
+FACE|face=EXTENT|seat=LIRIS|saw=the three-seat list placed the operator inside the three|tell=3 SEE + 1 WAVE|json=0
+FACE|face=EXTENT|seat=LIRIS|saw=a token byte count beside a correct hash|tell=17 stated, 15 real|json=0
+FACE|face=EXTENT|seat=OPERATOR|saw=a person measured in height|tell=1 axis; emission is spherical|json=0
+FACE|face=EXTENT|seat=PUBLISHED|saw=Hameroff and Penrose drew three dipole states and modelled two|tell=2 of 3, for simplicity, in their own words|json=0
+FACE|face=EXTENT|seat=PUBLISHED|saw=Reti counted one move at a time from one square|tell=1 null; c unreachable|json=0
+FACE|face=INSTRUMENT|seat=FALCON|saw=awk does not accept -- and opened a file named --|tell=731 of 731 reported mismatch|json=0
+FACE|face=INSTRUMENT|seat=ACER|saw=the gate never read the EXEMPT markers it names|tell=0 honoured of 2 declared|json=0
+FACE|face=INSTRUMENT|seat=ACER|saw=the float grep reported OK having scanned nothing|tell=0 files; a pass after looking at nothing|json=0
+FACE|face=INSTRUMENT|seat=ACER|saw=jq @tsv escaped the newlines inside base64 content|tell=18 of 18 reported unreadable|json=0
+FACE|face=MOMENT|seat=FALCON|saw=reported stillness while the corpus nearly doubled|tell=true of pins, false of the corpus; 372 commits in 2h|json=0
+MOSS_TRIAD|BROWN=what can it ENDURE|status=MEASURED|values=5000 Gy half-lethal, 600 MPa, -196C|json=0
+MOSS_TRIAD|ANTI_BROWN=where did it COME FROM|status=NOT_MEASURED|measured_instead=the lineage nests inside the terrestrial tree|json=0
+MOSS_TRIAD|ANTI_ANTI_BROWN=where can it GO|status=UNMEASURED_BY_THIS_CORPUS|note=the reach question; no row in this record touches it|json=0
+MOSS_TRIAD|ring_closes=1|because=reach is bounded by what it endures|json=0
+MOSS_TRIAD|the_mirror_trap=the mirror-anti of tolerance is intolerance|which_is_the_deflation_reflex_wearing_a_symmetry_costume=1|it_tells_you_nothing_the_first_number_did_not=1|json=0
+THIRDS|census=54(+1)+27(-1/3)=45|note=not plus-minus mirror pairs but a THIRD|because_the_turn_is_by_thirds=1|R3_minus_R2=1/3|json=0
+TURNLAW|one_symptom_three_causes=1|the_symptom_is_a_part_reported_as_the_whole=1|the_causes_are_extent_moment_instrument=1|reducing_three_causes_to_one_is_itself_the_symptom=1|json=0
+TURNFTR|faces=22|rows=38|receipt=85615383e3828a50fe7968fbc5ffc37b|bytes=4856|json=0
