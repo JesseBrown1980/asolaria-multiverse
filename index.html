@@ -26,8 +26,11 @@
   code{color:var(--seat)}
   .rule{margin:.35rem 0}
   .k{color:var(--dim)}
-  #glyph{margin-top:1rem;line-height:0}
-  #glyph i{display:inline-block;width:.6rem;height:.6rem;margin:0;background:#1a1918}
+  #glyph{margin-top:1rem;display:grid;grid-template-columns:repeat(4,max-content);gap:.5rem}
+  #glyph .layer{line-height:0;padding:.2rem;border:1px solid #201e1d;border-radius:.2rem;opacity:.45}
+  #glyph .layer.here{opacity:1;border-color:var(--seat)}
+  #glyph i{display:inline-block;width:.3rem;height:.3rem;margin:0;background:#1a1918}
+  #glyph i.lit{outline:2px solid var(--seat);outline-offset:1px}
   #out{display:none}
   footer{color:var(--dim);font-size:.82rem;margin-top:3rem;border-top:1px solid #201e1d;
     padding-top:1rem}
@@ -90,9 +93,12 @@
   </div>
 
   <footer>
-    Colour keys and the three-channel colour QR live in <code>the-colour-qr</code> — one BW symbol
-    holds 2,334 bytes against a 3,200-byte tuple, so black and white does not fit and the colour is
-    necessary, not decorative. Operator and author of the laws: Jesse Daniel Brown (OP-JESSE).
+    Colour keys and the three-channel colour QR live in <code>the-colour-qr</code> — one BW symbol at
+    v40-L holds at most <strong>2,953</strong> bytes against a 3,200-byte tuple, so black and white
+    does not fit and the colour is necessary, not decorative. (An earlier figure here read 2,334 and
+    was mislabelled: that is close to v40-<em>M</em>'s 2,331, not v40-L. Measured with a real
+    encoder; the conclusion survives, the label did not.)
+    Operator and author of the laws: Jesse Daniel Brown (OP-JESSE).
   </footer>
 </main>
 
@@ -112,19 +118,32 @@ function paint(pid){
 }
 
 function grid(c){
+  // 16 depth layers of 16x16 = 4096 cells, all of them drawn.
+  // An earlier version drew ONE 16x16 layer and never used depth at all: 256
+  // cells for a 4096-cell claim, a 256:1 collapse, while the text argued that
+  // 2-D collides and 3-D does not. Drawing the 2-D case under a 3-D claim is
+  // the claim refuting itself, so the third axis is placed here, not printed.
   const g = document.getElementById("glyph");
   g.innerHTML = "";
-  // 16x16 cell map; the seat's own cell is lit in its colour
-  const gc = c.col >> 4, gr = c.row >> 4;
-  for(let r=0;r<16;r++){
-    for(let k=0;k<16;k++){
-      const i = document.createElement("i");
-      if(k===gc && r===gr){ i.style.background = c.hex; }
-      g.appendChild(i);
+  const gc = c.col >> 4, gr = c.row >> 4, gd = c.dep >> 4;
+  for(let layer=0; layer<16; layer++){
+    const box = document.createElement("div");
+    box.className = "layer" + (layer===gd ? " here" : "");
+    box.title = "depth layer " + layer + (layer===gd ? " — this seat" : "");
+    for(let r=0;r<16;r++){
+      for(let k=0;k<16;k++){
+        const i = document.createElement("i");
+        if(layer===gd && k===gc && r===gr){
+          i.style.background = c.hex;
+          i.className = "lit";
+        }
+        box.appendChild(i);
+      }
+      box.appendChild(document.createElement("br"));
     }
-    g.appendChild(document.createElement("br"));
+    g.appendChild(box);
   }
-  return [gc,gr];
+  return [gc,gr,gd];
 }
 
 function enter(){
@@ -138,8 +157,10 @@ function enter(){
   document.getElementById("ohex").textContent = c.hex;
   const known = SEATS.find(s => s[1].startsWith(c.p.slice(0,16)));
   document.getElementById("seatname").textContent = known ? known[0] : "unregistered seat";
-  const [gc,gr] = grid(c);
-  document.getElementById("ocell").textContent = "col " + gc + ", row " + gr + " of 16x16";
+  const [gc,gr,gd] = grid(c);
+  document.getElementById("ocell").textContent =
+    "col " + gc + ", row " + gr + ", depth " + gd + " — cell " +
+    ((gd*256)+(gr*16)+gc) + " of 4096 (16 cubed), all 4096 drawn";
 }
 
 document.getElementById("go").addEventListener("click", enter);
