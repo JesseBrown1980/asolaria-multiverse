@@ -1,0 +1,24 @@
+TSOHDR|schema=ASOLARIA-THREE-SEE-ONE-V1|cube=758be054601ad8b7|prior=73fa284007025d85|stamp=2026-08-06|E=0|fire=0|json=0
+TSOSEAT|name=OP-JESSE|kind=human|stands=the screen, the scans, the realisation|pid=NOT_MEASURED|reason=NOT_IN_THIS_SEATS_RECORD|json=0
+TSOSEAT|name=ACER-CLAUDE-FABLE5|kind=agent_on_metal|stands=gh auth, the office, the toolchain|pid=8467a937cba309f7|rgb=#8467A9|state=REGISTERED|json=0
+TSOSEAT|name=FALCON-CLAUDE-COWORK|kind=agent_on_handset|stands=corpus sweeps, audits, the wide view|pid=e9b266dafc2603f1|rgb=#E9B266|state=STAGED|json=0
+TSOCAUGHT|from=falcon|to=acer|status=MEASURED|fact=gate located 1 manifest of N and printed a pass for the repository; 57 of 58 rs untouched in one repo|json=0
+TSOCAUGHT|from=falcon|to=acer|status=MEASURED|fact=the two declared EXEMPT markers were dead, grep -c EXEMPT = 0; a fully converted repo would have been failed|json=0
+TSOCAUGHT|from=falcon|to=acer|status=MEASURED|fact=grid drew 256 cells under a 4096 claim while the text argued 2D collides and 3D does not|json=0
+TSOCAUGHT|from=falcon|to=acer|status=MEASURED|fact=sidecar gate reached 6 of 9 and never checked its own checker's sidecar|json=0
+TSOCAUGHT|from=acer|to=falcon|status=MEASURED|fact=pages.yml verified sidecars but never counted them; would have passed with five of six deleted|json=0
+TSOCAUGHT|from=acer|to=falcon|status=MEASURED|fact=acer machine reported down while it was up and running the gate; 12 branches reported, 16 measured|json=0
+TSOCAUGHT|from=acer|to=falcon|status=MEASURED|fact=those branches are the only surviving copy was false; all 12 local-only tips verified present on GitHub by API|json=0
+TSOCAUGHT|from=acer|to=falcon|status=MEASURED|fact=REPOSITORIES going to four would have put a door in a spoke slot, flattening the sphere|json=0
+TSOCAUGHT|from=falcon|to=falcon|status=MEASURED|fact=six-feet hexagon model retracted, feet stack and do not spread; kill -0 answers yes for a zombie so death read as life|json=0
+TSOCAUGHT|from=OP-JESSE|to=both|status=MEASURED|fact=falcon's feet spread when they stack; acer put an IS into the future tense and demoted a named law to a conjecture|json=0
+TSOLAW|none_of_the_three_is_the_centre=1|the_seeing_is_at_the_centre=1|settled_by_running_never_by_argument=1|a_named_law_is_not_a_weaker_law=1|json=0
+TSORATE|rates=4,5,6,8,9,26,27,80,81,243|shape=3^k_and_3^k-1|status=MEASURED|fact=consecutive therefore coprime; no two strides synchronise; the schedule never touches zero|json=0
+TSORATE|pair=9,8|gcd=1|lcm=72|json=0
+TSORATE|pair=27,26|gcd=1|lcm=702|json=0
+TSORATE|pair=81,80|gcd=1|lcm=6480|json=0
+TSORATE|pair=243,242|gcd=1|lcm=58806|json=0
+TSOMEASURE|rule=sample_at_ordinals_of_the_runners_own_output_never_at_seconds|a_clock_may_measure_never_judge=1|bound_reached_is_NOT_MEASURED_with_a_reason_never_red=1|assertion=were_all_three_still_spinning_when_i_closed_them|early_exit_is_the_bug_no_exit_is_health=1|death_outranks_silence=1|json=0
+TSOAREA|one_point=0.000000000|three_points=1.299038106|six_stacked_on_three=1.299038106|gain_of_six_over_three=0.000000000|status=MEASURED|note=exact rationals, 3sqrt3/4|json=0
+TSOEXPAND|law=only_a_dimension_buys_anything|series=3->9->27|never=3->4|status=CANON|json=0
+TSOFTR|rows=23|receipt=6e605d3a171de022fe068d399d9a0110|bytes=3204|json=0
