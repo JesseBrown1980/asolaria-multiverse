@@ -1,0 +1,30 @@
+MEASHDR|schema=ASOLARIA-MOSS-MEASUREMENTS-V1|cube=af0215a3d4abf273|prior=c0d07d1e4e98139b|stamp=2026-08-06|attaches_to=OPERATOR-STATEMENT-VERBATIM-2026-08-06|class=WAS_IS|judgement=0|verdict_on_statement=NONE|E=0|fire=0|json=0
+DNA|organism=Syntrichia caninervis|chromosomes=13|protein_coding_genes=16545|unplaced_scaffolds=2666|scaffold_range_Mb=14.9-37.3|obtained=published genome assembly and annotation|json=0
+DNA|assembly=telomere-to-telomere|centromeric_architecture=Copia-dominant|obtained=Plant Biotechnology Journal 2025, Gao et al|json=0
+MOLECULAR|gene=ScALDH21|cDNA_bp=1452|amino_acids=483|mass_kDa=53|identity_to_TrALDH21A_pct=97|obtained=Molecular Biology Reports, cloning study|json=0
+MOLECULAR|families=ELIP_early_light_inducible_proteins,LEA_late_embryogenesis_abundant|role=desiccation_and_drought_tolerance|obtained=genome characterisation|json=0
+MOLECULAR|revives_from_water_potential_MPa=600|photosynthesis_restored=within minutes|cellular_water_lost_pct=>98|recovery_after_rehydration=within seconds|json=0
+RADIANCE|LD50_16min_Gy=2000|overall_half_lethal_Gy=5000|obtained=The Innovation 2024-07-01, gamma irradiation of fully hydrated plants|json=0
+RADIANCE|dose_Gy=500|branches_day7=2.96+-0.14|branches_day60=4.08+-0.21|regeneration_rate_60d_pct=100|note=500 Gy strongly promoted regeneration of new branches|json=0
+RADIANCE|dose_Gy=1000|branches_day7=2.86+-0.16|branches_day60=3.57+-0.18|regeneration_rate_60d_pct=100|json=0
+RADIANCE|dose_Gy=2000|first_branches_after_days=14|branches_initial=0.52+-0.12|branches_day60=2.03+-0.16|regeneration_rate_60d_pct=90|json=0
+RADIANCE|simulated_mars_air_CO2_pct=95|temp_range_C=-60..20|uv=high|pressure=low|regeneration_rate_30d_pct=100|obtained=The Innovation 2024-07-01|json=0
+RADIANCE|cold_tolerance=-80C for 5 years; liquid nitrogen -196C for 1 month|json=0
+COMPARE|subject=human|LD50_Gy=4.5|obtained=LD50 for uniform low-LET irradiation of man, bone marrow absorbed dose|json=0
+COMPARE|subject=Deinococcus radiodurans|survives_Gy=5000 without loss of viability|survives_Gy=25000|survives_dried_or_frozen_Gy=140000|json=0
+COMPARE|subject=Mars surface|GCR_absorbed_mGy_day=0.21|GCR_absorbed_mGy_year=76.6|equivalent_mSv_day=0.67|equivalent_mSv_year=230|obtained=RAD instrument, Curiosity, Aug 2012-Jun 2013|json=0
+RATIO|moss_LD50_over_human_LD50=444.4|from=2000/4.5|json=0
+RATIO|moss_half_lethal_over_human_LD50=1111.1|from=5000/4.5|json=0
+RATIO|mars_surface_years_to_reach_moss_LD50=26110|from=2000/0.0766|json=0
+RATIO|mars_surface_years_to_reach_moss_half_lethal=65274|from=5000/0.0766|json=0
+RATIO|mars_surface_years_equal_to_the_dose_that_PROMOTED_growth=6527|from=500/0.0766|json=0
+RATIO|moss_half_lethal_equals_deinococcus_no_viability_loss_dose=1|both_Gy=5000|json=0
+NOTED|numeral=13|appears_in=Syntrichia caninervis chromosome count|also_appears_in=microtubule protofilament count, and the balanced-ternary span -13..+13|class=NOTED_ONLY|no_relation_claimed=1|reason=small integers recur|json=0
+BOUNDARY|these_rows_measure_the_organism_and_the_environment=1|they_do_not_measure_whether_moss_grows_on_mars=1|no_verdict_on_the_operator_statement_is_offered_here=1|json=0
+SOURCE|url=https://www.cell.com/the-innovation/fulltext/S2666-6758(24)00095-X|json=0
+SOURCE|url=https://pubmed.ncbi.nlm.nih.gov/33277766/|title=genome of the desiccation-tolerant biocrust moss Syntrichia caninervis|json=0
+SOURCE|url=https://onlinelibrary.wiley.com/doi/10.1111/pbi.14549|title=telomere-to-telomere genome|json=0
+SOURCE|url=https://link.springer.com/article/10.1007/s11033-011-1017-6|title=ScALDH21|json=0
+SOURCE|url=https://pubmed.ncbi.nlm.nih.gov/6372928/|title=The LD50 for uniform low LET irradiation of man|json=0
+SOURCE|url=https://marspedia.org/Radiation|title=Mars surface radiation, RAD figures|json=0
+MEASFTR|rows=29|receipt=f51ffa57dce298c349475ec1abd2ba34|bytes=3768|json=0
