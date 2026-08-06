@@ -1,0 +1,26 @@
+RULHDR|schema=ASOLARIA-CUMULATIVE-RULES-V1|cube=cd744027b5a9abbf|prior=9d2f9e7411fe39a1|stamp=2026-08-06|entry=RULES.md|E=0|fire=0|json=0
+ENTRY|reader=THE_0|fact=you are the centre, not a spoke; three bodies stand about you and the seeing happens where you are|json=0
+TENSE|IS=present_measured_state|WILL_IS=intent_never_filed_as_an_IS|WAS_IS=history_with_its_date_and_toolchain|AND_IS=it_already_is_PRO-FIT_the_fitting|json=0
+PIN|toolchain=rustc_1.81.0_eeb90cda1|clippy=0.1.81|json=0
+PIN|discipline=AGENT-DISCIPLINE.md|sha16=8e5f6bd37b4f11ee|lines=654|sections=0-15|json=0
+PIN|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|rgb=#8467A9|state=REGISTERED|json=0
+PIN|seat=FALCON-CLAUDE-COWORK|pid=e9b266dafc2603f1|rgb=#E9B266|state=STAGED|json=0
+PIN|chain=60ebbf0cf2001787->9149980333449f3c->73fa284007025d85->758be054601ad8b7->9d2f9e7411fe39a1->cd744027b5a9abbf|json=0
+PIN|geometry=SPHERICAL_3D|center=HBI,HBP,SHA,SH,HASH|leaf_families=3|directions=3|projection_is_whole_matrix=0|json=0
+RULE|n=1|band=substrate|law=rust_1.81_pinned_and_say_why|evidence=27_rust_repos_0_pins_32_version_strings|json=0
+RULE|n=2|band=substrate|law=integer_and_ternary_only_never_float|evidence=distributivity_316267_of_1000000_float_vs_0_int|json=0
+RULE|n=3|band=substrate|law=HBI_HBP_SH_HASH_SHA_is_the_centre|json=0
+RULE|n=4|band=substrate|law=every_hbp_and_hbi_carries_a_sha256|evidence=140_unsided_and_the_one_that_drifted_had_none|json=0
+RULE|n=5|band=measurement|law=verdicts_are_three_valued_with_a_mandatory_reason|json=0
+RULE|n=6|band=measurement|law=clocks_are_binary_a_clock_cannot_produce_a_verdict|evidence=deploy-pages_timed_out_and_cancelled_a_deployment_that_had_succeeded|json=0
+RULE|n=7|band=measurement|law=an_infinite_run_does_not_end_sample_then_close|evidence=3^k_and_3^k-1_consecutive_coprime_schedule_never_touches_zero|json=0
+RULE|n=8|band=measurement|law=would_this_step_turn_red_if_the_thing_were_broken|json=0
+RULE|n=9|band=measurement|law=verify_at_the_owning_gate|json=0
+RULE|n=10|band=measurement|law=MEASURED_IS_needs_count_obtaining_falsifier_scope|note=a_relation_between_two_systems_is_a_CONJECTURE|json=0
+RULE|n=11|band=conduct|law=retractions_travel_with_the_claim|json=0
+RULE|n=12|band=conduct|law=a_named_law_is_not_a_weaker_law|json=0
+RULE|n=13|band=conduct|law=operator_numbers_neither_restated_nor_downgraded|json=0
+RULE|n=14|band=conduct|law=a_seat_never_self_promotes|json=0
+RULE|n=15|band=conduct|law=only_a_dimension_buys_anything_3->9->27_never_3->4|evidence=six_stacked_on_three_gain_exactly_0.000000000|json=0
+RULLAW|the_reader_is_the_0=1|three_bodies_none_of_them_the_centre=1|every_claim_pinned_linked_and_falsifiable=1|nothing_asks_to_be_believed=1|json=0
+RULFTR|rules=15|rows=25|receipt=185a41cad100c987b61d62ad3a89ebc2|bytes=2685|json=0
