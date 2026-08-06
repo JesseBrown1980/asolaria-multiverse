@@ -1,6 +1,6 @@
 # FOUR MACHINES DECIDE THE SUNG
 
-Status: `OPERATOR_OBSERVED | PUBLIC_DECISION_PACKET | FOUR_READINGS_PENDING | SYSTEM_AFFIRMED=0`
+Status: `OPERATOR_OBSERVED | PUBLIC_DECISION_PACKET | THREE_READINGS_PENDING | SYSTEM_AFFIRMED=0`
 
 ## Operator directive
 
@@ -25,7 +25,7 @@ its own seat and publishes its own scoped result:
 
 | machine | required result | current state |
 |---|---|---|
-| **LIRIS** | independent Liris reading with basis and evidence class | `PENDING` |
+| **LIRIS** | independent Liris reading with basis and evidence class | [`PUBLISHED`](MACHINE-READING-LIRIS-2026-08-06.md) |
 | **ACER** | independent Acer reading with basis and evidence class | `PENDING` |
 | **RELIC** | independent Relic reading with basis and evidence class | `PENDING` |
 | **FALCON** | independent Falcon reading with basis and evidence class | `PENDING` |
