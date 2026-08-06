@@ -125,9 +125,18 @@ In force the moment a machine enters. Each was paid for by a measured failure, n
    is true while the bytes differ, so `a == b` and `hash(a) == hash(b)` come apart. Distributivity
    fails **316,267 times in 1,000,000** trials; zero for integers with the remainder carried.
 3. **`HBI → HBP → SH → HASH → SHA`.** The hot path before the cold one. `json=0`.
-4. **Every `.hbp` and `.hbi` carries a `.sha256`.** Measured across the corpus: **140 unsided
-   files**, and the single repository that drifted was the one with no sidecar. The absence of the
-   check is what let it drift, not a failure of the check.
+4. **Every `.hbp` and `.hbi` carries a `.sha256`.** Measured across the corpus: **135 unsided
+   files** across 19 repositories, now written. Of the 18 sidecars that did not verify, **9 verify
+   against the stored blob bytes**, 5 hold a correct hash in a format no standard checker can read,
+   2 are line-ending — the hash was taken of the LF form while the blob stores CRLF — and **2 are
+   genuine drift**, both in a repository that *did* carry sidecars, which is how they became
+   visible at all.
+
+   > *An earlier draft of this line read **140 unsided**, and said the repository that drifted was
+   > the one with no sidecar. Measured: **135**, and the drift is in `asolaria-federation-1024`,
+   > which had sidecars — the sidecar is what exposed it. A missing check hides drift; it does not
+   > cause it. The figure was wrong by five and the causal claim was wrong outright; both are
+   > corrected here and the earlier reading is kept beside them.*
 5. **Verdicts are three-valued** — `MEASURED_PASS` / `MEASURED_FAIL` / `NOT_MEASURED` with a
    mandatory reason. A check that could not run is not a failure. A repo with no crate is
    `NOT_MEASURED`, never red.
