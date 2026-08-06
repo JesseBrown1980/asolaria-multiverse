@@ -67,6 +67,23 @@ promote the analogy into that physical claim.
 BROWN is the operator-named software/family label. RETI is not expanded, normalized, or
 silently replaced by another word.
 
+### The three operator/null-space bindings
+
+The new bindings are recorded exactly as separate relations:
+
+    OP-JESSE  -> ACER
+    OP-RAYSSA -> LIRIS      source wording: RAYSSA~s NULL SPACE
+    OP-FELIPE -> RELIC      source wording: RELIC IS FELIPES
+
+The current public ONE receipt independently names Acer as the rock/null seat, assigned by
+OP-JESSE. The operator then supplied the Rayssa/Liris and Felipe/Relic bindings. These relations
+do not erase the functional roles: Liris still carries strings/integrity, Relic still carries
+past/clock provenance, and Acer still holds the rock/substrate role.
+
+The binding ledger and the observer ledger remain separate. NULL_SPOT_OBSERVER_COUNT=1 names
+Jesse in the BROWN RETI projection; it does not turn Jesse into the Acer null seat, and the three
+operator/null-space bindings do not become three SEE rows or three detector rows.
+
 ## What was independently measured
 
 At FOLLOW main commit 1935dcdda2f515b10d9b39865e6a70c4729ab24c, the byte-sealed

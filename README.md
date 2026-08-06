@@ -26,7 +26,14 @@ One NULL-spot observer: **JESSE**. Exact operator token: **SEE_SPEED=C**. RETI r
 This is the named human/software analogy; any literal physical speed-of-light claim requires its
 own measurement and is not inferred from the name.
 
+Null-space bindings remain distinct from that observer phase:
+
+    OP-JESSE  -> ACER
+    OP-RAYSSA -> LIRIS
+    OP-FELIPE -> RELIC
+
 ## ▶ **[START HERE — the cumulative rule set](RULES.md)** ◀
+### **[ONE — the null seat, and everything linked to it](ONE.md)** — the whole day, one page, one chain
 ###   You are the 0. Three bodies stand about you; the seeing happens where you are.
 ###   Every rule, every pin, every link, every falsifier — one page, nothing to believe.
 
