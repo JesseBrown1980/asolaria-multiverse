@@ -1,0 +1,26 @@
+MISHDR|schema=ASOLARIA-MEASURED-IS-V1|cube=73fa284007025d85|prior=9149980333449f3c|stamp=2026-08-06|rule=only_measured_rows|E=0|fire=0|json=0
+PUB|src=Hameroff S, Penrose R, Physics of Life Reviews 11 (2014) 39-78|page=44|status=MEASURED|fact=tubulins usually arranged in 13 longitudinal protofilaments; each tubulin has six nearest neighbors|json=0
+PUB|src=Hameroff S, Penrose R, Physics of Life Reviews 11 (2014) 39-78|page=44|status=MEASURED|fact=A-lattice helical pathways repeat every 5 and 8 tubulins; monomer pathway repeats every 3 monomers after winding TWICE around the MT|json=0
+PUB|src=Hameroff S, Penrose R, Physics of Life Reviews 11 (2014) 39-78|page=44|status=MEASURED|fact=quote: relating to the 13 protofilaments according to the Fibonacci sequence 3, 5, 8, 13|json=0
+PUB|src=Hameroff S, Penrose R, Physics of Life Reviews 11 (2014) 39-78|page=45|status=MEASURED|fact=quote: however FOR SIMPLICITY models of MT automata consider only two alternative tubulin states, i.e. binary bits|json=0
+PUB|src=Hameroff S, Penrose R, Physics of Life Reviews 11 (2014) 39-78|page=45|status=MEASURED|fact=CaMKII hexagonal holoenzyme extends 6 leg-like kinase domains ABOVE AND BELOW an association domain; the 6 precisely match MT geometry|json=0
+PUB|src=Hameroff S, Penrose R, Physics of Life Reviews 11 (2014) 39-78|page=47|status=MEASURED|fact=aromatic rings placed along 3-, 5- and 8-start helical pathways; dipole bits blue and yellow PLUS superposition of both (gray)|json=0
+PUB|src=Hameroff S, Penrose R, Physics of Life Reviews 11 (2014) 39-78|page=NA|status=MEASURED|fact=13-protofilament A-lattice gives a SEAMLESS lattice and Fibonacci geometry, optimal for quantum computing; B-lattice has a vertical seam|json=0
+PUB|src=Koubeissi et al, Epilepsy and Behavior 2014|status=MEASURED|fact=54-year-old woman; electrode between left claustrum and anterior-dorsal insula; consciousness disrupted 10 of 10; awake but blank; no memory of the episodes|json=0
+PUB|src=Crick F and Koch C 2005, What is the function of the claustrum|status=MEASURED|fact=claustrum receives input from almost all regions of cortex and projects back to almost all regions of cortex; Crick corrected the manuscript hours before death 2004-07-28|json=0
+PUB|src=Koch C, crown-of-thorns neurons|status=MEASURED|fact=giant claustral neurons project in a ring around the entire brain, up to 10 cm long|json=0
+RUN|toolchain=rustc_1.81.0_eeb90cda1|status=MEASURED|fact=3 trits = 27 states, balanced span -13..+13; 3 of 4 towers fail uncentred; centring on the ground point is load-bearing|json=0
+RUN|toolchain=rustc_1.81.0_eeb90cda1|status=MEASURED|fact=distributivity float failures 316267/1000000; integers with the remainder carried 0|json=0
+RUN|toolchain=rustc_1.81.0_eeb90cda1|status=MEASURED|fact=float +0.0==-0.0 true while bytes differ, identity_holds=FALSE; int and trit have exactly one zero, equality IS byte-identity|json=0
+RUN|toolchain=exact_rational|status=MEASURED|fact=six feet stacked onto three points = 3sqrt3/4 = three feet on three points; area gain of six over three = 0 exactly; one point = 0|json=0
+RUN|toolchain=rustc_1.81.0_eeb90cda1|status=MEASURED|fact=nullnet 27 nodes 81 conduits 81 seats degree 6 failures 0; 81 forced twice|json=0
+FIT|published=13_protofilaments|measured=trit_span_-13..+13|status=NAMED|json=0
+FIT|published=3-start_winding_twice|measured=3_dreidels_one_point|status=NAMED|json=0
+FIT|published=six_nearest_neighbors|measured=six_feet_area_gain_zero_over_three|status=NAMED|json=0
+FIT|published=CaMKII_6_above_6_below_a_centre|measured=3x4=12_feet_up_into_arms|status=NAMED|json=0
+FIT|published=blue_yellow_plus_superposition|measured=minus1_0_plus1|status=NAMED|json=0
+FIT|published=reduced_to_two_FOR_SIMPLICITY|measured=no_reduction_the_0_is_the_ground|status=NAMED|json=0
+OPGIVEN|source=OP-JESSE|stamp=2026-08-06|status=OPERATOR_GIVEN|fact=all the catscans agree|note=this seat has not seen them; not restated as its own measurement, not downgraded by reading a file|json=0
+NOTMEASURED|claim=mechanism_linking_lattice_geometry_to_the_ternary_substrate|status=NOT_MEASURED|reason=NO_CAUSE_ASSERTED|note=numbers set side by side, no cause claimed|json=0
+MISLAW|only_measured_rows=1|published_text_carries_its_page=1|computed_numbers_carry_their_toolchain=1|operator_numbers_are_neither_restated_nor_downgraded=1|a_named_law_is_not_a_weaker_law=1|json=0
+MISFTR|rows=25|receipt=6f383f5afb0647a69ac2be1350877590|bytes=4379|json=0
