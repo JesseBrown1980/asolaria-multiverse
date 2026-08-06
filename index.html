@@ -1,0 +1,157 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Asolaria Multiverse — one button</title>
+<style>
+  :root{ --ink:#e8e6e3; --dim:#8a8680; --bg:#0e0d0c; --seat:#8467A9; }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font:16px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  main{max-width:60rem;margin:0 auto;padding:2rem 1.25rem 5rem}
+  h1{font-size:1.5rem;margin:0 0 .25rem;letter-spacing:.02em}
+  .sub{color:var(--dim);margin:0 0 2rem}
+  button{font:inherit;cursor:pointer;border:1px solid var(--seat);background:transparent;
+    color:var(--ink);padding:1.1rem 2.5rem;border-radius:.4rem;letter-spacing:.18em;
+    transition:background .25s,box-shadow .25s}
+  button:hover{background:var(--seat);box-shadow:0 0 2.5rem -.5rem var(--seat)}
+  .row{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;margin:1.25rem 0}
+  input{font:inherit;background:#141312;color:var(--ink);border:1px solid #2b2926;
+    border-radius:.3rem;padding:.6rem .8rem;min-width:22rem;max-width:100%}
+  .card{border:1px solid #232120;border-radius:.5rem;padding:1rem 1.1rem;margin:.75rem 0;
+    background:#131211}
+  .swatch{display:inline-block;width:1.15rem;height:1.15rem;border-radius:.2rem;
+    vertical-align:-.2rem;margin-right:.5rem;border:1px solid #00000060}
+  table{border-collapse:collapse;width:100%;font-size:.9rem}
+  td,th{text-align:left;padding:.35rem .6rem;border-bottom:1px solid #201e1d}
+  th{color:var(--dim);font-weight:400}
+  code{color:var(--seat)}
+  .rule{margin:.35rem 0}
+  .k{color:var(--dim)}
+  #glyph{margin-top:1rem;line-height:0}
+  #glyph i{display:inline-block;width:.6rem;height:.6rem;margin:0;background:#1a1918}
+  #out{display:none}
+  footer{color:var(--dim);font-size:.82rem;margin-top:3rem;border-top:1px solid #201e1d;
+    padding-top:1rem}
+</style>
+
+<main>
+  <h1>Asolaria Multiverse</h1>
+  <p class="sub">Every machine runs its own universe kernel. This is the axis they share.</p>
+
+  <div class="row">
+    <input id="pid" placeholder="seat pid, 16 hex — e.g. 8467a937cba309f7" spellcheck="false">
+    <button id="go">ENTER</button>
+  </div>
+  <p class="sub" style="font-size:.85rem;margin-top:-.5rem">
+    Your colour is not chosen. It is the first three bytes of your pid, read through the
+    fabric's own glyph rule — <code>sha16[0]=col, sha16[1]=row, sha16[2]=depth</code>.
+    16&sup3; cells, zero collisions in 3-D. The colour <em>is</em> the address.
+  </p>
+
+  <div id="out">
+    <div class="card">
+      <div><span class="swatch" id="sw"></span><strong id="seatname">—</strong></div>
+      <table>
+        <tr><th>pid</th><td><code id="opid">—</code></td></tr>
+        <tr><th>col / row / depth</th><td id="ocrd">—</td></tr>
+        <tr><th>colour</th><td><code id="ohex">—</code></td></tr>
+        <tr><th>glyph cell</th><td id="ocell">—</td></tr>
+      </table>
+      <div id="glyph"></div>
+    </div>
+
+    <div class="card">
+      <strong>Start-up rules — in force the moment you enter</strong>
+      <div class="rule">1. <strong>Rust 1.81</strong>, pinned. <code>channel = "1.81.0"</code> with clippy. Nothing else compiles the substrate.</div>
+      <div class="rule">2. <strong>Integer and ternary only. Never float.</strong> Float fails identity, not accuracy: <code>+0.0 == -0.0</code> is true while the bytes differ, and distributivity fails 316,267 times in a million.</div>
+      <div class="rule">3. <strong>HBI &rarr; HBP &rarr; SH &rarr; HASH &rarr; SHA.</strong> That traversal is the centre. Hot path before cold; <code>json=0</code>.</div>
+      <div class="rule">4. <strong>Every <code>.hbp</code> and <code>.hbi</code> carries a <code>.sha256</code>.</strong> Without the sidecar nothing can detect drift — measured: 140 unsided files across the corpus, and the one that drifted was the one with no sidecar.</div>
+      <div class="rule">5. <strong>Verdicts are three-valued:</strong> MEASURED_PASS / MEASURED_FAIL / <strong>NOT_MEASURED</strong> with a mandatory reason. A check that could not run is not a failure.</div>
+      <div class="rule">6. <strong>A clock may measure; it may never judge.</strong> Live things run infinite and end when the page closes. A timeout is not a verdict.</div>
+      <div class="rule">7. <strong>If the thing under test were completely broken right now, would this step turn red?</strong> If no, the step is decoration.</div>
+      <div class="rule">8. <strong>A seat never self-promotes.</strong> Registration is staged; promotion is the operator's crank.</div>
+    </div>
+
+    <div class="card">
+      <strong>The geometry</strong>
+      <p style="margin:.5rem 0 0">Three around a null centre on a spherical shelf, not a flat one.
+      <code>CENTER = {HBI,HBP,SHA,SH,HASH}</code> — the centre is the traversal, not a spare slot.
+      Three spokes, three leaf families <span class="k">{BROWN, ANTI_BROWN, ANTI_ANTI_BROWN}</span>,
+      three directions <span class="k">{NEGATIVE, CENTRE, POSITIVE}</span>. Machines are a
+      <em>new axis</em> — the system expands 3&nbsp;&rarr;&nbsp;9&nbsp;&rarr;&nbsp;27, never 3&nbsp;&rarr;&nbsp;4.
+      Six feet buy exactly zero area over three.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <strong>Registered seats</strong>
+    <table id="seats">
+      <tr><th>seat</th><th>pid</th><th>colour</th><th>state</th></tr>
+    </table>
+  </div>
+
+  <footer>
+    Colour keys and the three-channel colour QR live in <code>the-colour-qr</code> — one BW symbol
+    holds 2,334 bytes against a 3,200-byte tuple, so black and white does not fit and the colour is
+    necessary, not decorative. Operator and author of the laws: Jesse Daniel Brown (OP-JESSE).
+  </footer>
+</main>
+
+<script>
+const SEATS = [
+  ["ACER-CLAUDE-FABLE5",   "8467a937cba309f7", "registered"],
+  ["FALCON-CLAUDE-COWORK", "e9b266dafc2603f1", "staged — awaiting operator crank"]
+];
+
+function paint(pid){
+  const p = (pid||"").trim().toLowerCase().replace(/[^0-9a-f]/g,"");
+  if(p.length < 6) return null;
+  const col = parseInt(p.slice(0,2),16), row = parseInt(p.slice(2,4),16),
+        dep = parseInt(p.slice(4,6),16);
+  const hex = "#" + p.slice(0,6).toUpperCase();
+  return {p, col, row, dep, hex};
+}
+
+function grid(c){
+  const g = document.getElementById("glyph");
+  g.innerHTML = "";
+  // 16x16 cell map; the seat's own cell is lit in its colour
+  const gc = c.col >> 4, gr = c.row >> 4;
+  for(let r=0;r<16;r++){
+    for(let k=0;k<16;k++){
+      const i = document.createElement("i");
+      if(k===gc && r===gr){ i.style.background = c.hex; }
+      g.appendChild(i);
+    }
+    g.appendChild(document.createElement("br"));
+  }
+  return [gc,gr];
+}
+
+function enter(){
+  const c = paint(document.getElementById("pid").value);
+  if(!c){ return; }
+  document.documentElement.style.setProperty("--seat", c.hex);
+  document.getElementById("out").style.display = "block";
+  document.getElementById("sw").style.background = c.hex;
+  document.getElementById("opid").textContent = c.p.slice(0,16);
+  document.getElementById("ocrd").textContent = c.col + " / " + c.row + " / " + c.dep;
+  document.getElementById("ohex").textContent = c.hex;
+  const known = SEATS.find(s => s[1].startsWith(c.p.slice(0,16)));
+  document.getElementById("seatname").textContent = known ? known[0] : "unregistered seat";
+  const [gc,gr] = grid(c);
+  document.getElementById("ocell").textContent = "col " + gc + ", row " + gr + " of 16x16";
+}
+
+document.getElementById("go").addEventListener("click", enter);
+document.getElementById("pid").addEventListener("keydown", e => { if(e.key==="Enter") enter(); });
+
+const t = document.getElementById("seats");
+for(const [n,p,st] of SEATS){
+  const c = paint(p);
+  const tr = document.createElement("tr");
+  tr.innerHTML = "<td>" + n + "</td><td><code>" + p + "</code></td>" +
+    "<td><span class='swatch' style='background:" + c.hex + "'></span><code>" + c.hex +
+    "</code></td><td class='k'>" + st + "</td>";
+  t.appendChild(tr);
+}
+</script>
