@@ -1,0 +1,57 @@
+name: Deploy the door to Pages
+
+# Pages is set to the ACTIONS builder, which runs nothing until a deploy workflow exists —
+# that is why the door returned 404 while raw.githubusercontent served the file fine.
+# This is the workflow the Actions builder was waiting for. Static upload, no Jekyll,
+# no build step, no dependency: the door is one self-contained file.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The gate: every file must match its own sidecar before anything is published.
+      - name: Verify sha256 sidecars
+        run: |
+          shopt -s nullglob
+          n=0
+          for s in *.sha256; do sha256sum -c "$s"; n=$((n+1)); done
+          [ "$n" -ge 3 ] || { echo "FAIL: fewer than 3 sidecars checked ($n)"; exit 1; }
+          echo "OK: $n sidecars verified byte-exact"
+
+      - name: Assert the door is self-contained
+        run: |
+          if grep -oE '(src|href)[[:space:]]*=[[:space:]]*"https?://[^"]+' index.html; then
+            echo "FAIL: index.html references an external URL; the door must stand alone"; exit 1
+          fi
+          echo "OK: zero external references"
+
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
