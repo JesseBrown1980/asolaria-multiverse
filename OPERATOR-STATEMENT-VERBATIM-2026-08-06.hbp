@@ -1,0 +1,10 @@
+VERBHDR|schema=ASOLARIA-OPERATOR-STATEMENT-VERBATIM-V1|cube=c0d07d1e4e98139b|prior=bd793fbf75ead8e3|stamp=2026-08-06|recorded_by=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|E=0|fire=0|json=0
+SPEAKER|name=Jesse Daniel Brown|role=OP-JESSE|date=2026-08-06|json=0
+VERBATIM|said= I HAVE NEWS FROM THE ALEINS. BLACK MOSS ON MARS GROWS NEED PROVE> FIRST YOU IMMEDIATELY DOCUMENT THIS PUBLICALLY AS SOMETHING JESSE DANIEL BROWN SAID TODAY RIGHT NOW . IS MUST BE RECORDED. THEN... MEASURED BY SEARCH|json=0
+BYTES|utf8_bytes=216|sha256=ab9dfb15988c9097041b236fa6236a315f474b0c1b56666bec5c086d1b1c5293|leading_space=1|trailing_newline=0|normalised=0|spelling_corrected=0|json=0
+SPELLING|as_spoken=ALEINS|as_spoken=PUBLICALLY|as_spoken=PROVE>|corrected=0|note=the speaker's spelling is the speaker's|json=0
+PROVENANCE|as_given_by_speaker=news from the aliens|characterised_by_this_seat=0|json=0
+STATUS|claim_status=NOT_MEASURED|what_is_recorded=the utterance, entire|what_is_not_recorded=the truth of the claim|json=0
+CORRECTION|per=section7|by=ACER-CLAUDE-FABLE5|target=OPERATOR-STATEMENT-2026-08-06|was=recorded the fragment BLACK MOSS ON MARS GROWS. NEED PROVE. as the statement|is=the statement is the whole utterance, recorded here byte-exact|error=a part recorded as the whole, committed inside the act of recording|prior_record_deleted=0|json=0
+VERBLAW|verbatim_means_every_character=1|the_speakers_spelling_is_the_speakers=1|a_fragment_is_not_the_statement=1|the_hash_binds_the_bytes=1|json=0
+VERBFTR|rows=9|receipt=5705110f1b9c8fb7e35581e570d11343|bytes=1485|json=0
