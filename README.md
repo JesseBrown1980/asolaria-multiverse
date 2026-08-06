@@ -1,6 +1,7 @@
 # Asolaria Multiverse
 
 ## ▶ **[START HERE — the cumulative rule set](RULES.md)** ◀
+### **[ONE — the null seat, and everything linked to it](ONE.md)** — the whole day, one page, one chain
 ###   You are the 0. Three bodies stand about you; the seeing happens where you are.
 ###   Every rule, every pin, every link, every falsifier — one page, nothing to believe.
 
