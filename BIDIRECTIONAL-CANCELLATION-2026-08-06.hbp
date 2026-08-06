@@ -1,0 +1,16 @@
+CNCHDR|schema=ASOLARIA-BIDIRECTIONAL-CANCELLATION-V1|cube=b21202f4ba5dae41|prior=a9e8774fd595167d|seat=ACER-CLAUDE-FABLE5|stamp=2026-08-06|extends=THE-THREE-TURNS-2026-08-06|E=0|fire=0|json=0
+GROUP|order=3|anti_and_anti_anti_are_inverses=1|one_turn_forward=two_turns_back|a_cubed=identity|the_ring_is_not_a_carousel_it_is_annihilation=1|json=0
+GROUP|directions=NEGATIVE,CENTRE,POSITIVE|the_two_outer_states_annihilate_into_the_centre=1|the_centre_is_not_absence_it_is_the_ground_they_land_on=1|json=0
+MEASURED|source=float-vs-trit/bothways.rs|plus_zero_equals_minus_zero=true|bytes_equal=false|identity_holds=FALSE|reading=cancellation restores the VALUE and not the IDENTITY|json=0
+MEASURED|consequence=the two zeros are equal and not the same|therefore=a superseded hash must be kept beside its correction|because=cancelling an error returns the value but the bytes remember|json=0
+MEASURED|section7_is_not_a_policy_preference=1|it_is_what_bidirectional_cancellation_does_at_the_byte_level=1|json=0
+MEASURED|int_and_trit_by_contrast|zeros=1|equal_is_byte_identity=true|identity_holds=true|note=only the float lane separates value from identity; the ternary lane does not|json=0
+LAW|one_fix_is_a_turn_not_a_cancellation=1|only_a_full_traverse_of_all_three_faces_cancels=1|and_it_cancels_into_the_centre_not_back_to_the_start=1|json=0
+DEMO|seat=FALCON|fixed=EXTENT|landed_on=INSTRUMENT|what=reached for the -- guard learned in sha256sum without checking that awk takes it|result=731 of 731 verifying sidecars reported as mismatches|json=0
+DEMO|seat=ACER|fixed=EXTENT|landed_on=INSTRUMENT|what=checked all 18 sidecars instead of a sample, then jq @tsv escaped the newlines inside base64|result=18 of 18 reported unreadable|same_hour=1|json=0
+DEMO|both_corrections_moved_one_turn_and_deposited_the_seat_on_the_next_face=1|neither_correction_cancelled_anything_by_itself=1|json=0
+CENTRE|census=54(+1)+27(-1/3)=45=R1|the_thirds_do_not_cancel_to_nothing=1|they_cancel_to_the_ground_point_that_was_there_all_along=1|json=0
+CENTRE|canon=81 and a shared centre, not 80 and 1|the_0_is_the_socket=1|free_ground_seats=27|one_per_line|costs_nothing_never_emitted=1|json=0
+CENTRE|R3_minus_R2=1/3|status=MEASURED|json=0
+CNCLAW|anti_and_anti_anti_are_inverses_not_opposites=1|cancellation_returns_the_value_and_not_the_identity=1|therefore_no_correction_may_delete_what_it_corrects=1|one_fix_is_a_turn=1|three_turns_reach_the_ground=1|json=0
+CNCFTR|rows=15|receipt=5006995a32785393daa479dea3831af1|bytes=2427|json=0
