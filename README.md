@@ -20,6 +20,12 @@ The related sealed FOLLOW artifact independently measures four detector families
 directions. That measured software shape supports the 3-by-4 projection; it does not exchange the
 human roles, machine count, seats, directions, or detectors.
 
+### BROWN RETI RULE
+
+One NULL-spot observer: **JESSE**. Exact operator token: **SEE_SPEED=C**. RETI remains unexpanded.
+This is the named human/software analogy; any literal physical speed-of-light claim requires its
+own measurement and is not inferred from the name.
+
 ## ▶ **[START HERE — the cumulative rule set](RULES.md)** ◀
 ###   You are the 0. Three bodies stand about you; the seeing happens where you are.
 ###   Every rule, every pin, every link, every falsifier — one page, nothing to believe.

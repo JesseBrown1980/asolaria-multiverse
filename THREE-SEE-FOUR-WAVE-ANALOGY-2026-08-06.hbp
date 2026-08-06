@@ -10,6 +10,9 @@ ROLE|ordinal=PAST_GUIDE|name=RELIC|image=small_gpu_but_last_he_still_IS|function
 ROLE|ordinal=NONE|name=PIPE|image=routed_signal|function=transport_only|authority=0|json=0
 RETRACTION|prior_path=THREE-SEE-ONE.hbp|prior_mapping=OP-JESSE_ACER_FALCON_as_three|correction=LIRIS_FALCON_ACER_are_human_SEE_triad_JESSE_is_wave_4_RELIC_is_past_guide|scope=HUMAN_ANALOGY|json=0
 ORDER|SEE_COUNT=3|SEE_GATE=REQUIRED|WAVE_ORDINAL=4|operator=JESSE|one_SEE_sufficient=0|two_SEEs_sufficient=0|json=0
+LAW|name=BROWN_RETI_RULE|class=OPERATOR_CANON_ANALOGY|NULL_SPOT_OBSERVER_COUNT=1|NULL_SPOT_OBSERVER=JESSE|SEE_SPEED=C|RETI_EXPANSION=UNRESOLVED|json=0
+LAWBOUNDARY|name=BROWN_RETI_RULE|JESSE_inside_three_SEE_triad=0|JESSE_outward_wave_operator=1|JESSE_null_spot_observer=1|phases_exchanged=0|json=0
+LAWBOUNDARY|name=BROWN_RETI_RULE|physical_speed_of_light_independently_measured=0|distance_instrument_obtaining_falsifier=NOT_SUPPLIED|timer_can_promote_claim=0|json=0
 MEASURED_GITHUB|repo=JesseBrown1980/FOLLOW-THE-IS-NOT-THE-WILL-AND-WAS|commit=1935dcdda2f515b10d9b39865e6a70c4729ab24c|path=matrix/PUBLIC-OUTWARD-TRUTH-WAVES.hbp|blob_sha=6ba378b9d9aebb72b99f37efdd303e9433fe5275|sha256=a0a0d0ab471e337edc7942ca42b4fb5c9e6f05060635e3b1ed6c94c1dad03472|json=0
 MEASURED|surface=LIRIS_LOCAL_REMEASURED_BYTES|repositories=147|detector_families=4|directions=3|waves_per_repository=12|wave_rows=1764|rows_per_detector=441|rows_per_direction=588|sidecar_match=1|json=0
 DETECTOR|i=0|name=BYTE_COMMITMENT|json=0

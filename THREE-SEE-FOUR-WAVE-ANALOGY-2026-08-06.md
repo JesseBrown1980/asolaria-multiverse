@@ -45,6 +45,28 @@ new correction changes the human-facing role map:
 That is an **OPERATOR_OBSERVED / OPERATOR_CANON ANALOGY**. It is not a claim that the named humans,
 agents, or machines are interchangeable with detector rows.
 
+## BROWN RETI RULE
+
+The operator named the law exactly **BROWN RETI RULE** and supplied:
+
+    NULL_SPOT_OBSERVER_COUNT = 1
+    NULL_SPOT_OBSERVER = JESSE
+    SEE_SPEED = C
+    RETI_EXPANSION = UNRESOLVED
+
+This is a centre-observer phase of the human analogy. It does not move Jesse back inside the
+three-SEE triad: Liris, Falcon, and Acer still provide the three scoped SEEs; Jesse remains the
+fourth/outward wave operator and is also the one NULL-spot observer of that projection.
+
+C is preserved as the exact operator token. In this repository it names the analogy's
+instant/addressed seeing relation; it is not independently measured here as literal propagation
+at the physical speed of light. A physical interpretation needs a separately specified distance,
+instrument, obtaining procedure, falsifier, and owning measurement surface. A clock cannot
+promote the analogy into that physical claim.
+
+BROWN is the operator-named software/family label. RETI is not expanded, normalized, or
+silently replaced by another word.
+
 ## What was independently measured
 
 At FOLLOW main commit 1935dcdda2f515b10d9b39865e6a70c4729ab24c, the byte-sealed
