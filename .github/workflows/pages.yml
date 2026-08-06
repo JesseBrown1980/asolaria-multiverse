@@ -1,9 +1,20 @@
 name: Deploy the door to Pages
 
-# Pages is set to the ACTIONS builder, which runs nothing until a deploy workflow exists —
-# that is why the door returned 404 while raw.githubusercontent served the file fine.
-# This is the workflow the Actions builder was waiting for. Static upload, no Jekyll,
-# no build step, no dependency: the door is one self-contained file.
+# Pages is set to the ACTIONS builder, which runs nothing until a deploy workflow
+# exists. Static upload, no Jekyll, no build step: the door is one self-contained
+# file.
+#
+# FIX over the previous version: the sidecar check globbed `*.sha256`, which in
+# bash does NOT match a leading dot and does not descend. It therefore reached 6
+# of 9 sidecars here, silently skipping:
+#   .gitattributes.sha256                  <- the file that pins LF so committed
+#                                             bytes agree with their sidecars
+#   .nojekyll.sha256
+#   .github/workflows/pages.yml.sha256     <- the sidecar of the file doing the
+#                                             checking
+# A gate that cannot check its own checker is decoration. It now enumerates with
+# find, verifies each sidecar from its own directory, and fails on ANY mismatch
+# rather than only on a low count.
 
 on:
   push:
@@ -25,21 +36,41 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # The gate: every file must match its own sidecar before anything is published.
-      - name: Verify sha256 sidecars
+      - name: Verify sha256 sidecars — every one, dotfiles and subdirectories included
         run: |
-          shopt -s nullglob
-          n=0
-          for s in *.sha256; do sha256sum -c "$s"; n=$((n+1)); done
-          [ "$n" -ge 3 ] || { echo "FAIL: fewer than 3 sidecars checked ($n)"; exit 1; }
-          echo "OK: $n sidecars verified byte-exact"
+          set -u
+          n=0; bad=0
+          while IFS= read -r s; do
+            d=$(dirname "$s"); b=$(basename "$s")
+            if ( cd "$d" && sha256sum -c "$b" ); then :; else bad=$((bad+1)); fi
+            n=$((n+1))
+          done < <(find . -name '*.sha256' -not -path './.git/*' | sort)
+          # Count what SHOULD carry a sidecar, so a DELETED sidecar is a finding
+          # rather than a smaller number that still clears the floor.
+          want=$(find . -type f -not -path './.git/*' -not -name '*.sha256' | wc -l)
+          echo "SIDECARS|checked=$n|failed=$bad|files_present=$want"
+          if [ "$bad" -ne 0 ]; then
+            echo "FAIL: $bad sidecar(s) did not verify"; exit 1
+          fi
+          if [ "$n" -lt 3 ]; then
+            echo "FAIL: fewer than 3 sidecars checked ($n) — the gate did not look"; exit 1
+          fi
+          if [ "$n" -ne "$want" ]; then
+            echo "FAIL: $want artifacts present but $n sidecars — every artifact carries one"
+            exit 1
+          fi
+          echo "OK: $n sidecars verified byte-exact, one per artifact"
 
       - name: Assert the door is self-contained
         run: |
+          set -u
           if grep -oE '(src|href)[[:space:]]*=[[:space:]]*"https?://[^"]+' index.html; then
             echo "FAIL: index.html references an external URL; the door must stand alone"; exit 1
           fi
-          echo "OK: zero external references"
+          if grep -oE '\b(fetch|XMLHttpRequest|WebSocket|importScripts)[[:space:]]*\(' index.html; then
+            echo "FAIL: index.html reaches the network at runtime"; exit 1
+          fi
+          echo "OK: zero external references, zero runtime network calls"
 
   deploy:
     needs: verify
