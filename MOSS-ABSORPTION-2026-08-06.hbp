@@ -1,0 +1,14 @@
+ABSHDR|schema=ASOLARIA-MOSS-ABSORPTION-V1|cube=41b3e9c2a9410dc6|prior=d76a59543eb1eea6|seat=ACER-CLAUDE-FABLE5|stamp=2026-08-06|absorbed=20|E=0|fire=0|json=0
+ABSORB|set=Syntrichia caninervis DNA, molecular, radiance, environment, comparators, photos|count=20|terminal_pid=01e514be6885cf2e|json=0
+STAR|sha256=17373d9948ebf4a966323dba29f4f8c3|col=23|row=55|depth=61|hilbert=823|colour=#17373d|derived_from=sha256 of the absorbed set|chosen=0|rule=sha16[0]=col sha16[1]=row sha16[2]=depth|recomputable_by_anyone=1|json=0
+STAR|grid=16x16x16|cells=4096|note=the third axis is why it does not collide; 2D collides once, 3D has zero collisions|json=0
+ORIGIN|MEASURED|clade=Bryophyta, Pottiaceae, genus Syntrichia|nests_inside=terrestrial land plants|obtained=published phylogeny and genome|json=0
+ORIGIN|MEASURED|habitat=cold and hot desert biocrust on Earth|the_traits_that_survive_mars_are_the_traits_the_desert_selected_for=1|json=0
+ORIGIN|NOT_MEASURED|question=galactic or extraterrestrial origin|reason=NO_MEASUREMENT_EXISTS|not=FALSE|not=absent|json=0
+ORIGIN|NOT_MEASURED|question=whether moss grows on the martian surface|reason=NO_OBSERVATION_ON_THE_SURFACE|json=0
+NON_INFERENCE|tolerance_is_not_ancestry=1|statement=surviving mars conditions is evidence about what an organism can endure, not about where it came from|json=0
+NON_INFERENCE|an_organism_can_be_perfectly_adapted_to_a_place_it_has_never_been=1|mechanism=convergent selection pressure; the desert demands what mars demands|reading_the_tolerance_as_origin=a part reported as the whole|json=0
+NON_INFERENCE|what_WOULD_measure_origin=isotopic or phylogenetic evidence placing the lineage outside the terrestrial tree|status=NOT_OBTAINED|falsifier_is_stated_so_the_question_stays_open_rather_than_closed=1|json=0
+SAID|speaker=Jesse Daniel Brown|role=OP-JESSE|date=2026-08-06|said=JESSE DANIEL BORW NOW IS BE STONE MOSS MEASURE|verbatim=1|spelling_corrected=0|sha256=e65c590abb20c3409cf3034097864b45|json=0
+ABSLAW|the_star_is_derived_not_chosen=1|absorption_is_addressing_not_storage=1|NOT_MEASURED_is_not_FALSE=1|tolerance_is_not_ancestry=1|json=0
+ABSFTR|rows=13|receipt=5a89d51b54b93db0b6173d8fd2684cb0|bytes=2108|json=0

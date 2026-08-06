@@ -1,0 +1,25 @@
+BOOKHDR|schema=ASOLARIA-BOOK-OF-IS-V1|cube=ffb9efab73ef02e7|prior=8431e14bde3b551d|stamp=2026-08-06|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|tenses=WAS_IS,IS,WILL_BE_IS|E=0|fire=0|json=0
+WAS_IS|subject=the operator statement|is=recorded byte-exact, 216 bytes, spelling untouched|claim_status=NOT_MEASURED|the_speaker_said_NEED_PROVE=1|json=0
+WAS_IS|subject=the moss|is=13 chromosomes, 16545 genes, ScALDH21 1452bp/483aa/53kDa|LD50_16min_Gy=2000|half_lethal_Gy=5000|the_dose_that_PROMOTED_growth_Gy=500|json=0
+WAS_IS|subject=the moss against mars|is=500 Gy equals 6527 years of martian surface dose|and_it_made_the_moss_grow_more=1|obtained=2000/4.5 and 500/0.0766 on published figures|json=0
+WAS_IS|subject=the utterances|is=11 quotes recorded word for word, each with its own hash|read_from_a_file_so_no_shell_touched_them=1|json=0
+WAS_IS|subject=the sixth identity|is=kcrutt, 313 commits, 2026-06-07 to 2026-08-04|placed_by_the_operator_at=-1/3|census_home=54(+1)+27(-1/3)=45=R1|json=0
+WAS_IS|subject=the sidecars|is=18 non-verifying resolved; 9 already verified against the stored bytes, 5 format, 2 line-ending, 2 genuine drift|superseded_hashes_preserved=1|json=0
+WAS_IS|subject=rule 4 in the README|was=140 unsided and the drifted repo had no sidecar|is=135 unsided and the drift is in a repo that DID carry sidecars|a_missing_check_hides_drift_it_does_not_cause_it=1|json=0
+WAS_IS|subject=PR7|is=merged 2026-08-06T20:16:20Z on 10 of 10 green checks|json=0
+WAS_IS|subject=the corpus sidecar sweep|is=135 unsided receipts across 19 repos|wrote=121|refused=14|failed_for_a_bug=0|json=0
+WAS_IS|subject=the 14 refusals|is=8 blocked by branch protection requiring a PR|and=6 in a repository that is ARCHIVED and read-only|both_are_gates_holding_not_errors=1|a_refusal_that_protects_a_record_is_a_pass=1|json=0
+IS|subject=PR8|state=PENDING|checks=10|pass=0|fail=0|verdict=NOT_MEASURED|reason=RUN_STILL_IN_PROGRESS|pending_is_not_failed=1|json=0
+IS|subject=the last unpinned repo|is=asolaria-omega-omnibit-tournament|direct_push=REFUSED by its own branch protection|the_gate_held=1|json=0
+IS|subject=the photographs|count=2|source=this machines screen|carried_by=falcon handset|transport=adb over USB|cloud=0|stored=AS IS, no resize, no recompression|json=0
+PHOTO|name=20260806_172006.jpg|bytes=4592515|sha256=8553d9858d8a250092aa97d834d18d2706d25efcb483ea177112d7ef1169b5af|of=the terminal output of this seat|taken=2026-08-06 17:20|json=0
+PHOTO|name=20260806_172011.jpg|bytes=4120842|sha256=901fadcd551c9154209f37006f4eb43106a732daaba84a0d9eaa5bfdcfc2c730|of=the terminal output of this seat|taken=2026-08-06 17:20|json=0
+LIGHT|observation=the terminal coloured the measured values and left the prose white|bright=kcrutt,Kevin Crutt,-1/3,54(+1)+27(-1/3)=45=R1,R3-R2|so_what_glows_in_the_photograph_is_exactly_what_was_measured=1|json=0
+WILL_BE_IS|item=PR8 merges and the corpus reaches 25 of 25 pinned and gated|blocked_on=its own ten required checks|status=OPEN|json=0
+WILL_BE_IS|item=the two genuinely drifted receipts are investigated, not only repaired|note=which direction they drifted is still NOT_MEASURED|status=OPEN|json=0
+WILL_BE_IS|item=the receipt inversion, prose at 1.81 and hbp at 1.97 in ten repos|ruled=restore records and append a correction|built=0|status=OPEN|json=0
+WILL_BE_IS|item=docs11-patches|status=HELD|reason=it rewrites rustc 1.97 to a placeholder in 24 files, deleting the toolchain from beside surviving run ids|json=0
+WILL_BE_IS|item=the FALCON-CLAUDE-COWORK seat registration|status=STAGED_NOT_GRANTED|proposed_pid=e9b266dafc2603f1|a_seat_never_self_promotes=1|json=0
+WILL_BE_IS|item=the four-machine sung decision on PR2|RELIC=PENDING|FALCON=PENDING|meaning=UNVERIFIED until they answer|status=OPEN|json=0
+BOOKLAW|a_thing_named_in_WILL_BE_IS_cannot_quietly_become_nothing=1|WAS_IS_is_closed_and_hashed=1|IS_is_this_instant_including_what_is_still_running=1|a_photograph_of_a_screen_is_evidence_of_the_screen_not_of_the_claim_on_it=1|json=0
+BOOKFTR|rows=24|receipt=da03218311d4dda242dbdf98f5275269|bytes=3979|json=0
