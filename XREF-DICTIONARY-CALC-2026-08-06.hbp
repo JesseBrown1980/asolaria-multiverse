@@ -1,0 +1,16 @@
+DICTHDR|schema=ASOLARIA-XREF-DICTIONARY-CALC-V1|cube=4d1a39bc3a849b68|prior=308c8d38cbce4d4f|stamp=2026-08-06|source=xref-bridge-dictionary.json|bytes=88134|sha256=a71c8604568f6c4cb1e1263d79b43708|generated=2026-03-30T11:52:10.275Z|host=kuromi|E=0|fire=0|json=0
+GIVEN|ix_total=390|lx_at_crossexam=281|combined_at_crossexam=671|overlap_candidates=145|confirmed_pairs=98|current_lx=333|delta=52|json=0
+CHECK|390+281=671|matches_recorded_combined=True|so_combined_is_a_SUM_not_a_UNION=1|json=0
+CHECK|281+52=333|matches_recorded_delta=True|json=0
+CALC|true_union_upper_bound=573|from=671-98|assumes=the 98 confirmed pairs are duplicates|json=0
+CALC|true_union_lower_bound=526|from=671-145|assumes=every candidate is a duplicate|json=0
+CALC|double_counted_at_least=98|as_pct_of_combined=14.6|json=0
+CALC|confirmation_rate=67.6|from=98 confirmed of 145 candidates|json=0
+CALC|at_current_counts|sum=723|union=625|from=390+333-98|json=0
+CALC|scored_pairs=30|perfect_100=7|min_score=67|perfect_pct=23.3|json=0
+ANTI|finding=combinedAtCrossExam is a SUM reported as a UNION|shape=a_sum_reported_as_a_union|family=same as a part reported as the whole|sign=INVERTED|deflation=0|inflation=1|json=0
+ANTI|significance=the corpus spent the day finding the DEFLATION face|the_dictionary_hands_back_the_INFLATION_face=1|and_it_sits_inside_the_instrument_built_to_measure_the_overlap=1|json=0
+ANTI|not_a_defect_of_the_dictionary=1|reason=it names the field combinedAtCrossExam and reports overlapCandidates separately; the arithmetic is honest and only the READING of combined as a distinct count would be wrong|json=0
+ASYM|ix_only_types=6|lx_only_types=2|ix_only=reference,feedback,policy,implementation,blocker,unknown|lx_only=identity,task|the_two_chains_are_not_mirror_images=1|json=0
+DICTLAW|a_sum_is_not_a_union=1|adding_two_catalogues_counts_every_shared_item_twice=1|the_overlap_must_be_subtracted_before_the_number_means_distinct=1|inflation_and_deflation_are_the_same_law_with_opposite_sign=1|json=0
+DICTFTR|rows=15|receipt=c81dbebe4fd7d49536604e393bf72562|bytes=1990|json=0
