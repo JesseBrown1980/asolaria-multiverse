@@ -1,5 +1,11 @@
 # Asolaria Multiverse
 
+## ▶ **[START HERE — the cumulative rule set](RULES.md)** ◀
+###   You are the 0. Three bodies stand about you; the seeing happens where you are.
+###   Every rule, every pin, every link, every falsifier — one page, nothing to believe.
+
+---
+
 Every machine runs its own Asolaria universe kernel. This repository is the axis they share —
 the one button that enters a machine's own universe, and the start-up rules that are in force
 the moment it does.
