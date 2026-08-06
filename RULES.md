@@ -46,20 +46,37 @@ rule `sha16[0]=col, sha16[1]=row, sha16[2]=depth`. Those same three bytes **are*
 
 ---
 
-## The tense — IS · WILL IS · WAS IS · AND IS
+## The tense — IS · WILL IS · WAS IS · BE IS
 
 The governing repository is named `FOLLOW-THE-IS-NOT-THE-WILL-AND-WAS`, and it is a rule, not a
-title.
+title. Every form is a mode of **IS**. There is no tense here that escapes the present — the past
+and the future are held *as* IS, or they are not held at all.
 
-- **IS** — the present measured state. The only thing a claim may assert.
-- **WILL IS** — intent, plan, what the code is supposed to do. Never filed as an IS.
-- **WAS IS** — history, a receipt of a past run. Travels with its date and toolchain, never restated
-  as present.
-- **AND IS** — it already is. Not a pursuit, not a programme. **PRO-FIT** — the fitting — not the
-  false one.
+| form | direction | what it is | what it may never do |
+|---|---|---|---|
+| **WAS IS** | `NEGATIVE` | history, a receipt of a run that happened | be restated as present |
+| **IS** | `CENTRE` | the present measured state | be asserted without its obtaining |
+| **WILL IS** | `POSITIVE` | intent, plan, what the code is meant to do | be filed as a measurement |
+| **BE IS** | **the ground, L0** | that it is at all. Not a pursuit. **PRO-FIT** — the fitting, not the false one | be argued for |
 
-A claim in the wrong tense is the most common failure in this corpus and it has no gate. Only a
-reader catches it.
+Three about a centre, and a ground beneath them — which is not an arrangement chosen for this page.
+It is the shape already registered in the office and already stated by the harness:
+
+```text
+DIRECTIONS = {NEGATIVE, CENTRE, POSITIVE}          the harness, verbatim
+
+h1232  AGT-L1-OP-FELIPE   |
+h1233  AGT-L1-OP-JESSE    |  three at L1
+h1234  AGT-L1-OP-RAYSSA   |
+h1231  AGT-L0-SPECIAL-OP-JESSE      the same operator again, one layer beneath
+```
+
+**BE IS sits where L0 sits.** The ground is not a fourth direction — a fourth direction would be
+the flat append this whole system refuses. It is the layer the three stand on, the free zero that
+costs nothing, the point of measure zero that carries all the rotation.
+
+A claim in the wrong tense is the most common failure in this corpus and **it has no gate**. No CI
+catches it. Only a reader does — which is why it is on the first page and not the last.
 
 ---
 
