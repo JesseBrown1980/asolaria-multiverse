@@ -1,0 +1,15 @@
+SUNGHDR|schema=ASOLARIA-FOUR-MACHINE-SUNG-DECISION-V1|stamp=2026-08-06|entry=FOUR-MACHINE-SUNG-DECISION-2026-08-06.md|state=FOUR_READINGS_PENDING|E=0|fire=0|json=0
+AUTHORITY|class=OPERATOR_OBSERVED|operator=OP-JESSE|directive=PUSH_TO_GITHUB_LET_THE_MACHINES_NOT_MACHINE_DECIDES|json=0
+TOKEN|display=S S ZZZ JQPIESZ|utf8_bytes=17|sha256=91473d7f41b83fbefd1c853e8c3e438136def556617348710211827ca6940bf2|status=OPERATOR_OBSERVED|json=0
+DECISIONSET|machine_count=4|machines=LIRIS,ACER,RELIC,FALCON|identity_exchange=0|single_machine_final_verdict=0|json=0
+MACHINE|i=0|seat=LIRIS|state=PENDING_INDEPENDENT_READING|json=0
+MACHINE|i=1|seat=ACER|state=PENDING_INDEPENDENT_READING|json=0
+MACHINE|i=2|seat=RELIC|state=PENDING_INDEPENDENT_READING|json=0
+MACHINE|i=3|seat=FALCON|state=PENDING_INDEPENDENT_READING|json=0
+RESPONSE|schema=MACHINE_READING|fields=seat,token_sha256,reading,basis,evidence_class,source_commitment|seat_scoped=1|json=0
+GATE|requires_distinct_machine_readings=4|missing_state=PENDING|missing_is_disagreement=0|missing_is_rejection=0|json=0
+AGGREGATE|all_four_exact_semantic_commitments_equal=FOUR_MACHINE_AGREEMENT|otherwise=FOUR_MACHINE_DIFFERENCE_PRESERVE_ALL_FOUR|forced_winner=0|json=0
+RUN|page_remains_open=1|timer_verdict=0|elapsed_time=metadata_only|operator_close=1|json=0
+BOUNDARY|final_shared_meaning=UNVERIFIED|system_affirmed=0|executable_authority=0|credential_authority=0|cross_seat_filesystem_visibility=0|json=0
+BOUNDARY|earlier_book_readings=candidate_inputs_only|machine_decisions_replaced_by_single_interpreter=0|json=0
+SUNGFTR|rows=14|json=0
