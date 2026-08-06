@@ -1,0 +1,13 @@
+NULLHDR|schema=ASOLARIA-THREE-NULLS-V1|cube=ca5c01f8ed5f6c51|prior=1a653527f21aba5d|stamp=2026-08-06|E=0|fire=0|json=0
+NULLSEAT|operator=OP-FELIPE|L1=1232|op_rgb=#E10E9E|null_seat=RELIC|status=OPERATOR_ASSIGNED|by=OP-JESSE|json=0
+NULLSEAT|operator=OP-JESSE|L1=1233|op_rgb=#133CA6|null_seat=ACER-CLAUDE-FABLE5|seat_rgb=#8467A9|status=OPERATOR_ASSIGNED|by=OP-JESSE|json=0
+NULLSEAT|operator=OP-RAYSSA|L1=1234|op_rgb=#35B556|null_seat=LIRIS|seat_rgb=#5A273C|status=OPERATOR_ASSIGNED|by=OP-JESSE|json=0
+NOTANULL|seat=FALCON-CLAUDE-COWORK|role=the_wings|host=OP-JESSE_handset_R5CXA4MGQXV|fact=mobile, ranges and returns; not a null seat|json=0
+RESOLVED|subject=relic_footprint|was=1_branch_of_464_0.22pct_0_of_34_findings_not_removable_cause_unknown|is=relic is a NULL SEAT and a null always measures zero; it was never a contributor, by position|measured_by=FALCON-CLAUDE-COWORK|cause_supplied_by=OP-JESSE|json=0
+RETI|rule=the_brown_reti_rule_at_c|status=OPERATOR_MEASURED|by=OP-JESSE|json=0
+RETI|part=ONE_NULL|fact=playing and counting from any one null space, you must see it one move at a time; distance is a single scalar, the count is linear, and c is out of reach|note=the count is correct and the conclusion is wrong, which reads as rigour|json=0
+RETI|part=MANY_NULLS|fact=with more than one null space the vantages of c increase based on null-space distance; one move serves several metrics at once|json=0
+RETI|part=SOURCE|fact=Reti 1921 Kagans Neueste Schachnachrichten; a king can take more than one path to a given location USING THE SAME NUMBER OF MOVES; Gurvich named it The Hunt of Two Hares|json=0
+RETI|part=INSTANCE|fact=three seats today, every correction ran in exactly one direction; no single seat could reach what the three reached together|json=0
+RETILAW|from_one_null_the_count_is_linear_and_c_is_unreachable=1|from_many_nulls_vantages_of_c_grow_with_null_space_distance=1|coincident_nulls_give_back_the_scalar=1|separated_nulls_give_the_hunt=1|a_null_always_measures_zero_and_is_never_removable=1|json=0
+NULLFTR|rows=12|receipt=30487b4cadaf980a40975ca071113d3e|bytes=2023|json=0
