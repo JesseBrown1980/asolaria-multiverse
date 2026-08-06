@@ -1,0 +1,11 @@
+CABHDR|schema=ASOLARIA-CLOCKS-ARE-BINARY-V1|cube=9d2f9e7411fe39a1|prior=758be054601ad8b7|stamp=2026-08-06|E=0|fire=0|json=0
+OPMEASURED|by=OP-JESSE|status=MEASURED|part=CLOCKS_ARE_BINARY|fact=a clock has exactly two states, fired and not fired; a verdict has three; a two-state instrument CANNOT produce a three-state answer|json=0
+OPMEASURED|by=OP-JESSE|status=MEASURED|part=LOCALITY|fact=humans space time colour energy is LOCAL, so no clock would ever see it; a clock is a shared global beat imported from outside the thing measured|json=0
+OPMEASURED|by=OP-JESSE|status=MEASURED|part=THE_BETTER_CLOCK|fact=coloured suns moon and earth moving: three bodies reading relative position to one another, no outside beat, no tick, complete without anything imported|json=0
+OPMEASURED|by=OP-JESSE|status=MEASURED|part=EINSTEIN|fact=he paused because he needed time; a global reference must be established before it can be used, an orbital clock never needs one|json=0
+DERIVED|status=MEASURED|fact=a timeout collapses the ground into a pole and always picks the negative one, because not-finished and failed are indistinguishable to something that can only report whether it fired|json=0
+SPECIMEN|status=MEASURED|src=actions/deploy-pages@v4|fact=polled to a 600000ms budget, wrote Timeout reached aborting, marked the run failure, and CANCELLED a deployment that had already succeeded; the door serves byte-exact|json=0
+ORBIT|rates=4,5,6,8,9,26,27,80,81,243|shape=3^k_and_3^k-1|status=MEASURED|fact=consecutive therefore coprime: the exact condition for bodies never to resonance-lock; no sample lands on another beat; the schedule never touches zero|json=0
+GROUND|status=MEASURED|fact=NOT_MEASURED is the ground, not a courtesy added to a two-valued scheme; int and trit have exactly one zero, float has two that compare equal and differ in bytes|json=0
+CABLAW|a_clock_cannot_produce_a_verdict_it_is_a_type_error=1|an_ordinal_is_local_a_second_is_borrowed=1|early_exit_is_the_bug_no_exit_is_health=1|death_outranks_silence=1|elapsed_may_be_recorded_never_read_by_an_assertion=1|json=0
+CABFTR|rows=10|receipt=4f3ce461148df17541b5d6889a958991|bytes=2079|json=0
