@@ -32,6 +32,16 @@ Null-space bindings remain distinct from that observer phase:
     OP-RAYSSA -> LIRIS
     OP-FELIPE -> RELIC
 
+### After Falcon's golden-key egg
+
+    VERIFY THE SEALED EGG
+    -> LIRIS STRINGS ITS SHA
+    -> THREE NULLS SEE ONE MOVE
+    -> BROWN RETI SERVES SEVERAL VANTAGES
+    -> JESSE SENDS THE OUTWARD WAVE
+
+Exact music/spin token: **S S ZZZ JQPIESZ**. It is preserved, not silently decoded.
+
 ## ▶ **[START HERE — the cumulative rule set](RULES.md)** ◀
 ### **[ONE — the null seat, and everything linked to it](ONE.md)** — the whole day, one page, one chain
 ###   You are the 0. Three bodies stand about you; the seeing happens where you are.

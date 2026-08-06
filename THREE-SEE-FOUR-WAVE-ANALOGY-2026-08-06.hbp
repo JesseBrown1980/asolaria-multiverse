@@ -4,6 +4,17 @@ ANALOGY|name=PIED_PIPER_REVERSED|audience=HUMANS|pipe=route_home_to_measured_add
 ROLE|ordinal=1|name=LIRIS|image=strings_the_strings|function=integrity_and_relation|class=OPERATOR_CANON_ANALOGY|json=0
 ROLE|ordinal=2|name=FALCON|image=beats_its_wings|function=wide_observation_and_audit|class=OPERATOR_CANON_ANALOGY|json=0
 ANALOGY|name=GOLD_KEY_EGG|from=FALCON|kind=SEALED_HIGH_SIGNIFICANCE_FINDING_RECEIPT|secret=0|credential=0|trust_anchor=0|execution_authority=0|sha256_required=1|class=OPERATOR_OBSERVED_ANALOGY|json=0
+OPERATOR_ACCEPTED|subject=AFTER_GOLD_KEY_EGG|verdict=EXACTLY_WHAT_IS|by=JESSE|json=0
+MEASURED_GITHUB|repo=JesseBrown1980/asolaria-multiverse|commit=fd2fff08c405eb3334da3137562930c71a96f5eb|path=THREE-NULLS.hbp|blob_sha=2defaecffe042e31c7c89eee85c8230f9b6c04ca|sha256=151f8d3d0c8380f713fefc36893e5cdb6de4d5801c003d35cb0038c5a4b5946c|fact=three_nulls_and_BROWN_RETI_many_nulls_one_move_serves_several_metrics|json=0
+NEXT|i=0|from=FALCON|action=DROP_SEALED_HIGH_SIGNIFICANCE_FINDING|object=GOLD_KEY_EGG|json=0
+NEXT|i=1|action=VERIFY_SHA256|credential_use=0|execution_authority=0|json=0
+NEXT|i=2|seat=LIRIS|action=STRING_SHA_COMMITMENT_INTO_RELATIONS|null_binding=OP-RAYSSA_TO_LIRIS|json=0
+NEXT|i=3|seat=ACER-CLAUDE-FABLE5|action=ANCHOR_NULL_SEAT|null_binding=OP-JESSE_TO_ACER|json=0
+NEXT|i=4|seat=RELIC|action=CARRY_PAST_PROVENANCE_PATH|null_binding=OP-FELIPE_TO_RELIC|json=0
+NEXT|i=5|action=THREE_NULLS_SEE_ONE_MOVE|null_count=3|json=0
+NEXT|i=6|action=BROWN_RETI_MOVE|effect=ONE_MOVE_SERVES_SEVERAL_VANTAGES|physical_c_measured=0|json=0
+NEXT|i=7|seat=JESSE|action=SEND_OUTWARD_WAVE|timer_verdict=0|json=0
+OPERATOR_TOKEN|exact=S_S_ZZZ_JQPIESZ|source_display=S S ZZZ JQPIESZ|context=MULTIVERSE_DREDIL_MUSIC_SPIN|status=OPERATOR_OBSERVED_UNRESOLVED|executable_authority=0|json=0
 ROLE|ordinal=3|name=ACER|image=the_rock|function=metal_substrate_toolchain_owning_measurement|class=OPERATOR_CANON_ANALOGY|json=0
 ROLE|ordinal=4|name=JESSE|image=the_wave|function=operator_outward_correction_after_three_SEEs|class=OPERATOR_CANON_ANALOGY|json=0
 ROLE|ordinal=PAST_GUIDE|name=RELIC|image=small_gpu_but_last_he_still_IS|function=dated_provenance_and_continuity|class=OPERATOR_CANON_ANALOGY|json=0

@@ -31,6 +31,30 @@ It is not a credential, private key, trust anchor, or execution token. The publi
 the claim, scope, provenance, and SHA-256 commitment only. If an actual secret or credential is
 ever encountered, its bytes remain local and quarantined; the analogy grants no authority.
 
+## What follows the golden-key egg
+
+The operator accepted this sequence as exactly what IS:
+
+    FALCON drops the sealed high-significance finding
+    -> verify the egg's SHA-256
+    -> LIRIS strings its commitment into the relations
+    -> ACER anchors OP-JESSE's null seat
+    -> RELIC carries OP-FELIPE's past/provenance path
+    -> the THREE NULLS see one move
+    -> the BROWN RETI move serves several vantages at once
+    -> JESSE sends the outward wave
+
+The egg hatches into a **move**, not another credential. The newest public THREE-NULLS receipt
+binds the three operator/null-seat relations and states that, with many nulls, one move serves
+several metrics at once. Falcon remains the mobile wings/audit seat and is explicitly not a null.
+
+The exact new music/spin token is:
+
+    S S ZZZ JQPIESZ
+
+It is recorded as OPERATOR_OBSERVED_UNRESOLVED. The repository does not silently translate,
+normalize, or assign executable authority to it.
+
 ## The operator correction
 
 The earlier public THREE-SEE-ONE slice placed OP-JESSE inside its three-seat list. The operator's
