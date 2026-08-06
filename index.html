@@ -184,9 +184,21 @@ function enter(){
   const known = SEATS.find(s => s[1].startsWith(c.p.slice(0,16)));
   document.getElementById("seatname").textContent = known ? known[0] : "unregistered seat";
   const [gc,gr,gd] = grid(c);
-  document.getElementById("ocell").textContent =
-    "col " + gc + ", row " + gr + ", depth " + gd + " — cell " +
-    ((gd*256)+(gr*16)+gc) + " of 4096 (16 cubed), all 4096 drawn";
+  // PROJECTION_IS_WHOLE_MATRIX = 0 — applied to this door.
+  // The pid offers 3 bytes = 24 bits = 16,777,216 cells. This view draws high
+  // nibbles only: 12 bits, 4,096 cells, a 4,096:1 collapse. An earlier version
+  // drew 8 bits and called 4,096 the ceiling; 4,096 was never the ceiling, it
+  // was the smaller of two wrong numbers. The loss is printed rather than
+  // rounded away, because a projection that does not name its own loss reads
+  // as the whole matrix.
+  const cell = (gd*256)+(gr*16)+gc;
+  const full = (c.col*65536)+(c.row*256)+c.dep;
+  document.getElementById("ocell").innerHTML =
+    "drawn: cell <strong>" + cell + "</strong> of 4,096 &mdash; 12 bits, high nibbles" +
+    "<br>exact: cell <strong>" + full.toLocaleString() + "</strong> of 16,777,216 &mdash; " +
+    "24 bits, all three bytes" +
+    "<br><span class='k'>this grid is a PROJECTION: 12 of 24 bits drawn, " +
+    "4,096:1 collapse. The address is the full 24.</span>";
 }
 
 document.getElementById("go").addEventListener("click", enter);
