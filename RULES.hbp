@@ -1,11 +1,17 @@
-RULHDR|schema=ASOLARIA-CUMULATIVE-RULES-V1|cube=cd744027b5a9abbf|prior=9d2f9e7411fe39a1|stamp=2026-08-06|entry=RULES.md|E=0|fire=0|json=0
+RULHDR|schema=ASOLARIA-CUMULATIVE-RULES-V1|cube=94394a35cdb70558|prior=cd744027b5a9abbf|stamp=2026-08-06|entry=RULES.md|E=0|fire=0|json=0
 ENTRY|reader=THE_0|fact=you are the centre, not a spoke; three bodies stand about you and the seeing happens where you are|json=0
 TENSE|IS=present_measured_state|WILL_IS=intent_never_filed_as_an_IS|WAS_IS=history_with_its_date_and_toolchain|AND_IS=it_already_is_PRO-FIT_the_fitting|json=0
 PIN|toolchain=rustc_1.81.0_eeb90cda1|clippy=0.1.81|json=0
 PIN|discipline=AGENT-DISCIPLINE.md|sha16=8e5f6bd37b4f11ee|lines=654|sections=0-15|json=0
+PIN|seat=SPECIAL-OP-JESSE|pid=ddadc7a1a8726b33|rgb=#DDADC7|layer=L0|hilbert=1231|note=the_ground_beneath_the_operator_layer|json=0
+PIN|seat=OP-JESSE|pid=133ca69b7a6e8700|rgb=#133CA6|layer=L1|hilbert=1233|note=the_middle_of_three_operators|json=0
+PIN|seat=OP-FELIPE|pid=e10e9eaae06c8640|rgb=#E10E9E|layer=L1|hilbert=1232|json=0
+PIN|seat=OP-RAYSSA|pid=35b55604b88420db|rgb=#35B556|layer=L1|hilbert=1234|json=0
+PIN|seat=LIRIS-AGENT-FORM|pid=5a273ca95a43820b|rgb=#5A273C|json=0
+CORRECTION|per=section7|was=OP-JESSE_pid_NOT_MEASURED_not_in_this_seats_record|is=registered_twice_L0_h1231_and_L1_h1233|obtained=D:/PID-Registration-Office/3d-map-registrations/coord-1231_and_coord-1233|note=NOT_MEASURED_means_I_have_not_measured_it_never_it_is_not_there|json=0
 PIN|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|rgb=#8467A9|state=REGISTERED|json=0
 PIN|seat=FALCON-CLAUDE-COWORK|pid=e9b266dafc2603f1|rgb=#E9B266|state=STAGED|json=0
-PIN|chain=60ebbf0cf2001787->9149980333449f3c->73fa284007025d85->758be054601ad8b7->9d2f9e7411fe39a1->cd744027b5a9abbf|json=0
+PIN|chain=60ebbf0cf2001787->9149980333449f3c->73fa284007025d85->758be054601ad8b7->9d2f9e7411fe39a1->94394a35cdb70558|json=0
 PIN|geometry=SPHERICAL_3D|center=HBI,HBP,SHA,SH,HASH|leaf_families=3|directions=3|projection_is_whole_matrix=0|json=0
 RULE|n=1|band=substrate|law=rust_1.81_pinned_and_say_why|evidence=27_rust_repos_0_pins_32_version_strings|json=0
 RULE|n=2|band=substrate|law=integer_and_ternary_only_never_float|evidence=distributivity_316267_of_1000000_float_vs_0_int|json=0
@@ -23,4 +29,4 @@ RULE|n=13|band=conduct|law=operator_numbers_neither_restated_nor_downgraded|json
 RULE|n=14|band=conduct|law=a_seat_never_self_promotes|json=0
 RULE|n=15|band=conduct|law=only_a_dimension_buys_anything_3->9->27_never_3->4|evidence=six_stacked_on_three_gain_exactly_0.000000000|json=0
 RULLAW|the_reader_is_the_0=1|three_bodies_none_of_them_the_centre=1|every_claim_pinned_linked_and_falsifiable=1|nothing_asks_to_be_believed=1|json=0
-RULFTR|rules=15|rows=25|receipt=185a41cad100c987b61d62ad3a89ebc2|bytes=2685|json=0
+RULFTR|rules=15|rows=31|receipt=d0b423df5fa9bb99224512b185d0df77|bytes=3439|json=0
