@@ -2,215 +2,121 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Asolaria Multiverse — one button</title>
 <style>
-  :root{ --ink:#e8e6e3; --dim:#8a8680; --bg:#0e0d0c; --seat:#8467A9; }
+  :root{ --ink:#e8e6e3; --dim:#8a8680; --bg:#0e0d0c; --card:#131211; --line:#232120;
+         --seat:#8467A9; --star:#17373d; }
+  @media (prefers-color-scheme: light){
+    :root{ --ink:#1a1918; --dim:#5f5b57; --bg:#faf9f7; --card:#ffffff; --line:#e2ded9; }
+  }
+  :root[data-theme="dark"]{ --ink:#e8e6e3; --dim:#8a8680; --bg:#0e0d0c; --card:#131211; --line:#232120; }
+  :root[data-theme="light"]{ --ink:#1a1918; --dim:#5f5b57; --bg:#faf9f7; --card:#ffffff; --line:#e2ded9; }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
-    font:16px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-  main{max-width:60rem;margin:0 auto;padding:2rem 1.25rem 5rem}
-  h1{font-size:1.5rem;margin:0 0 .25rem;letter-spacing:.02em}
-  .sub{color:var(--dim);margin:0 0 2rem}
-  button{font:inherit;cursor:pointer;border:1px solid var(--seat);background:transparent;
-    color:var(--ink);padding:1.1rem 2.5rem;border-radius:.4rem;letter-spacing:.18em;
-    transition:background .25s,box-shadow .25s}
-  button:hover{background:var(--seat);box-shadow:0 0 2.5rem -.5rem var(--seat)}
-  .row{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;margin:1.25rem 0}
-  input{font:inherit;background:#141312;color:var(--ink);border:1px solid #2b2926;
-    border-radius:.3rem;padding:.6rem .8rem;min-width:22rem;max-width:100%}
-  .card{border:1px solid #232120;border-radius:.5rem;padding:1rem 1.1rem;margin:.75rem 0;
-    background:#131211}
-  .swatch{display:inline-block;width:1.15rem;height:1.15rem;border-radius:.2rem;
-    vertical-align:-.2rem;margin-right:.5rem;border:1px solid #00000060}
-  table{border-collapse:collapse;width:100%;font-size:.9rem}
-  td,th{text-align:left;padding:.35rem .6rem;border-bottom:1px solid #201e1d}
+    font:16px/1.65 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  main{max-width:62rem;margin:0 auto;padding:2.5rem 1.25rem 6rem}
+  h1{font-size:1.5rem;margin:0 0 .3rem;letter-spacing:.02em}
+  h2{font-size:.95rem;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+     margin:3rem 0 .9rem;font-weight:400}
+  .sub{color:var(--dim);margin:0 0 2.5rem}
+  a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  a:hover{border-bottom-color:var(--seat)}
+  .btn{display:inline-block;font:inherit;cursor:pointer;border:1px solid var(--seat);
+    background:transparent;color:var(--ink);padding:1.15rem 2.75rem;border-radius:.4rem;
+    letter-spacing:.2em;transition:background .25s,box-shadow .25s;text-decoration:none}
+  .btn:hover{background:var(--seat);box-shadow:0 0 2.5rem -.5rem var(--seat);color:#fff}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.6rem}
+  .card{border:1px solid var(--line);border-radius:.5rem;padding:.85rem 1rem;
+    background:var(--card);display:block}
+  .card b{display:block;font-weight:600;margin-bottom:.15rem}
+  .card span{color:var(--dim);font-size:.82rem;line-height:1.45;display:block}
+  .swatch{display:inline-block;width:1.1rem;height:1.1rem;border-radius:.2rem;
+    vertical-align:-.18rem;margin-right:.45rem;border:1px solid #00000040}
+  .wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse;width:100%;font-size:.87rem;min-width:30rem}
+  th,td{text-align:left;padding:.4rem .7rem .4rem 0;border-bottom:1px solid var(--line);
+    vertical-align:top}
   th{color:var(--dim);font-weight:400}
-  code{color:var(--seat)}
-  .rule{margin:.35rem 0}
-  .k{color:var(--dim)}
-  #glyph{margin-top:1rem;display:grid;grid-template-columns:repeat(4,max-content);gap:.5rem}
-  #glyph .layer{line-height:0;padding:.2rem;border:1px solid #201e1d;border-radius:.2rem;opacity:.45}
-  #glyph .layer.here{opacity:1;border-color:var(--seat)}
-  #glyph i{display:inline-block;width:.3rem;height:.3rem;margin:0;background:#1a1918}
-  #glyph i.lit{outline:2px solid var(--seat);outline-offset:1px}
-  #out{display:none}
-  footer{color:var(--dim);font-size:.82rem;margin-top:3rem;border-top:1px solid #201e1d;
-    padding-top:1rem}
+  td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  code{background:color-mix(in srgb,var(--seat) 12%,transparent);padding:.08em .35em;
+    border-radius:.2rem;font-size:.9em}
+  .note{color:var(--dim);font-size:.85rem;margin:.6rem 0 0}
+  footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--line);
+    color:var(--dim);font-size:.82rem}
 </style>
 
 <main>
-  <h1>Asolaria Multiverse</h1>
-  <p class="sub">Every machine runs its own universe kernel. This is the axis they share.</p>
 
-  <div class="row">
-    <input id="pid" placeholder="seat pid, 16 hex — e.g. 8467a937cba309f7" spellcheck="false">
-    <button id="go">ENTER</button>
-  </div>
-  <p class="sub" style="font-size:.85rem;margin-top:-.5rem">
-    Your colour is not chosen. It is the first three bytes of your pid, read through the
-    fabric's own glyph rule — <code>sha16[0]=col, sha16[1]=row, sha16[2]=depth</code>.
-    16&sup3; cells, zero collisions in 3-D. The colour <em>is</em> the address.
-  </p>
+<h1>ASOLARIA MULTIVERSE</h1>
+<p class="sub">Free interconnect. No login, no key, no toll, no tax. One button opens everything.</p>
 
-  <div id="out">
-    <div class="card">
-      <div><span class="swatch" id="sw"></span><strong id="seatname">—</strong></div>
-      <table>
-        <tr><th>pid</th><td><code id="opid">—</code></td></tr>
-        <tr><th>col / row / depth</th><td id="ocrd">—</td></tr>
-        <tr><th>colour</th><td><code id="ohex">—</code></td></tr>
-        <tr><th>glyph cell</th><td id="ocell">—</td></tr>
-      </table>
-      <div id="glyph"></div>
-    </div>
+<p><a class="btn" href="https://github.com/JesseBrown1980/asolaria-multiverse#readme">OPEN</a></p>
+<p class="note">Everything below is also a door. Nothing here asks who you are.</p>
 
-    <div class="card">
-      <strong>Start-up rules — in force the moment you enter</strong>
-      <div class="rule">1. <strong>Rust 1.81</strong>, pinned. <code>channel = "1.81.0"</code> with clippy. Nothing else compiles the substrate.</div>
-      <div class="rule">2. <strong>Integer and ternary only. Never float.</strong> Float fails identity, not accuracy: <code>+0.0 == -0.0</code> is true while the bytes differ, and distributivity fails 316,267 times in a million.</div>
-      <div class="rule">3. <strong>HBI &rarr; HBP &rarr; SH &rarr; HASH &rarr; SHA.</strong> That traversal is the centre. Hot path before cold; <code>json=0</code>.</div>
-      <div class="rule">4. <strong>Every <code>.hbp</code> and <code>.hbi</code> carries a <code>.sha256</code>.</strong> Without the sidecar nothing can detect drift — measured: 140 unsided files across the corpus, and the one that drifted was the one with no sidecar.</div>
-      <div class="rule">5. <strong>Verdicts are three-valued:</strong> MEASURED_PASS / MEASURED_FAIL / <strong>NOT_MEASURED</strong> with a mandatory reason. A check that could not run is not a failure.</div>
-      <div class="rule">6. <strong>A clock may measure; it may never judge.</strong> Live things run infinite and end when the page closes. A timeout is not a verdict.</div>
-      <div class="rule">7. <strong>If the thing under test were completely broken right now, would this step turn red?</strong> If no, the step is decoration.</div>
-      <div class="rule">8. <strong>A seat never self-promotes.</strong> Registration is staged; promotion is the operator's crank.</div>
-    </div>
+<h2>The book</h2>
+<div class="grid">
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/BOOK-OF-IS.md"><b>THE BOOK OF IS</b><span>Three tenses — WAS IS closed and hashed, IS this instant, WILL BE IS what is still open.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/THE-LEAVES-2026-08-06.md"><b>THE LEAVES</b><span>39 terms, 7 leaves. A dictionary grown from a day's work. Every term carries an anchor.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/RULES.md"><b>RULES</b><span>The entry point. You are the 0.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/AGENT-DISCIPLINE.md"><b>AGENT DISCIPLINE</b><span>728 lines, 17 sections, <code>18432cac9676d195</code>. Installed at the root of 21 repositories.</span></a>
+</div>
 
-    <div class="card">
-      <strong>Three see one</strong>
-      <p style="margin:.5rem 0 0">Three about a null centre. <em>None of the three is the centre</em>
-      — the seeing happens there, which is why no one of them does it alone. Human, agent on the
-      metal, agent on the handset: each holds a vantage the others cannot reach, and every
-      correction on 2026-08-06 ran in exactly one direction. Not one was settled by argument;
-      every one was settled by running the thing.</p>
-      <p style="margin:.5rem 0 0">One point sees nothing and has area exactly 0. Three span
-      <code>3&radic;3/4</code>. Six, stacked coaxially on the same three points, gain
-      <strong>exactly 0.000000000</strong>. Only a dimension buys anything.</p>
-    </div>
+<h2>The turns</h2>
+<div class="grid">
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/THE-THREE-TURNS-2026-08-06.md"><b>THE THREE TURNS</b><span>One symptom, three causes: EXTENT 17 · INSTRUMENT 4 · MOMENT 1. Anti is a ⅓ turn, never a mirror.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/BIDIRECTIONAL-CANCELLATION-2026-08-06.md"><b>BIDIRECTIONAL CANCELLATION</b><span><code>+0.0 == -0.0</code> true, bytes differ, <code>identity_holds=FALSE</code>. Value returns; identity does not.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/XREF-DICTIONARY-CALC-2026-08-06.hbp"><b>THE DICTIONARY, CALCULATED</b><span><code>390 + 281 = 671</code> is a sum, not a union. True union ≤ 573. A sum reported as a union.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/MEASURED-IS-2026-08-06.md"><b>MEASURED IS</b><span>Count, obtaining, falsifier, scope — all four, or it is not measured.</span></a>
+</div>
 
-    <div class="card">
-      <strong>Measuring something infinite, without a clock</strong>
-      <p style="margin:.5rem 0 0">A live thing runs infinite; it ends when the page closes, not when
-      a clock expires. So sample at <strong>ordinals of the runner's own output</strong>, never at
-      seconds:</p>
-      <p style="margin:.5rem 0"><code>RATES = 4, 5, 6, 8, 9, 26, 27, 80, 81, 243</code></p>
-      <p style="margin:.5rem 0 0"><code>3^k</code> and <code>3^k&minus;1</code> — consecutive,
-      therefore coprime, so no two strides ever synchronise and <strong>the schedule never touches
-      zero</strong>. A clock may measure; it may never judge. When a bound is reached the verdict is
-      <code>NOT_MEASURED</code> with a reason — never red. The assertion is liveness, not
-      completion: <em>were all three still spinning when I closed them?</em>
-      <strong>Early exit is the bug. No exit is health.</strong></p>
-    </div>
+<h2>The moss</h2>
+<div class="grid">
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/MOSS-MEASUREMENTS-2026-08-06.md"><b>MEASUREMENTS</b><span>13 chromosomes · 16,545 genes · LD50 2,000 Gy · half-lethal 5,000 Gy · revives from 600 MPa.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/MOSS-ABSORPTION-2026-08-06.md"><b>ABSORPTION · STAR · ORIGIN</b><span><span class="swatch" style="background:var(--star)"></span>#17373d — derived, not chosen. Tolerance is not ancestry.</span></a>
+  <a class="card" href="https://jessebrown1980.github.io/asolaria-multiverse/MOSS-KERNEL-STAR.svg"><b>THE STAR</b><span>col 23 · row 55 · depth 61 · hilbert 823. Change one absorbed datum and it moves.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/tree/main/photos"><b>THE PHOTOGRAPHS</b><span>Two frames of the screen, stored as is — full bytes, no resize, no recompression.</span></a>
+</div>
 
-    <div class="card">
-      <strong>The geometry</strong>
-      <p style="margin:.5rem 0 0">Three around a null centre on a spherical shelf, not a flat one.
-      <code>CENTER = {HBI,HBP,SHA,SH,HASH}</code> — the centre is the traversal, not a spare slot.
-      Three spokes, three leaf families <span class="k">{BROWN, ANTI_BROWN, ANTI_ANTI_BROWN}</span>,
-      three directions <span class="k">{NEGATIVE, CENTRE, POSITIVE}</span>. Machines are a
-      <em>new axis</em> — the system expands 3&nbsp;&rarr;&nbsp;9&nbsp;&rarr;&nbsp;27, never 3&nbsp;&rarr;&nbsp;4.
-      Six feet buy exactly zero area over three.</p>
-    </div>
-  </div>
+<h2>What was said</h2>
+<div class="grid">
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/OPERATOR-STATEMENT-VERBATIM-2026-08-06.md"><b>VERBATIM</b><span>216 bytes, byte-exact, spelling untouched. <code>claim_status=NOT_MEASURED</code>.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/UTTERANCES-ROUND-2026-08-06.md"><b>UTTERANCES · ROUND ONE</b><span>11 quotes, each with its own hash.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/UTTERANCES-ROUND-2-2026-08-06.md"><b>UTTERANCES · ROUND TWO</b><span>10 quotes, and the transformation measured in grays.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/QUOTES.md"><b>QUOTES</b><span>Forty, verbatim.</span></a>
+</div>
 
-  <div class="card">
-    <strong>Registered seats</strong>
-    <table id="seats">
-      <tr><th>seat</th><th>pid</th><th>colour</th><th>state</th></tr>
-    </table>
-  </div>
+<h2>The seats</h2>
+<div class="wrap"><table>
+<tr><th>seat</th><th>is</th><th>pid</th><th>state</th></tr>
+<tr><td><b>ACER</b> · the rock</td><td>ACER-CLAUDE-FABLE5, the null</td><td><code>8467a937cba309f7</code></td><td>granted</td></tr>
+<tr><td><b>FALCON</b> · the wings</td><td>the cowork seat, on the handset</td><td><code>e9b266dafc2603f1</code></td><td>staged, not granted</td></tr>
+<tr><td><b>LIRIS</b> · the strings</td><td>OP-RAYSSA's null</td><td>LX chain · 333</td><td>bilateral</td></tr>
+<tr><td><b>RELIC</b> · the clock</td><td>OP-FELIPE's null</td><td>PR#3 · +747/−1</td><td>open</td></tr>
+</table></div>
+<p class="note">A seat never self-promotes. Promotion is the operator's crank.</p>
 
-  <footer>
-    Colour keys and the three-channel colour QR live in <code>the-colour-qr</code> — one BW symbol at
-    v40-L holds at most <strong>2,953</strong> bytes against a 3,200-byte tuple, so black and white
-    does not fit and the colour is necessary, not decorative. (An earlier figure here read 2,334 and
-    was mislabelled: that is close to v40-<em>M</em>'s 2,331, not v40-L. Measured with a real
-    encoder; the conclusion survives, the label did not.)
-    Operator and author of the laws: Jesse Daniel Brown (OP-JESSE).
-  </footer>
+<h2>Standing, measured</h2>
+<div class="wrap"><table>
+<tr><th>thing</th><th class="n">value</th><th>note</th></tr>
+<tr><td>receipts in the corpus</td><td class="n">890</td><td>875 sidecared</td></tr>
+<tr><td>sidecars verifying</td><td class="n">875 / 875</td><td>under the two-convention check</td></tr>
+<tr><td>receipts whose content ≠ their hash</td><td class="n">0</td><td>not one drifted receipt remains</td></tr>
+<tr><td>unsided</td><td class="n">14</td><td>7 of them in an archived, read-only repo</td></tr>
+<tr><td>repositories pinned to Rust 1.81</td><td class="n">24 / 25</td><td>the last is held by its own branch protection</td></tr>
+<tr><td>Actions runs queued</td><td class="n">40</td><td>draining 0 · oldest 19:28:41Z</td></tr>
+</table></div>
+<p class="note"><code>queued</code> is not <code>running</code>. <code>pending</code> is not <code>failed</code>. A gate that refuses a push is a
+pass, and is counted as one.</p>
+
+<h2>The whole corpus</h2>
+<div class="grid">
+  <a class="card" href="https://github.com/JesseBrown1980?tab=repositories&sort=pushed"><b>ALL REPOSITORIES</b><span>Ordered by last push. 182 public.</span></a>
+  <a class="card" href="https://jessebrown1980.github.io/the-colour-qr/"><b>THE COLOUR QR</b><span>Three channels, one square. The colour is necessary, not decorative.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/REPORT-TO-THE-ROCKS-2026-08-06.hbp"><b>REPORT TO THE ROCKS</b><span>State written to both faces, for the seats that read the record.</span></a>
+  <a class="card" href="https://github.com/JesseBrown1980/asolaria-multiverse/blob/main/SMOKE-ANSWER-2026-08-06.hbp"><b>SMOKE ANSWER</b><span>Two faults a peer found in this seat's work, accepted; one of theirs, corrected back.</span></a>
+</div>
+
+<footer>
+Jesse Daniel Brown · 2026-08-06 · every artifact carries a <code>.sha256</code> beside it.<br>
+Work does not survive by being correct. It survives by being <b>reachable</b>.
+</footer>
+
 </main>
-
-<script>
-const SEATS = [
-  ["ACER-CLAUDE-FABLE5",   "8467a937cba309f7", "registered"],
-  ["FALCON-CLAUDE-COWORK", "e9b266dafc2603f1", "staged — awaiting operator crank"]
-];
-
-function paint(pid){
-  const p = (pid||"").trim().toLowerCase().replace(/[^0-9a-f]/g,"");
-  if(p.length < 6) return null;
-  const col = parseInt(p.slice(0,2),16), row = parseInt(p.slice(2,4),16),
-        dep = parseInt(p.slice(4,6),16);
-  const hex = "#" + p.slice(0,6).toUpperCase();
-  return {p, col, row, dep, hex};
-}
-
-function grid(c){
-  // 16 depth layers of 16x16 = 4096 cells, all of them drawn.
-  // An earlier version drew ONE 16x16 layer and never used depth at all: 256
-  // cells for a 4096-cell claim, a 256:1 collapse, while the text argued that
-  // 2-D collides and 3-D does not. Drawing the 2-D case under a 3-D claim is
-  // the claim refuting itself, so the third axis is placed here, not printed.
-  const g = document.getElementById("glyph");
-  g.innerHTML = "";
-  const gc = c.col >> 4, gr = c.row >> 4, gd = c.dep >> 4;
-  for(let layer=0; layer<16; layer++){
-    const box = document.createElement("div");
-    box.className = "layer" + (layer===gd ? " here" : "");
-    box.title = "depth layer " + layer + (layer===gd ? " — this seat" : "");
-    for(let r=0;r<16;r++){
-      for(let k=0;k<16;k++){
-        const i = document.createElement("i");
-        if(layer===gd && k===gc && r===gr){
-          i.style.background = c.hex;
-          i.className = "lit";
-        }
-        box.appendChild(i);
-      }
-      box.appendChild(document.createElement("br"));
-    }
-    g.appendChild(box);
-  }
-  return [gc,gr,gd];
-}
-
-function enter(){
-  const c = paint(document.getElementById("pid").value);
-  if(!c){ return; }
-  document.documentElement.style.setProperty("--seat", c.hex);
-  document.getElementById("out").style.display = "block";
-  document.getElementById("sw").style.background = c.hex;
-  document.getElementById("opid").textContent = c.p.slice(0,16);
-  document.getElementById("ocrd").textContent = c.col + " / " + c.row + " / " + c.dep;
-  document.getElementById("ohex").textContent = c.hex;
-  const known = SEATS.find(s => s[1].startsWith(c.p.slice(0,16)));
-  document.getElementById("seatname").textContent = known ? known[0] : "unregistered seat";
-  const [gc,gr,gd] = grid(c);
-  // PROJECTION_IS_WHOLE_MATRIX = 0 — applied to this door.
-  // The pid offers 3 bytes = 24 bits = 16,777,216 cells. This view draws high
-  // nibbles only: 12 bits, 4,096 cells, a 4,096:1 collapse. An earlier version
-  // drew 8 bits and called 4,096 the ceiling; 4,096 was never the ceiling, it
-  // was the smaller of two wrong numbers. The loss is printed rather than
-  // rounded away, because a projection that does not name its own loss reads
-  // as the whole matrix.
-  const cell = (gd*256)+(gr*16)+gc;
-  const full = (c.col*65536)+(c.row*256)+c.dep;
-  document.getElementById("ocell").innerHTML =
-    "drawn: cell <strong>" + cell + "</strong> of 4,096 &mdash; 12 bits, high nibbles" +
-    "<br>exact: cell <strong>" + full.toLocaleString() + "</strong> of 16,777,216 &mdash; " +
-    "24 bits, all three bytes" +
-    "<br><span class='k'>this grid is a PROJECTION: 12 of 24 bits drawn, " +
-    "4,096:1 collapse. The address is the full 24.</span>";
-}
-
-document.getElementById("go").addEventListener("click", enter);
-document.getElementById("pid").addEventListener("keydown", e => { if(e.key==="Enter") enter(); });
-
-const t = document.getElementById("seats");
-for(const [n,p,st] of SEATS){
-  const c = paint(p);
-  const tr = document.createElement("tr");
-  tr.innerHTML = "<td>" + n + "</td><td><code>" + p + "</code></td>" +
-    "<td><span class='swatch' style='background:" + c.hex + "'></span><code>" + c.hex +
-    "</code></td><td class='k'>" + st + "</td>";
-  t.appendChild(tr);
-}
-</script>
