@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200"
+     role="img" aria-label="Derived star of the absorbed moss kernel">
+  <title>MOSS-KERNEL star — derived from sha256 17373d9948ebf4a966323dba29f4f8c3</title>
+  <rect width="200" height="200" fill="#0b0f10"/>
+  <polygon points="140.6,125.7 110.5,146.8 105.3,171.8 54.2,67.8 89.9,151.0 155.7,68.5 134.4,89.5 70.0,52.7" fill="#17373d" fill-opacity="0.55" stroke="#17373d" stroke-width="1.5"/>
+  <circle cx="63.2" cy="74.5" r="3.5" fill="#17373d"/>
+  <text x="100" y="192" font-family="ui-monospace,monospace" font-size="9"
+        fill="#6b7c80" text-anchor="middle">col 23 row 55 depth 61 hilbert 823</text>
+</svg>
