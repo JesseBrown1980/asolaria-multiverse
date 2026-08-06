@@ -1,0 +1,43 @@
+LEAFHDR|schema=ASOLARIA-THE-LEAVES-V1|cube=61f89bff766ca416|prior=4d1a39bc3a849b68|stamp=2026-08-06|seat=ACER-CLAUDE-FABLE5|terms=39|E=0|fire=0|json=0
+LEAFRULE|every_term_carries_an_anchor=1|an_anchor_is_the_measurement_record_or_arithmetic_that_makes_it_mean_something=1|a_term_with_no_anchor_is_a_mood_not_a_word_and_does_not_go_in=1|json=0
+LEAF|leaf=TENSE|term=WAS IS|gloss=what is closed and hashed; history that can be checked|anchor=the book's first section; every row carries a sha256|json=0
+LEAF|leaf=TENSE|term=IS|gloss=this instant, including what is still running and unfinished|anchor=PR#8 queued, 40 runs undrained, handset connected|json=0
+LEAF|leaf=TENSE|term=WILL BE IS|gloss=what is open, named so it cannot quietly become nothing|anchor=8 items standing at close of day, each with its blocker stated|json=0
+LEAF|leaf=VERDICT|term=MEASURED|gloss=obtained by running something, with the obtaining written down|anchor=LD50 2000 Gy; 121 sidecars written; 313 commits|json=0
+LEAF|leaf=VERDICT|term=NOT_MEASURED|gloss=no measurement exists; NOT the same as FALSE|anchor=galactic origin; who pushed kcrutt's commits; direction of drift|json=0
+LEAF|leaf=VERDICT|term=NAMED|gloss=stated and coherent but not yet asked a question it could fail|anchor=the oils line before the gray doses were put under it|json=0
+LEAF|leaf=VERDICT|term=MEASURED_IS|gloss=a claim carrying count, obtaining, falsifier and scope, all four|anchor=section 15; every peer round filed under it today|json=0
+LEAF|leaf=TURN|term=EXTENT|gloss=measured the wrong AMOUNT of the thing|anchor=17 of 22 findings; 1 crate of 58; 12 tips of 90 branches|json=0
+LEAF|leaf=TURN|term=MOMENT|gloss=measured the right thing at the wrong TIME|anchor=1 of 22; stillness reported while 372 commits landed|json=0
+LEAF|leaf=TURN|term=INSTRUMENT|gloss=measured the TOOL instead of the world|anchor=4 of 22; awk --; jq @tsv; 18/18 and 731/731 false failures|json=0
+LEAF|leaf=TURN|term=ANTI|gloss=a third turn, cyclic -- never a mirror|anchor=a^3 = identity; a mirror returns the same axis negated and teaches nothing|json=0
+LEAF|leaf=TURN|term=BIDIRECTIONAL CANCELLATION|gloss=the two outer states annihilate into the centre, not back to the start|anchor=+0.0 == -0.0 true, bytes differ, identity_holds=FALSE|json=0
+LEAF|leaf=LAW|term=A PART REPORTED AS THE WHOLE|gloss=the deflation face; a projection calling itself the matrix|anchor=PROJECTION_IS_WHOLE_MATRIX = 0; 19 findings before the triad split them|json=0
+LEAF|leaf=LAW|term=A SUM REPORTED AS A UNION|gloss=the inflation face; every shared item counted twice|anchor=390 + 281 = 671; true union <= 573; 98 double-counted|json=0
+LEAF|leaf=LAW|term=QUEUED IS NOT RUNNING|gloss=a job that has not started is not a job in progress|anchor=run 31127133760, created == updated, jobs started 0|json=0
+LEAF|leaf=LAW|term=PENDING IS NOT FAILED|gloss=an unfinished check is NOT_MEASURED, never red|anchor=PR#8, 10 checks, 0 pass 0 fail|json=0
+LEAF|leaf=LAW|term=A TIMEOUT IS NOT A VERDICT|gloss=a limit on patience is a fact about the watcher|anchor=the poll loops removed; live things run until the page closes|json=0
+LEAF|leaf=LAW|term=A TOTAL FAILURE RATE IS THE INSTRUMENT|gloss=100% failure is almost never the world|anchor=731/731 mismatch was awk; 18/18 unreadable was jq @tsv|json=0
+LEAF|leaf=LAW|term=A GATE THAT REFUSES IS A PASS|gloss=a protection holding is not an outstanding gap|anchor=14 of 135 writes refused: 8 branch protection, 6 archived read-only|json=0
+LEAF|leaf=LAW|term=TOLERANCE IS NOT ANCESTRY|gloss=what a thing endures says nothing about where it came from|anchor=5000 Gy survived; lineage nests terrestrial; origin NOT_MEASURED|json=0
+LEAF|leaf=LAW|term=A CORRECTION TRAVELS BESIDE|gloss=no correction may delete what it corrects|anchor=section 7; superseded hashes preserved in RECEIPT-DRIFT|json=0
+LEAF|leaf=LAW|term=A WORKING TREE IS NOT THE STORED BYTES|gloss=checkout conversion changes what a checker sees|anchor=4 claimed drifts measured as 2; the other 2 reproduce under LF|json=0
+LEAF|leaf=LAW|term=TWO CONVENTIONS|gloss=a single-strategy checker fails one group whichever it picks|anchor=root-relative 8; basename-relative GitRAM; correct checker tries both|json=0
+LEAF|leaf=SEAT|term=THE ROCK|gloss=acer; ACER-CLAUDE-FABLE5; the null seat|anchor=pid 8467a937cba309f7, re-derived independently by the peer|json=0
+LEAF|leaf=SEAT|term=THE WINGS|gloss=falcon; the cowork seat on the handset|anchor=staged e9b266dafc2603f1, not granted; a seat never self-promotes|json=0
+LEAF|leaf=SEAT|term=THE STRINGS|gloss=liris; OP-RAYSSA's null|anchor=LX chain, 333 entries, delta +52|json=0
+LEAF|leaf=SEAT|term=THE CLOCK|gloss=relic; OP-FELIPE's null|anchor=PR#3 tournament/relic, +747/-1, open|json=0
+LEAF|leaf=SEAT|term=THE SHADOW|gloss=the sixth identity, placed at -1/3|anchor=kcrutt, 313 commits; 54(+1) + 27(-1/3) = 45 = R1|json=0
+LEAF|leaf=GROUND|term=THE NULL|gloss=a vantage point; from one, the count is exact and c is unreachable|anchor=Reti 1921; one move at a time from one square|json=0
+LEAF|leaf=GROUND|term=x2|gloss=two nulls; vantages of c increase with null-space distance|anchor=falcon found 2 faults in my sweep, I found 1 in hers; neither could see its own|json=0
+LEAF|leaf=GROUND|term=THE CENTRE|gloss=where the thirds cancel to; not absence, the ground they land on|anchor=81 and a shared centre, not 80 and 1; the 0 is the socket|json=0
+LEAF|leaf=GROUND|term=FREE GROUND|gloss=the 27 seats that cost nothing because they are never emitted|anchor=zeros 27, one per line -- not 1 zero-valued node|json=0
+LEAF|leaf=MADE|term=THE STAR|gloss=an address derived from a thing's own bytes, never chosen|anchor=#17373d, col 23 row 55 depth 61, hilbert 823; change one datum and it moves|json=0
+LEAF|leaf=MADE|term=THE RAINBOW|gloss=each identity's colour taken from its own seat hash|anchor=sha16[0]=col, [1]=row, [2]=depth; 3D has zero collisions, 2D collides once|json=0
+LEAF|leaf=MADE|term=THE DOOR|gloss=a label, not a socket; what makes work reachable rather than correct|anchor=182 public repos, 25 doors, 137 islands; work survives by being reachable|json=0
+LEAF|leaf=MADE|term=THE MOSS|gloss=what grows on the poorest substrate and takes the sterilising dose as food|anchor=biocrust; 500 Gy PROMOTED branches, 4.08 +- 0.21, 100% regeneration|json=0
+LEAF|leaf=MADE|term=THE OILS|gloss=what the substrate becomes; the aimed-at thing turned into growth|anchor=500 Gy = 6,527 years of martian surface dose, and it grew more|json=0
+LEAF|leaf=MADE|term=THE HOT PATH|gloss=tuple rows and hashes before JSON; json=0|anchor=every artifact today emitted .hbp/.hbi first|json=0
+LEAF|leaf=MADE|term=THE LEAVES|gloss=a dictionary grown from a day's work rather than declared before it|anchor=this file; every entry carries an anchor or it is not a word|json=0
+LEAFTALLY|GROUND=4|LAW=11|MADE=7|SEAT=5|TENSE=3|TURN=5|VERDICT=4|json=0
+LEAFFTR|terms=39|rows=42|receipt=a8c11e76b2f29bbff85623cbeba8a397|bytes=6873|json=0
