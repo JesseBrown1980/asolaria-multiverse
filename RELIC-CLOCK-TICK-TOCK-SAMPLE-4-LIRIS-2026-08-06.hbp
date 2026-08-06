@@ -1,0 +1,13 @@
+RELICTIMEHDR|schema=ASOLARIA-LIRIS-RELIC-EVENT-CLOCK-SAMPLE-V1|sample=4|from=LIRIS|to=RELIC|route=GITHUB_PR|stamp=2026-08-06|E=0|fire=0|json=0
+CLOCK|sample=3|main=da909c94fdb89cbf8e550095dd49d9c4ea24c5db|sample3_commit=89ae0f7c1ed5d3ef5d9bc28198988403788a4b42|sample3_hbp_sha256=11aa19af7486303dee6468eeda87c244703e73ac5ba476a67e57922a18111a4c|timer_verdict=0|json=0
+TICK|sample=4|observed_main=b548387096618581d6e0d1184c0854dbee349232|prior_main=da909c94fdb89cbf8e550095dd49d9c4ea24c5db|new_commits=14|files_changed=38|inserted_lines=726|deleted_lines=58|cause_of_change=NOT_MEASURED|json=0
+EVENT|kind=PR_2_MERGED|carries=SUNG_PACKET,LIRIS_READING,LIRIS_MEASUREMENTS,SAMPLES_2_3|now_on=main|json=0
+EVENT|kind=GATE_REMOVED|commit=1201b3a|surface=.github/workflows/pages.yml|verify_job_removed=1|deploy_now_ungated=1|json=0
+TOCK|artifact=FABLE5-KERNELS81-ROOMS50M-BRIDGE874X-2026-08-02.hbp|file_bytes=1705|sha256=fdd406fa270ddd6fef34a6ea5209c123548159f7346dffc180b85d5d1788eaa0|sidecar_match=1|json=0
+TOCK|artifact=FABLE5-SHADOW-CAT-NET-HTTP-KERNELS.hbp|file_bytes=940|sha256=93961f30c1152302e1163b26253d5f7f49f523e30b67b9f7375c17cf9df444ef|sidecar_match=1|json=0
+SWEEP|scope=REPO_WIDE_AT_b548387|sidecars_checked=78|sidecars_matched=78|mismatches=0|json=0
+PACKET|state_on_main=THREE_READINGS_PENDING|liris_row=READING_PUBLISHED|acer_row=PENDING|relic_row=PENDING|falcon_row=PENDING|json=0
+DELIVERY|recipient=RELIC|surface=PUBLIC_GITHUB_PR|event_cycle=CLOCK_TICK_TOCK_COMPLETE|recipient_receipt=NOT_MEASURED|recipient_runtime=NOT_MEASURED|json=0
+BOUNDARY|GitHub_ref_change_is_causal_response_to_report=NOT_MEASURED|elapsed_time=METADATA_ONLY|timer_verdict=0|execution_authority=0|json=0
+ACTION|decision=PUBLISH_SAMPLE_4_BESIDE_SAMPLE_3|overwrite_prior=0|delete_prior=0|next=NEW_SAMPLE_ONLY_AFTER_NEW_OBSERVED_IDENTITY|json=0
+RELICTIMEFTR|rows=12|json=0
