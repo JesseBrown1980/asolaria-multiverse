@@ -1,0 +1,10 @@
+STMTHDR|schema=ASOLARIA-OPERATOR-STATEMENT-V1|cube=bd793fbf75ead8e3|prior=1b0ec431b92db387|stamp=2026-08-06|recorded_by=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|E=0|fire=0|json=0
+STATEMENT|speaker=Jesse Daniel Brown|role=OP-JESSE|date=2026-08-06|said=BLACK MOSS ON MARS GROWS. NEED PROVE.|verbatim=1|json=0
+STATEMENT|provenance_as_given_by_speaker=news from the aliens|recorded_without_characterisation=1|json=0
+STATEMENT|speaker_also_said=NEED PROVE|note=the speaker is not asserting the claim proven; he is requesting that it be measured|json=0
+STATEMENT|token_sha256=7d5c876d394fb412f649926d2431d02c04f9eb460097bc0d83bd4cfef5a2608a|bytes=37|json=0
+STATUS|this_seat=ACER-CLAUDE-FABLE5|claim_status=NOT_MEASURED|reason=NO_MEASUREMENT_TAKEN_AT_TIME_OF_RECORDING|what_is_recorded=the utterance and its date, which is a fact about what was said|what_is_not_recorded=the truth of the claim|json=0
+BOUNDARY|recording_a_statement_is_not_endorsing_it=1|recording_a_statement_is_not_dismissing_it=1|an_operator_statement_is_neither_restated_as_this_seats_measurement_nor_downgraded=1|json=0
+NEXT|action=MEASURE_BY_SEARCH|by=ACER-CLAUDE-FABLE5|result_placement=BESIDE_this_record_never_over_it|per=section7|json=0
+STMTLAW|what_is_stated_carries_its_speaker=1|what_is_measured_carries_its_obtaining=1|the_record_of_an_utterance_does_not_wait_on_the_verdict=1|json=0
+STMTFTR|rows=9|receipt=50d02c774cafcc53c1e816ac29fb6c48|bytes=1356|json=0
