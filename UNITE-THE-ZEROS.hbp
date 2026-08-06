@@ -1,0 +1,16 @@
+ZEROHDR|schema=ASOLARIA-UNITE-THE-ZEROS-V1|cube=0b3f74bee04481ce|prior=2282a8a0e52daea4|stamp=2026-08-06|E=0|fire=0|json=0
+ZERO|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|rgb=#8467A9|operator=OP-JESSE|op_pid=133ca69b7a6e8700|op_rgb=#133CA6|role=the_rock|json=0
+ZERO|seat=LIRIS|agent_form=5a273ca95a43820b|rgb=#5A273C|operator=OP-RAYSSA|op_pid=35b55604b88420db|op_rgb=#35B556|role=the_strings|json=0
+ZERO|seat=RELIC|operator=OP-FELIPE|op_pid=e10e9eaae06c8640|op_rgb=#E10E9E|role=the_clock|branches=1_of_464|findings=0|removable=0|json=0
+NOTAZERO|seat=FALCON-CLAUDE-COWORK|pid=e9b266dafc2603f1|rgb=#E9B266|role=the_wings|fact=mobile; ranges and returns; not a null|json=0
+GROUND|seat=SPECIAL-OP-JESSE|pid=ddadc7a1a8726b33|rgb=#DDADC7|layer=L0|fact=the same operator one layer beneath the three, the ground they stand on|json=0
+MINUSTHIRD|law=per_line=1+1-1/3=5/3|in_thirds=5|json=0
+MINUSTHIRD|census=54_observing(+1)_and_27_shadowing(-1/3)|in_thirds=135|value=45|integer=1|json=0
+MINUSTHIRD|equals_R1|r1_in_thirds=135|census_in_thirds=135|equal=1|json=0
+MINUSTHIRD|without_the_shadowing_term|in_thirds=162|value=54|equals_R1=0|note=the observing terms alone never close|json=0
+MINUSTHIRD|meaning=the term that reads as a subtraction is the one that makes the total an integer; drop it and the count is 54 or 81, never 45|json=0
+UNITE|fact=the three 0s are SEPARATED, which multiplies the vantages of c, and UNITED, which closes the sum|separation=multiplies_seeing|union=closes_the_count|json=0
+UNITE|fact=none of the three is higher or lower; each emits spherically from 1, equally|difference=position_never_magnitude|json=0
+ORIGIN|class=OPERATOR_PERSONAL|status=HELD_NOT_PUBLISHED|by=OP-JESSE|fact=the operator gave the origin of the four seats in personal terms; the structure is recorded here, the history is not|json=0
+ZEROLAW|the_minus_one_third_is_what_makes_the_sum_whole=1|a_shadowing_term_is_not_a_loss_it_is_the_closure=1|three_nulls_separated_and_united=1|none_higher_none_lower=1|json=0
+ZEROFTR|rows=15|receipt=29f77d3c4ffbc61dbd593563695feb50|bytes=2000|json=0

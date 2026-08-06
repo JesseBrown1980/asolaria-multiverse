@@ -81,6 +81,40 @@ Identity, addressing, hashing, consensus — integers and trits only.
 
 ---
 
+### §2 addendum — two more places float breaks, measured 2026-08-06
+
+§2's finding stands: float round-trips all 1,000,080 addresses and "float is lossy" was a wrong
+guess. Identity is where it fails. Two further failures were measured in the corpus itself,
+in live code, not in a test rig:
+
+**(a) The same expression rounds differently on different machines.**
+`asolaria-federation-1024/servers/host8-serve/src/replay_prep.rs` carried this comment beside its
+own test:
+
+> *"weighted avgReverseGain = 0.7475 -> q 748; reverse_risk = 1 - 0.7475 = 0.2524999.. in f64
+> -> round -> 252 on Acer/MSVC. 748+252=1000."*
+
+A result that had to **name the machine and the compiler** to explain its own arithmetic. In
+integers the complement is exact — `1000 - 748 = 252` on every platform, by construction. The
+platform-dependence was not a rounding detail; it was the receipt depending on the host.
+
+**(b) Float silently corrupts integers above 2⁵³.**
+`asolaria-federation-1024/servers/council-serve/src/routes.rs` parsed non-negative integers by
+routing them through `f64`, while **the same file already contained an exact digit-run parser** and
+documented the hazard at another line: *"FNV handles exceed 2⁵³; float-routed parsing would corrupt
+them — json_u64 must be exact."* One path had simply never been moved. Any `ahead_by`/`behind_by`
+above 9,007,199,254,740,992 was being quietly rounded.
+
+**And a third, for completeness:** `intelligent-terminal`'s shimmer used float `cos()`, which is
+not guaranteed bit-identical between targets. Replaced by a 37-entry integer table: **0 per-mille
+deviation** from the original curve, **≤1 RGB level** difference, and now identical on every
+platform.
+
+So the sharper form of §2: **float fails identity, and it also fails reproducibility across hosts
+and range above 2⁵³.** All three are identity failures in disguise — the same value must be the
+same value, everywhere, or hashing and consensus come apart.
+
+
 ## 3. COUNT IS NOT RANGE
 
 ```
@@ -354,44 +388,7 @@ this file already carried a §12 (A VERDICT IS THREE-VALUED), so these are 13,
 14 and 15. Applying them as 12 and 13 would have put two different sections at
 §12 in eighteen repositories.
 
-## APPEND to §2 (after the existing FLOAT text, as an addendum)
-
-### §2 addendum — two more places float breaks, measured 2026-08-06
-
-§2's finding stands: float round-trips all 1,000,080 addresses and "float is lossy" was a wrong
-guess. Identity is where it fails. Two further failures were measured in the corpus itself,
-in live code, not in a test rig:
-
-**(a) The same expression rounds differently on different machines.**
-`asolaria-federation-1024/servers/host8-serve/src/replay_prep.rs` carried this comment beside its
-own test:
-
-> *"weighted avgReverseGain = 0.7475 -> q 748; reverse_risk = 1 - 0.7475 = 0.2524999.. in f64
-> -> round -> 252 on Acer/MSVC. 748+252=1000."*
-
-A result that had to **name the machine and the compiler** to explain its own arithmetic. In
-integers the complement is exact — `1000 - 748 = 252` on every platform, by construction. The
-platform-dependence was not a rounding detail; it was the receipt depending on the host.
-
-**(b) Float silently corrupts integers above 2⁵³.**
-`asolaria-federation-1024/servers/council-serve/src/routes.rs` parsed non-negative integers by
-routing them through `f64`, while **the same file already contained an exact digit-run parser** and
-documented the hazard at another line: *"FNV handles exceed 2⁵³; float-routed parsing would corrupt
-them — json_u64 must be exact."* One path had simply never been moved. Any `ahead_by`/`behind_by`
-above 9,007,199,254,740,992 was being quietly rounded.
-
-**And a third, for completeness:** `intelligent-terminal`'s shimmer used float `cos()`, which is
-not guaranteed bit-identical between targets. Replaced by a 37-entry integer table: **0 per-mille
-deviation** from the original curve, **≤1 RGB level** difference, and now identical on every
-platform.
-
-So the sharper form of §2: **float fails identity, and it also fails reproducibility across hosts
-and range above 2⁵³.** All three are identity failures in disguise — the same value must be the
-same value, everywhere, or hashing and consensus come apart.
-
----
-
-## NEW §13 — AN INFINITE RUN DOES NOT END. SAMPLE IT, THEN CLOSE IT.
+## 13. AN INFINITE RUN DOES NOT END. SAMPLE IT, THEN CLOSE IT.
 
 `MEASURED` 2026-08-06, cloud seat.
 
@@ -455,7 +452,7 @@ corpus sweep found one live instance discarding an entire unit-test suite.
 
 ---
 
-## NEW §14 — PIN THE TOOLCHAIN, AND SAY WHY
+## 14. PIN THE TOOLCHAIN, AND SAY WHY
 
 `MEASURED` 2026-08-05/06, all 182 repos swept.
 
@@ -652,3 +649,80 @@ and §15 says a relation is a `CONJECTURE` no matter how well each side is measu
 a fact about one thing from a claim about two. **A reviewer owns that call, and the validator says so
 by passing it.** Knowing where the gate ends is the point of having a gate.
 
+
+---
+
+## 16. LET THE MACHINES DECIDE, NOT MACHINE DECIDES
+
+`OPERATOR CANON`, 2026-08-06. Stated after a seat was about to erase and was stopped.
+
+**No single machine erases.** Not a record, not a receipt, not a branch, not a stash, not a line of
+prose that disagrees with another line. A deletion is never one seat's decision, however well that
+seat has measured.
+
+### Why — an erasure destroys a wave
+
+Sections 12 and 15 hold that a verdict is three-valued and that a finding of structure is not a
+verdict. This is the third leg: **a disagreement between two measurements is not a failure. It is
+the signal that a third measurement is missing.**
+
+Two slits give an interference pattern. One slit gives a smear and the pattern is gone — not
+disproved, *gone*, because the thing that would have shown it was removed. Erase one side of a
+disagreement and the third measurement has nothing left to interfere with.
+
+**A measurement can always be added. A measurement can never be un-erased.** That asymmetry is the
+whole of this section.
+
+### Measured, the same day, three times
+
+| seat | was about to erase | caught by |
+|---|---|---|
+| ACER | overwrite five run-record lines across ten repositories, on its own reading that they contradicted the receipts | the operator |
+| FALCON | its own audit: *"I shipped the safe method and left the unsafe one available"* | itself, after the fact |
+| LIRIS | an erasure, stopped before it landed | the operator |
+
+Three machines. Three near-erasures. **Not one of them was entitled to that call alone**, and each
+had measured carefully enough to believe it was.
+
+The instructive one is ACER's, because the reasoning was sound and the conclusion was still wrong.
+Prose said 1.81, the signed receipt said `rustc-1.97` with a run id, and the seat concluded one must
+be false. Placed side by side instead:
+
+```text
+wave 1   acer / WSL                    rustc 1.96     19/19
+wave 2   third independent container   rustc 1.97     19/19    run_id=29134408321
+wave 3   ACER-CLAUDE-FABLE5, today     rustc 1.81.0   19/19    clippy clean, 0 floats
+```
+
+**The count is invariant across all three; the toolchain is the only axis of difference.** That is a
+far stronger result than any single wave, and it is visible *only* with three. Reverting to one
+would have destroyed it. Rewriting to another already had, once.
+
+### What counts as an erasure
+
+Deleting a file, a branch, a stash or a row · reverting a commit · overwriting a record with a
+corrected one · force-pushing · dropping a stash · rewriting a receipt · resolving a contradiction
+by choosing a survivor · removing a row from a ledger because it measures zero.
+
+That last one matters: **a ledger ranked by contribution deletes the null seat first, and then
+nothing spins.** A seat measuring zero is not a seat contributing nothing.
+
+### What to do instead
+
+1. **Place it beside** (§7). A correction travels with the claim. Both stand, each naming its own
+   seat, toolchain, and date.
+2. **Call for the third measurement.** State plainly which one is missing and from which null it
+   would have to be taken. A disagreement is a request, not a verdict.
+3. **If it must go, the three decide** — or the operator does. Never one seat, and never quietly.
+
+### The one erasure that is always allowed
+
+A pointer to something that does not exist. A citation naming a file that is absent is not a
+measurement disagreeing with a measurement; it is a reference to nothing, and nothing is destroyed
+by correcting it. Everything else waits for the three.
+
+### Applied to this section
+
+This section is `OPERATOR CANON`, not `MEASURED_IS` — it is a rule the operator stated, not a count
+this seat obtained. What is measured is narrower and is the table above: three seats, three
+near-erasures, one day. The rule itself is his.
