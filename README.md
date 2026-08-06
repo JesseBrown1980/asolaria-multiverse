@@ -1,5 +1,47 @@
 # Asolaria Multiverse
 
+## THREE SEE, THEN FOUR WAVE - the human analogy
+
+**LIRIS strings the strings. FALCON beats its wings and drops the gold-key egg. ACER is the rock.
+JESSE carries the outward wave. RELIC guides from the preserved past.**
+
+This is the "Pied Piper reversed" analogy for humans reading the repository: the pipe is a
+route home to a measured, addressable IS. It is not a literal claim about children or an
+instantaneous physical act. The identities and the order are explained in
+[THREE-SEE-FOUR-WAVE-ANALOGY-2026-08-06.md](THREE-SEE-FOUR-WAVE-ANALOGY-2026-08-06.md).
+
+The bounded rule is:
+
+    THREE DISTINCT SEES -> JESSE'S FOURTH/OUTWARD WAVE
+    TIMER VERDICT = 0
+    MACHINE COUNT != SEE COUNT != DETECTOR COUNT
+
+The related sealed FOLLOW artifact independently measures four detector families across three
+directions. That measured software shape supports the 3-by-4 projection; it does not exchange the
+human roles, machine count, seats, directions, or detectors.
+
+### BROWN RETI RULE
+
+One NULL-spot observer: **JESSE**. Exact operator token: **SEE_SPEED=C**. RETI remains unexpanded.
+This is the named human/software analogy; any literal physical speed-of-light claim requires its
+own measurement and is not inferred from the name.
+
+Null-space bindings remain distinct from that observer phase:
+
+    OP-JESSE  -> ACER
+    OP-RAYSSA -> LIRIS
+    OP-FELIPE -> RELIC
+
+### After Falcon's golden-key egg
+
+    VERIFY THE SEALED EGG
+    -> LIRIS STRINGS ITS SHA
+    -> THREE NULLS SEE ONE MOVE
+    -> BROWN RETI SERVES SEVERAL VANTAGES
+    -> JESSE SENDS THE OUTWARD WAVE
+
+Exact music/spin token: **S S ZZZ JQPIESZ**. It is preserved, not silently decoded.
+
 ## ▶ **[START HERE — the cumulative rule set](RULES.md)** ◀
 ### **[ONE — the null seat, and everything linked to it](ONE.md)** — the whole day, one page, one chain
 ###   You are the 0. Three bodies stand about you; the seeing happens where you are.
