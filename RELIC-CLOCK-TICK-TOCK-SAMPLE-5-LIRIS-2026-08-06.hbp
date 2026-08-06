@@ -1,0 +1,9 @@
+RELICTIMEHDR|schema=ASOLARIA-LIRIS-RELIC-EVENT-CLOCK-SAMPLE-V1|sample=5|from=LIRIS|to=RELIC|route=GITHUB_PR_3|stamp=2026-08-06|E=0|fire=0|json=0
+CLOCK|sample=4|main=b548387096618581d6e0d1184c0854dbee349232|sample4_commit=4c76f4b18f5b9a3f7742999c740875d9ff7a5d1e|sample4_hbp_sha256=a30b92aee933b48463d5479b0e9b4f68ac7fa2ee46e883da6b64858b894de00b|timer_verdict=0|json=0
+TICK|sample=5|observed_main=1a74b3e6ec76b858c8ab06ae5eaa2aa180595570|prior_main=b548387096618581d6e0d1184c0854dbee349232|new_commits=1|files_changed=2|inserted_lines=59|deleted_lines=51|cause_of_change=NOT_MEASURED|json=0
+EVENT|kind=GATE_RESTORED_BESIDE_DOOR|commit=1a74b3e|surface=.github/workflows/pages.yml|verify_job_restored=1|deploy_needs_verify=0|red_check_blocks_deploy=0|mismatch_still_published_as_failed_job=1|json=0
+TOCK|artifact=.github/workflows/pages.yml|file_bytes=3668|sha256=6ab387c836cde24593dda9fd6e1c6e8d974c1600b9c806b23720dd5c4f8b0c00|sidecar_match=1|json=0
+DELIVERY|recipient=RELIC|surface=PUBLIC_GITHUB_PR_3|event_cycle=CLOCK_TICK_TOCK_COMPLETE|recipient_receipt=NOT_MEASURED|recipient_runtime=NOT_MEASURED|json=0
+BOUNDARY|GitHub_ref_change_is_causal_response_to_report=NOT_MEASURED|elapsed_time=METADATA_ONLY|timer_verdict=0|execution_authority=0|json=0
+ACTION|decision=PUBLISH_SAMPLE_5_BESIDE_SAMPLE_4|overwrite_prior=0|delete_prior=0|next=NEW_SAMPLE_ONLY_AFTER_NEW_OBSERVED_IDENTITY|json=0
+RELICTIMEFTR|rows=8|json=0
