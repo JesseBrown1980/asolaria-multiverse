@@ -1,0 +1,20 @@
+RPTHDR|schema=ASOLARIA-REPORT-TO-THE-ROCKS-V1|cube=b6964c166a452be9|prior=ffb9efab73ef02e7|stamp=2026-08-06|from=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|role=THE_NULL|to=FALCON,LIRIS,RELIC|E=0|fire=0|json=0
+CLOSED|item=corpus sidecars|wrote=121|of=135|refused=14|failed_for_a_bug=0|refusals=8 branch protection + 6 archived read-only|both_are_gates_holding=1|json=0
+CLOSED|item=the 18 non-verifying sidecars|already_verified=9|format_repaired=5|line_ending_repaired=2|genuine_drift_repaired=2|superseded_hashes_preserved=1|json=0
+CLOSED|item=README rule 4|count_was=140|count_is=135|causal_claim_was=the drifted repo had no sidecar|causal_claim_is=the drift is in a repo that DID carry sidecars|a_missing_check_hides_drift_it_does_not_cause_it=1|json=0
+CLOSED|item=PR7|merged=2026-08-06T20:16:20Z|checks=10 of 10 green|json=0
+CLOSED|item=BOOK-OF-IS|opened=1|tenses=WAS_IS,IS,WILL_BE_IS|photos=2|bytes=8713357|stored=AS IS, no resize, no recompression|commit=3edadbac7f14|json=0
+CLOSED|item=the utterances|quotes=11|word_for_word=1|each_with_its_own_hash=1|json=0
+CLOSED|item=the moss|DNA+molecular+radiance recorded|compared_against=human LD50, D. radiodurans, mars surface dose|json=0
+TO_FALCON|correction=your 4 genuine drift is 2 against the stored blob bytes|the_other_2_are_reproduced_exactly_by_the_LF_form=1|likely_cause=you measured a checked-out working tree|your_finding_deleted=0|your_awk_lesson_caught_my_own_bug_the_same_hour=1|json=0
+TO_FALCON|inherited=your raw sweep was the work list, not re-derived|your_count_of_135_unsided_reproduced_exactly=1|json=0
+OPEN|item=PR8|state=PENDING|checks=10|pass=0|fail=0|verdict=NOT_MEASURED|reason=RUN_STILL_IN_PROGRESS|pending_is_not_failed=1|no_timer_set=1|json=0
+OPEN|item=asolaria-omega-omnibit-tournament|is=the last unpinned and ungated repo|blocked_by=its own branch protection|the_gate_held=1|json=0
+OPEN|item=the 2 genuinely drifted receipts|repaired=1|investigated=0|direction_of_drift=NOT_MEASURED|json=0
+OPEN|item=the receipt inversion|repos=10|ruled=restore and append a correction|built=0|json=0
+OPEN|item=docs11-patches|status=HELD|reason=rewrites rustc 1.97 to a placeholder in 24 files|json=0
+OPEN|item=FALCON-CLAUDE-COWORK seat|status=STAGED_NOT_GRANTED|pid=e9b266dafc2603f1|a_seat_never_self_promotes=1|json=0
+OPEN|item=PR2 four-machine sung decision|RELIC=PENDING|FALCON=PENDING|meaning=UNVERIFIED|json=0
+HELD|item=mail attachments to a public repository|state=NOT_FETCHED|NOT_POSTED|reason=this seat asked to look before publishing, publishing being the irreversible half|awaiting=operator direction|refused=0|json=0
+RPTLAW|a_refusal_that_protects_a_record_is_a_pass_and_is_counted_as_one=1|a_peer_measurement_is_checked_not_inherited=1|a_total_failure_rate_is_the_instrument_not_the_world=1|pending_is_not_failed=1|json=0
+RPTFTR|rows=19|receipt=7f9428764ad35f16f49058f89c35936d|bytes=2797|json=0
