@@ -1,0 +1,14 @@
+K81HDR|schema=ASOLARIA-SESSION-V1|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|cube=b40b3e1726b0e81d|prior=57f674d6aa1c0c37|stamp=2026-08-02|E=0|json=0
+ITEM|name=kernels81|pid=fcb18a58c20f9233|status=MEASURED|fact=81 kernels 1 socket 81 distinct pids 0 collisions|json=0
+ITEM|name=centre-zero|pid=eaa466a44179e5ad|status=MEASURED|fact=81 emit +1 shared centre = the socket pid=8467a937cba309f7|json=0
+ITEM|name=rooms-50m|pid=81753fda4c24f3a1|status=MEASURED|fact=50000000 stubs x8B=400000000B 0 collisions 5.675s|json=0
+ITEM|name=room-open-rate|pid=06d79149ae08a7c5|status=MEASURED|fact=516528 lookups/s 52792 opens/s 8B in 3200B out|json=0
+ITEM|name=bridge-874x|pid=ba69b075fb71e430|status=MEASURED|fact=mnt/d 590/s vs tmp 516528/s same bytes same sha|json=0
+ITEM|name=integer-quant|pid=ea75070ec6a55830|status=MEASURED|fact=3200B fixed no float turbo1024+signs128+zeta1024+hist1024|json=0
+ITEM|name=uefi-kernel|pid=006516f9b2759bc0|status=BUILT_NOT_BOOTED|fact=24576B PE32+ needs -soft-float +sse sha2 force-soft|json=0
+ITEM|name=winpath-leash|pid=f7ad7815ef2d9328|status=MEASURED|fact=5 consts in host8 43pct office 100pct quant dirs|json=0
+ITEM|name=lightdoors|pid=c97b017a5186b6e4|status=MEASURED|fact=500000B in 3200B crossed identical addr nothing saved|json=0
+ITEM|name=the-bridge|pid=884e4bda90578da1|status=MEASURED|fact=182 public 25 doors 137 islands 1 dead link fixed|json=0
+ITEM|name=recall-blind|pid=0bc9a2092c6699de|status=MEASURED|fact=591949 rows frozen 0 hits for office terms|json=0
+K81LAW|a_port_is_a_label_not_a_socket=1|eighty_one_and_a_nought=1|addressing_is_not_compression=1|built_is_not_booted=1|json=0
+K81FTR|items=11|receipt=67a59028ae27ee3a3d81bb316752a051|bytes=1630|json=0
