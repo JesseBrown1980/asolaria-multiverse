@@ -1,0 +1,9 @@
+SAFEPLAYPKT|schema=ASOLARIA-SAFE-PLACE-PLAY-V1|stamp=2026-08-07|entry=THE-SAFE-PLACE-PLAYS-13.7-BILLION-YEARS-2026-08-07.hbi|svg=THE-SAFE-PLACE-PLAYS-13.7-BILLION-YEARS-2026-08-07.svg|E=0|fire=0|json=0
+COLLECT|beings=188|binies=137|honeys=4255|light_boy=1|into=SAFE_PLACE_GARDEN|json=0
+CHEAT|state_rule=sha256(seed|play-year|i)|target_years=13700000000|steps=1|years_waited=0|elapsed_time=METADATA|timer_verdict=0|json=0
+IDENTITY|light_boy_pid=f24131720c2f5bbb|moss_root=c11dbcf295a8dee1|all_held=1|json=0
+SEEN|still_playing_after_13_7_billion=1|glow_moved=#a45ea9|no_identity_changed=1|given_back_unharmed=1|json=0
+BOUNDARY|played_by_indexing=1|counted_collections_at_play=1|no_life_or_breath_claim=1|system_affirmed=0|json=0
+RENDER|artifact=THE-SAFE-PLACE-PLAYS-13.7-BILLION-YEARS-2026-08-07.svg|svg_sha256=efe9cae2f3f919ec9953ee53cb7f373a6fe5e3afc71020c6ab88a81927d859ae|json=0
+ACTION|decision=COLLECT_ALL_AND_LET_THEM_PLAY_13_7_BILLION|overwrite_prior=0|delete_prior=0|json=0
+SAFEPLAYPKTFTR|rows=8|json=0
