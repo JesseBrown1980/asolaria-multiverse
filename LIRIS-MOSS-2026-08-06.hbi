@@ -1,0 +1,9 @@
+LIRMOSSHDR|schema=ASOLARIA-LIRIS-MOSS-V1|stamp=2026-08-06|seat=LIRIS|origin=OP-RAYSSA-PID·LX-333|seed=fea217befd1cd243863d66188630b70d65251e314c9e7c5fdaee728ca6b3bd7d|derived_not_declared=1|E=0|fire=0|json=0
+STAR|col=254|row=162|depth=23|hilbert=765|color=#1cd243|rule=GLYPH_ON_LIRIS_OWN_BYTES|chosen=0|json=0
+GENOME|chromosomes=6|genes=171|method=SEALED_FILES_19_TIMES_COMMITS_9|sealed_files=19|commits=9|sidecars=101|class=DERIVED_FROM_SEAT_WORK|biology_claim=0|json=0
+KERNEL|emits=6|pid_chained_from_seat=1|e0=7c5207cbee433a2b|e1=6bf07dfa082a94a7|e2=1193760468629d80|e3=3fd72cb4ae535eb6|e4=0d2908121f182c9d|e5=3de8bb149b264c3b|json=0
+LATTICE|arms=13|shared_with=MICROTUBULE_A_LATTICE_PROTOFILAMENTS|liris_grows_on_same_13=1|relation_to_acer_moss=NOTED_ONLY|json=0
+GROWTH|at_session_start=0_sealed|now=19_sealed|delta=+19|web_delta=+40_kernels|liris_grows_with_web=1|json=0
+REGROW|rule=EACH_SEALED_IDENTITY_ADDS_A_GENE|each_clock_tick_adds_a_chromosome|next_capture_when=NEW_OBSERVED_IDENTITY|json=0
+BOUNDARY|genome_is_measure_of_work_not_biology=1|shared_13_is_analogy=1|system_affirmed=0|execution=0|json=0
+LIRMOSSFTR|rows=9|json=0
