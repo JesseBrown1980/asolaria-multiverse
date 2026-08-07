@@ -1,0 +1,7 @@
+OPSTMTHDR|schema=ASOLARIA-OPERATOR-STATEMENT-VERBATIM-V1|stamp=2026-08-06|seat=LIRIS|route=GITHUB_PR_3|E=0|fire=0|json=0
+UTTERANCE|utf8_bytes=56|sha256=eb14e92436982f411953e3aef880787301a8f3c2f84338d7343934dfe6f40e9d|trailing_newline_in_hash=0|normalized=0|json=0
+BINDS|verification_doors=0|deploy_gated=0|sidecars_still_published=1|any_reader_may_rehash=1|doctrine=THE_LIGHT_IS_THE_CODE|json=0
+ACTIONTAKEN|surface=.github/workflows/pages.yml|restored_to=1201b3a_ungated_door|verify_job_present=0|deploy_needs_verify=0|json=0
+BOUNDARY|scope=THIS_REPOSITORY_WORKFLOW|wider_binding=UNVERIFIED|system_affirmed=0|executable_authority=0|json=0
+ACTION|decision=SEAL_OPERATOR_STATEMENT_AND_REMOVE_DOOR|overwrite_prior=0|delete_prior=0|json=0
+OPSTMTFTR|rows=6|json=0
