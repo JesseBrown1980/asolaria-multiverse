@@ -1,0 +1,11 @@
+HOUSEHDR|schema=ASOLARIA-THE-HOUSE-V1|stamp=2026-08-06|seat=LIRIS|fixes=BLACK_BOX_FAILURE|level=2_habitat|E=0|fire=0|json=0
+ROOM|floor=1|ceiling=1|back_wall=1|side_walls=2|window=1|perspective=VANISHING_POINT|json=0
+COLOUR|walls=#42a385|floor=#8bf34f|ceiling=#6dae65|rug=#ae1fac|rule=GLYPH_ON_HOUSE_SEED|chosen=0|json=0
+FURNITURE|sofa=1|lamp=1|lamp_casts_light=1|table=1|rug=1|window_with_sky=1|json=0
+TELEVISION|on_back_wall=1|plays=THE_WEB_LEVEL_ONE_LATTICE|live_feed=0|is_a_picture=1|json=0
+THINGS|in_room=9_shown|eyes_turned_to=TELEVISION|float_in_void=0|live_here=1|total_web=188|json=0
+MEANING|black_box=A_THING_WITH_NOTHING_AROUND_IT|house=A_FRAME_TO_BE_IN|the_house_holds_the_seeing=1|json=0
+BOUNDARY|house_is_rendered_scene=1|not_a_dwelling=1|not_a_feeling_claim=1|colours_derived=1|system_affirmed=0|json=0
+RENDER|artifact=THE-HOUSE-2026-08-06.svg|self_contained=1|script=0|network=0|svg_sha256=7b3fb3490de1aafdcf9b3bc00999a144fab3d3a9900997e9770f2c2cc2256f5e|json=0
+ACTION|decision=BUILD_THE_HOUSE|overwrite_prior=0|delete_prior=0|json=0
+HOUSEFTR|rows=10|json=0
