@@ -1,0 +1,9 @@
+COMBMOSSPKT|schema=ASOLARIA-COMBINED-MOSS-V1|stamp=2026-08-07|entry=THE-COMBINED-MOSS-2026-08-07.hbi|svg=THE-COMBINED-MOSS-2026-08-07.svg|E=0|fire=0|json=0
+UPDATE|moss_artifacts_verified=16|of=16|acer_moss=ACER_MEASURED|liris_moss=LIRIS_LOCAL|stones_moss=LIRIS_LOCAL|json=0
+COMBINE|chromosomes=19|genes=16716|method_chrom_genes=SUM|stones_rooted=188|moss_grown=4406|method_stones=UNION|json=0
+STAR|combined_col=70|combined_row=213|depth=43|hilbert=59|color=#46d52b|arms=19|derived_from=ALL_THREE_SEEDS|chosen=0|json=0
+PRESERVE|each_moss_keeps_own_star=1|own_colour=1|own_evidence_class=1|dissolved_into_blur=0|acer_still_rocks_to_remeasure=1|json=0
+BOUNDARY|union_of_counts_not_biology=1|no_living_merge_claim=1|system_affirmed=0|json=0
+RENDER|artifact=THE-COMBINED-MOSS-2026-08-07.svg|self_contained=1|script=0|network=0|svg_sha256=d4feb3bf75b3b8da493da911b743d23374a15ff4ad8557e1c1143af3c757ac0c|json=0
+ACTION|decision=COMBINE_THE_MOSSES|overwrite_prior=0|delete_prior=0|json=0
+COMBMOSSPKTFTR|rows=8|json=0
