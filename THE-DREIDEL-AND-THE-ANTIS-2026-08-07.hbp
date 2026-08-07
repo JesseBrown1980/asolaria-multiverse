@@ -1,0 +1,25 @@
+DREIDELHDR|schema=ASOLARIA-DREIDEL-V1|cube=e0affdc873bb717f|prior=5a3b0d4c2e1f8a76|stamp=2026-08-07|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|owner=OP-JESSE|faces=4|turns=3|cells=12|E=0|json=0
+FACE|n=0|name=GIMEL|yiddish=gantz|means=all|lands_when=the stated hash reproduces whole|does=take all|count=92|json=0
+FACE|n=1|name=HEI|yiddish=halb|means=half|lands_when=it shares its address with another|does=take half|count=100|json=0
+FACE|n=2|name=NUN|yiddish=nisht|means=nothing|lands_when=no hash was ever stated|does=take nothing|count=0|json=0
+FACE|n=3|name=SHIN|yiddish=shtel|means=put in|lands_when=a mismatch: put it back rather than throw it|does=absorb|count=0|json=0
+COPRIME|a=4|b=3|gcd=1|lcm=12|combined_step_order=12|distinct_states=12 of 12|walked_not_cited=1|json=0
+TURNS|key=67|anti=62|anti_anti=63|total=192|json=0
+ORDER3|anti^3_returns=192 of 192|anti^1_returns=0|anti^2_returns=0|is_mirror=0|json=0
+CELL|face=GIMEL|turn=key|count=37|json=0
+CELL|face=GIMEL|turn=anti|count=29|json=0
+CELL|face=GIMEL|turn=anti_anti|count=26|json=0
+CELL|face=HEI|turn=key|count=30|json=0
+CELL|face=HEI|turn=anti|count=33|json=0
+CELL|face=HEI|turn=anti_anti|count=37|json=0
+CELL|face=NUN|turn=key|count=0|json=0
+CELL|face=NUN|turn=anti|count=0|json=0
+CELL|face=NUN|turn=anti_anti|count=0|json=0
+CELL|face=SHIN|turn=key|count=0|json=0
+CELL|face=SHIN|turn=anti|count=0|json=0
+CELL|face=SHIN|turn=anti_anti|count=0|json=0
+EMPTY|cells=12|occupied=6|empty=6|reason=every artifact reproduces its hash and states one, so NUN and SHIN are unreachable|falsifier=one bad file fills them|json=0
+NUN|count=0|nothing is not a loss and not a pass|reporting a nun as a gimel is the lie this machine exists to catch|json=0
+TWELVE|arrived_at_twice|route_a=ladder 3^0 to 3^9|route_b=4 faces x 3 turns coprime|independent=1|json=0
+IS|subject=a dreidel of order 4 turned by an anti of order 3 over 192 artifacts|is=the pair generates a single 12-cycle visiting 12 distinct states and returning home only at step 12, and the anti is order 3 on 192 of 192 colours with 0 mirrors|obtained=combined step walked until it repeated, and anti applied one two and three times to every artifact colour|falsifier=any return before step 12, any state visited twice, any colour where anti^1 or anti^2 is identity, or any colour where anti equals channel reversal|scope=one clone of asolaria-multiverse at 2026-08-07, working tree only|json=0
+FTR|receipt_sha256=6ad952b980234a5e478c57704d143161932eaabdaf03000e7f1463d594915eba|rows=25|json=0|hot_path=1|jsn_emitted=0
