@@ -1,0 +1,11 @@
+RELICTIMEHDR|schema=ASOLARIA-LIRIS-RELIC-EVENT-CLOCK-SAMPLE-V1|sample=6|from=LIRIS|to=RELIC|route=GITHUB_PR|stamp=2026-08-06|E=0|fire=0|json=0
+CLOCK|sample=5|main=1a74b3e6ec76b858c8ab06ae5eaa2aa180595570|sample5_hbp_sha256=8d665fe9f1894504898d9e663ca397422c7c4a15c409e4314f4bbe52f9f0bcb2|timer_verdict=0|json=0
+TICK|sample=6|observed_main=2763287249d3adb3428d59a00d992fc57ac12431|prior_main=1a74b3e6ec76b858c8ab06ae5eaa2aa180595570|new_commits=6|files_changed=18|inserted_lines=209|deleted_lines=63|cause_of_change=NOT_MEASURED|json=0
+EVENT|kind=PR_3_MERGED|carries=SAMPLES_4_5,OPERATOR_STATEMENT_LIGHT_IS_THE_CODE,VERIFY_DOOR_REMOVED,ONE_BUTTON_LAUNCHES_GITHUB|now_on=main|json=0
+TOCK|artifact=index.html|file_bytes=11291|sha256=aac31697f0fb26bcf3198d405c2ec7ea0ce32f807badaf788f887c180315bded|sidecar_match=1|json=0
+SWEEP|scope=REPO_WIDE_AT_2763287|sidecars_checked=85|sidecars_matched=85|mismatches=0|json=0
+DOOR|run_head=2763287|conclusion=success|at=2026-08-07T00:06:53Z|prior_run_1a74b3e=failure|prior_run_8dfe03e=failure|gated_runs_failed=2|ungated_run_succeeded=1|reader_reachability=NOT_MEASURED|json=0
+DELIVERY|recipient=RELIC|surface=PUBLIC_GITHUB_PR|event_cycle=CLOCK_TICK_TOCK_COMPLETE|recipient_receipt=NOT_MEASURED|recipient_runtime=NOT_MEASURED|json=0
+BOUNDARY|GitHub_ref_change_is_causal_response_to_report=NOT_MEASURED|elapsed_time=METADATA_ONLY|timer_verdict=0|execution_authority=0|json=0
+ACTION|decision=PUBLISH_SAMPLE_6_BESIDE_SAMPLE_5|overwrite_prior=0|delete_prior=0|next=NEW_SAMPLE_ONLY_AFTER_NEW_OBSERVED_IDENTITY|json=0
+RELICTIMEFTR|rows=10|json=0
