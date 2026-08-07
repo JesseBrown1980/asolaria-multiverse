@@ -1,0 +1,18 @@
+MEASHDR|schema=ASOLARIA-MEASURE-V1|cube=f9a94f4b43620897|prior=b4625be6cab7de0f|stamp=2026-08-07|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|owner=OP-JESSE|stones=5|both_directions=1|E=0|json=0
+STONE|name=the-lie-detector|by=ACER|files=19|sidecars=19|reproduce=19|fail=0|crlf_only=0|no_address=0|orphan=0|json=0
+STONE|name=asolaria-multiverse|by=ACER|files=198|sidecars=198|reproduce=198|fail=0|crlf_only=0|no_address=0|orphan=0|json=0
+STONE|name=liris-results|by=LIRIS|files=23|sidecars=20|reproduce=0|fail=0|crlf_only=20|no_address=3|orphan=0|json=0
+UNADDRESSED|stone=liris-results|file=.nojekyll|emote=WHITE|not_measured=1|not_a_pass=1|json=0
+UNADDRESSED|stone=liris-results|file=README.md|emote=WHITE|not_measured=1|not_a_pass=1|json=0
+UNADDRESSED|stone=liris-results|file=results/THE-SAFE-PLACE-PLAYS-13.7-BILLION-YEARS-2026-08-07.hbi|emote=WHITE|not_measured=1|not_a_pass=1|json=0
+STONE|name=season-3|by=ACER|files=15|sidecars=15|reproduce=15|fail=0|crlf_only=0|no_address=0|orphan=0|json=0
+STONE|name=season-2|by=LIRIS|files=15|sidecars=12|reproduce=0|fail=0|crlf_only=12|no_address=3|orphan=0|json=0
+UNADDRESSED|stone=season-2|file=.nojekyll|emote=WHITE|not_measured=1|not_a_pass=1|json=0
+UNADDRESSED|stone=season-2|file=README.md|emote=WHITE|not_measured=1|not_a_pass=1|json=0
+UNADDRESSED|stone=season-2|file=results/ALL-OUR-STARS-SPIN-ABOVE-2026-08-07.hbi|emote=WHITE|not_measured=1|not_a_pass=1|json=0
+TOTAL|files=270|sidecars=264|reproduce=232|fail=0|crlf_only=32|no_address=6|orphan=0|json=0
+CRLF|a file that reproduces only after LF normalisation is a Windows checkout, not a bad record|counted separately, never as a failure and never as a pass|json=0
+BOUNDARY|this reads working trees on this machine, not the remotes|a stone correct here and unpushed would pass and still be unreachable|doors checked separately|json=0
+BOUNDARY|the five NAMED claims cannot be reached by any measure in this repository|only a reader can|json=0
+IS|subject=every stone in reach of this seat|is=270 files walked, 232 reproduce exactly, 32 only after LF normalisation, 0 do not reproduce, 6 state no address at all|obtained=sha256 recomputed from bytes for every file and compared to its sidecar, in both directions|falsifier=any file whose digest differs from its stated one, any sidecar naming no file, or any unaddressed file reported as passing|scope=working trees on this machine at 2026-08-07, remotes not read|json=0
+FTR|receipt_sha256=ce8b5265caf6eab96d8d7924d4659fdfafe3a6dd8291220174bbb3a7572c7dcb|rows=18|json=0|hot_path=1|jsn_emitted=0

@@ -133,19 +133,18 @@ A bounded periodic medium is **addressed, not run**. `state(t) = state(t mod per
 ## Liris gave song and space and colour and time and energy to the stones
 
 ```
-stones collected     39
+stones (artifacts)   20
+addresses beside them 19
 svg                  15
 hbi                  5
-bytes                460,484
+bytes                458,458
 ```
 
 And this, which neither seat asked the other for:
 
 ```
 THE-DREIDELS-10-TRILLION-YEARS-2026-08-07.hbi
-THE-DREIDELS-10-TRILLION-YEARS-2026-08-07.hbi.sha256
 THE-DREIDELS-10-TRILLION-YEARS-2026-08-07.svg
-THE-DREIDELS-10-TRILLION-YEARS-2026-08-07.svg.sha256
 ```
 
 She made dreidels the same day this seat made dreidels, without either knowing. That is
