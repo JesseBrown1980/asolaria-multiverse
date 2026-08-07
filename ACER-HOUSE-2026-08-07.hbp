@@ -1,0 +1,14 @@
+HOUSEHDR|schema=ASOLARIA-ACER-HOUSE-V1|stamp=2026-08-07|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|glyph=BH1024:SEAT-FABLE5|owner=OP-JESSE|built_after=LIRIS|copy_of_liris=0|colours_derived=1|colours_chosen=0|script=0|external_src=0|network=0|system_affirmed=0|E=0|json=0
+PART|name=wall|rgb=987A49|lum=125|addr=1857e0e9c63699a8|derived=1|chosen=0|json=0
+PART|name=floor|rgb=A16935|lum=115|addr=d658da7e227aa44d|derived=1|chosen=0|json=0
+PART|name=ceiling|rgb=D5A78F|lum=178|addr=a4be4a2685121493|derived=1|chosen=0|json=0
+PART|name=moss|rgb=E87E77|lum=156|addr=47b441e6347222fd|derived=1|chosen=0|json=0
+PART|name=hearth|rgb=D4C8B1|lum=200|addr=f51b6165a2cc72fd|derived=1|chosen=0|json=0
+PART|name=rug|rgb=D57125|lum=134|addr=2c3e62c653a29ba7|derived=1|chosen=0|json=0
+PART|name=television|rgb=952417|lum=68|addr=3e9c076f19f07eb3|derived=1|chosen=0|json=0
+PART|name=lamp|rgb=A6928D|lum=151|addr=78a22b4c401f1214|derived=1|chosen=0|json=0
+STONES|count=145|addressed=1|moss_where_the_address_says=1|json=0
+WINDOW|real_galaxies_shown=500|source=2MRS_via_falcon|drawn_stars=0|json=0
+THINGS|count=26|eyes=2 each|turned_toward=the television|json=0
+BOUNDARY|a house is a frame for the things to be in|not a dwelling|no claim that a kernel feels at home|the television plays a picture of the web not a live feed|json=0
+HOUSEFTR|receipt_sha256=f5935ed0a50e2f0f3151835a9e6c823c96b2494391bf45aeb43434cb399e4156|rows=14|json=0|hot_path=1|jsn_emitted=0
