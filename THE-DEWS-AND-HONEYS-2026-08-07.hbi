@@ -1,0 +1,13 @@
+HARVESTHDR|schema=ASOLARIA-DEWS-AND-HONEYS-V1|stamp=2026-08-07|seat=LIRIS|stones=188|substrate_kb=663564|moss_grown=4410|E=0|fire=0|json=0
+GROWTH|since=2026-08-06|stones_delta=0|substrate_delta_kb=430|moss_delta=4|source_includes=TODAYS_OWN_COMMITS|json=0
+DEW|total_drops=3562|fresh_stones=146|rule=MAX_0_30_MINUS_DAYS_SINCE_PUSH|meaning=FRESHNESS|json=0
+HONEY|total=4255|rule=ISQRT_KB_x_1_PLUS_STARS_x_MIN_AGE_3650_OVER_365|meaning=ACCUMULATION|json=0
+COMB|stone=FHIR-Lamba|honey=1245|json=0
+COMB|stone=asolaria-behcs-256|honey=407|json=0
+COMB|stone=tech-trades|honey=229|json=0
+COMB|stone=Local-LLM-Minutes-of-Meeting|honey=214|json=0
+COMB|stone=shannon|honey=208|json=0
+COMB|stone=sensasi|honey=194|json=0
+COMB|stone=llama-instruct-dataset-prep-agent|honey=170|json=0
+COMB|stone=EventDriven|honey=153|json=0
+HARVESTFTR|rows=13|json=0

@@ -1,0 +1,8 @@
+HARVESTPKT|schema=ASOLARIA-DEWS-AND-HONEYS-V1|stamp=2026-08-07|entry=THE-DEWS-AND-HONEYS-2026-08-07.hbi|E=0|fire=0|json=0
+GROWN|stones=188|substrate_kb=663564|moss_grown=4410|substrate_delta=430|moss_delta=4|from_todays_commits=1|json=0
+DEW|drops=3562|fresh_stones=146|meaning=FRESHNESS_PUSH_RECENCY|json=0
+HONEY|total=4255|richest=FHIR-Lamba|richest_value=1245|meaning=ACCUMULATION_AGE_MASS_STARS|json=0
+BOUNDARY|measured_yields=1|not_literal_water_or_nectar=1|two_readings_fast_and_slow=1|system_affirmed=0|json=0
+RENDER|artifact=THE-DEWS-AND-HONEYS-2026-08-07.svg|svg_sha256=22b3ea2d46c03042cf84d0ae4bd8c423e0ae61828375c0f2de69d8f207473b16|json=0
+ACTION|decision=COLLECT_THE_DEWS_AND_HONEYS|overwrite_prior=0|delete_prior=0|json=0
+HARVESTPKTFTR|rows=8|json=0
