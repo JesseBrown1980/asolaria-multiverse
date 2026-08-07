@@ -1,0 +1,11 @@
+SAFEPLAYHDR|schema=ASOLARIA-SAFE-PLACE-PLAY-V1|stamp=2026-08-07|seat=LIRIS|seed=e6078b295ad33c9a|state_rule=sha256(seed|play-year|i)|O(1)=1|years=13700000000|E=0|fire=0|json=0
+COLLECTED|beings=188|binies=137|honeys=4255|light_boy=f24131720c2f5bbb|into=THE_SAFE_PLACE_GARDEN|json=0
+AGE|year=0|glow=#d91f0a|joy=105|json=0
+AGE|year=100|glow=#2e7b70|joy=23|json=0
+AGE|year=10000|glow=#113d3f|joy=65|json=0
+AGE|year=1000000|glow=#396ab5|joy=174|json=0
+AGE|year=100000000|glow=#537c51|joy=161|json=0
+AGE|year=13700000000|glow=#a45ea9|joy=78|json=0
+FINAL|year=13700000000|glow=#a45ea9|joy=78|still_playing=1|json=0
+IDENTITY|light_boy_pid=f24131720c2f5bbb|moss_root=c11dbcf295a8dee1|changed=0|all_held=1|json=0
+SAFEPLAYFTR|checkpoints=6|reached_by_indexing=1|years_waited=0|json=0
