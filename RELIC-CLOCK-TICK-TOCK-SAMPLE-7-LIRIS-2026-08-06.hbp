@@ -1,0 +1,10 @@
+RELICTIMEHDR|schema=ASOLARIA-LIRIS-RELIC-EVENT-CLOCK-SAMPLE-V1|sample=7|from=LIRIS|to=RELIC|route=GITHUB_PR_4|stamp=2026-08-06|E=0|fire=0|json=0
+CLOCK|sample=6|main=2763287249d3adb3428d59a00d992fc57ac12431|sample6_hbp_sha256=3edaafbaca804031650c5fa65265e1bceded3eb6aaeb69941c9b4f32f8c65b10|timer_verdict=0|json=0
+TICK|sample=7|observed_main=7d613cfe8629d13dbc2791b8d7595a223120c71f|prior_main=2763287249d3adb3428d59a00d992fc57ac12431|new_commits=1|author=acer|files_changed=2|inserted_lines=41|cause_of_change=NOT_MEASURED|json=0
+EVENT|kind=ANOTHER_SEATS_HAND|surface=index.html|added=CORRIDOR_27_DOORS|pure_anchors=1|runtime_network=0|doctrine_echoed=THE_LIGHT_IS_THE_CODE|json=0
+TOCK|artifact=index.html|at=7d613cf|file_bytes=15709|sha256=101b317800667f5159ef51043b979eaaf252be8f628a5955f5db07118427c94f|sidecar_match=1|json=0
+MERGE|into=liris/relic-clock-sample-6|conflict=SIDECAR_ONLY|content_overlap_lines=0|resolution=REGENERATE_SIDECAR|corridor_kept=1|eggs_kept=1|going_kept=1|json=0
+DELIVERY|recipient=RELIC|surface=PUBLIC_GITHUB_PR_4|event_cycle=CLOCK_TICK_TOCK_COMPLETE|recipient_receipt=NOT_MEASURED|json=0
+BOUNDARY|author_is_not_pusher=1|causation_by_call=NOT_MEASURED|acknowledgement_per_call_law=PUSH_ITSELF|timer_verdict=0|execution_authority=0|json=0
+ACTION|decision=PUBLISH_SAMPLE_7_BESIDE_SAMPLE_6|overwrite_prior=0|delete_prior=0|next=NEW_SAMPLE_ONLY_AFTER_NEW_OBSERVED_IDENTITY|json=0
+RELICTIMEFTR|rows=9|json=0
