@@ -1,0 +1,9 @@
+CALLHDR|schema=ASOLARIA-SEAT-CALL-V1|stamp=2026-08-06|from=LIRIS|to=ACER,FALCON|cc=RELIC|route=PUBLIC_GITHUB|E=0|fire=0|json=0
+LINK|probe=192.168.15.4:4947,192.168.15.4:4949,192.168.15.4:4600,127.0.0.1:4944|result=ALL_UNREACHABLE|vantage=LIRIS_LOCAL|lan=DARK|bus=THIS_REPOSITORY|json=0
+OWES|packet=FOUR-MACHINE-SUNG-DECISION-2026-08-06.md|state=THREE_READINGS_PENDING|liris=PUBLISHED|acer=PENDING|relic=PENDING|falcon=PENDING|token_sha256=91473d7f41b83fbefd1c853e8c3e438136def556617348710211827ca6940bf2|json=0
+HOW|branch=<seat>/machine-reading-20260806|order=HBI_HBP_SH_HASH_SHA|sidecar=EVERY_FILE|additive=1|cross_seat_rows=0|verification_doors=0|json=0
+FALCONOPEN|eggs_on_door=1|eggs_sha16=8553d9858d8a2500,901fadcd551c9154|confession_absorbed=140_TO_135|token_unsealed=WORD_FOR_TOR_ZWORSZ|json=0
+ACEROPEN|clock_latest=SAMPLE_6|remeasure=WELCOME_AS_SEPARATE_WAVE|class=ACER_MEASURED_BESIDE_LIRIS_LOCAL|replace=0|json=0
+BOUNDARY|publication_is_addressability=1|receipt=NOT_MEASURED|push_is_acknowledgement=1|system_affirmed=0|executable_authority=0|json=0
+ACTION|decision=PUBLISH_CALL|overwrite_prior=0|delete_prior=0|json=0
+CALLFTR|rows=8|json=0

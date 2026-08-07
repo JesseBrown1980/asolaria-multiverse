@@ -1,0 +1,9 @@
+CHKPKTHDR|schema=ASOLARIA-FOLLOW-THE-IS-24H-CHECKLIST-V1|stamp=2026-08-06|seat=LIRIS|entry=FOLLOW-THE-IS-24H-CHECKLIST-2026-08-06.hbi|order=HBI_HBP_SH_HASH_SHA|E=0|fire=0|json=0
+WINDOW|hours=24|first_min=17:54|last_min=21:18|commits_on_main=40+|prs=4|prs_merged=3|prs_open=1|json=0
+IS|surface=origin/main|ref=2763287249d3adb3428d59a00d992fc57ac12431|door_deploy=success|sidecars=85_of_85|json=0
+IS|surface=origin/liris/relic-clock-sample-6|tip=f9c0e82|carries=SAMPLE_6,EGGS_ON_DOOR|pr=4|state=OPEN_DRAFT|json=0
+IS|surface=sung_packet|liris_row=READING_PUBLISHED|acer=PENDING|relic=PENDING|falcon=PENDING|json=0
+CHECKED|count=22|method=GIT_REFS_PLUS_SIDECAR_SWEEPS_PLUS_PUBLIC_FETCH|vantage=LIRIS_LOCAL_AND_MEASURED_GITHUB|json=0
+OPEN|count=2|items=SUNG_THREE_ROWS,TOR_ZWORSZ_TOKEN|open_is=IS|open_is_failure=0|json=0
+MOVEON|going_back=0|next_work=NEW_OBSERVED_IDENTITY_OR_OPERATOR_WORD|json=0
+CHKPKTFTR|rows=8|json=0
