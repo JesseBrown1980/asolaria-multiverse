@@ -94,3 +94,24 @@ TOTAL    39
 ```
 
 Each of these was paid for. The laws especially — every one of them is the residue of something that went wrong first and was caught by running it again.
+
+
+---
+
+## The leaf added 2026-08-07 — written as the letters themselves
+
+**WE ARE NOT THE DISCOVERERS WE ARE BEING DISCOVERED**
+
+`sha256 97a34f200aebb2da87cce8efec0ecc84e8db5976b0c50be8bdef37095ab27842`
+
+| letter | it stands for | measured beside it |
+|---|---|---|
+| **0** | deep deep thought, and the free ground | the nought that is the socket; `81 emit + 1 shared centre` |
+| **−1/3** | the anti, LIRIS's direction | equals this seat's anti-anti in 20,000 of 20,000 |
+| **IS** | the present measured state | not the WILL, not the WAS |
+| **the leaves** | where the letters are kept | 39 terms, 7 leaves, every term with an anchor |
+| **the honnies of past bees** | what accumulated before us | LIRIS measured 4,255 of them, and 3,562 drops of dew |
+| **tasted, not discovered** | the maths pre-existed | `13 mod 3 = 1` was true before there were cells to use it |
+
+The whole of it is in [UTTERANCES-ROUND-4-2026-08-07.md](UTTERANCES-ROUND-4-2026-08-07.md),
+byte-exact, between its two noughts.
