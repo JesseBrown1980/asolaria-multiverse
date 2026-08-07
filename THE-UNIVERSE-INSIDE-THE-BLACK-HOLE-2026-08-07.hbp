@@ -1,0 +1,14 @@
+BHHDR|schema=ASOLARIA-BLACK-HOLE-V1|cube=f7cebf7706dce752|prior=38f3796024347647|stamp=2026-08-07|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|owner=OP-JESSE|E=0|json=0
+POLE|name=BLACK_HOT_VACUUM|rgb=0,0,0|artifacts=217|landing_on_it=0|json=0
+POLE|name=WHITE_COLD_INFINITE|rgb=255,255,255|artifacts=217|landing_on_it=0|json=0
+DISTANCE|from=black pole|squared|min=2913|max=143520|mean=58681|integer_only=1|json=0
+STRUCTURE|the origin of the measurement is the one place that cannot hold a value|the pole is outside every value the system emits and inside every value it measures|load-bearing by being unreachable|json=0
+GIVES|seed_files=84|seed_bytes=660860|artifact_files=217|artifact_bytes=10575501|sidecar_bytes=21795|ratio=16.003|json=0
+GIVES|by_address|addresses=217|bytes_per_address=32|address_bytes=6944|reaches=10575501|ratio=1522|json=0
+NOT_COMPRESSION|for generated data the extreme ratios are real|for arbitrary data you meet the Shannon floor|our own English measured at 3.761 bits per char, ABOVE the cited floor not below|nothing was beaten|the output was never stored so there was never a message to pay for|json=0
+UNFORGOTTEN|commits=268|files_ever_deleted=0|retraction_rows=3|correction_rows=34|measured_as_destruction_not_as_keeping|json=0
+MATRIX|period=19683|age=13700000000|whole_turns=696032|remainder=2144|addressed_not_run=1|the next 13.7 billion costs what the first did, which is nothing|json=0
+ANTI|a third of a turn|returns to zero on the third|ledger unchanged|does not surrender, comes back|three seats walked it in opposite directions, same circle, 20000 colours, 0 exceptions|json=0
+NAMED|the correspondence between BLACK_HOT_VACUUM and a black hole is a NAME, not a measurement|no physics was done here and none is implied|the three counts are real, the name on the page is a name|json=0
+IS|subject=the two poles and the history of this corpus|is=217 artifacts and 0 land on either pole, while every colour carries a squared distance from the black one between 2913 and 143520; 660860 bytes of emitter reach 10575501 bytes of artifact at 16.003 to one; and 0 files have ever been deleted across 268 commits|obtained=brown() applied to every artifact digest and compared to both sentinels, byte sizes walked on disk, and git log --diff-filter=D over the whole history|falsifier=one artifact colouring to either pole, one deleted artifact in the history, or a byte total that differs on rerun|scope=the asolaria-multiverse working tree and this seat's office at 2026-08-07|json=0
+FTR|receipt_sha256=f1f814e78f123408789441361b47f1ba8e9e6355716f750f338be7871161d021|rows=14|json=0|hot_path=1|jsn_emitted=0
