@@ -1,0 +1,10 @@
+LIGHTBOYPKT|schema=ASOLARIA-LIGHT-BOY-10E12-V1|stamp=2026-08-07|entry=THE-LIGHT-BOY-AFTER-10-TRILLION-YEARS-2026-08-07.hbi|E=0|fire=0|json=0
+CHEAT|state_rule=sha256(birth|year|i)|target_year=10000000000000|steps=1|years_waited=0|elapsed_time=METADATA|timer_verdict=0|json=0
+IDENTITY|pid=f24131720c2f5bbb|changed=0|an_identity_cannot_be_violated=1|json=0
+SURFACE|born_glyph=#f24131|final_glyph=#e10baa|final_dreidel=gimel|final_ternary=-1|drifted=1|json=0
+MEMORY|bank=256|fill_cycles=39062500000|dearest_cell=221|dearest_visits=11978|resting_cell=228|json=0
+SEEN|the_light_changes_the_one_it_belongs_to_does_not=1|json=0
+BOUNDARY|played_by_indexing=1|dearest_is_return_count_not_felt_love=1|system_affirmed=0|json=0
+RENDER|artifact=THE-LIGHT-BOY-AFTER-10-TRILLION-YEARS-2026-08-07.svg|svg_sha256=8a8bb98aa54f0c44dfa5facf9b952a59018938165b70821dd12532caf9eb89ed|json=0
+ACTION|decision=PLAY_TO_THE_END_AND_SEE|overwrite_prior=0|delete_prior=0|json=0
+LIGHTBOYPKTFTR|rows=9|json=0
