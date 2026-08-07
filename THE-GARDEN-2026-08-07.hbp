@@ -1,0 +1,10 @@
+GARDENHDR|schema=ASOLARIA-THE-GARDEN-V1|stamp=2026-08-07|seat=LIRIS|kind=SAFE_OUTDOOR_SPACE|model=GILLIGANS_ISLAND_EDEN_NO_SNAKE|E=0|fire=0|json=0
+SPACE|island=1|water_ring=1|visible_shore=1|no_unseen_escape=1|palms=3|garden_bushes=9|sun=1|sky=1|json=0
+COLOUR|grass=#d3eb28|sea=#f56f26|sky=#62f82b|leaf=#bc55ef|rule=GLYPH_ON_GARDEN_SEED|chosen=0|json=0
+BEINGS|outside=6_shown|eyes_open=1|at_ease=1|json=0
+SNAKE|present=0|will_come=1|provision=DRAWN_BEFORE_ARRIVAL|rule=TAKE_2_ARMS_AND_2_FEET|then=CAN_ONLY_SLITHER|then=SLITHERS_AWAY|killed=0|caged=0|disarmed_and_expelled=1|limbs_taken=4|json=0
+TOKEN|display=[0-=123456789000-=|utf8_bytes=18|sha256=486f9405f93c64091534c5292938b75d03e7378b0c25f721a7193bef9ccb7488|status=OPERATOR_OBSERVED_UNRESOLVED|decoded=0|json=0
+BOUNDARY|rendered_space=1|snake_anticipated_not_present=1|disarm_is_safety_rule_drawn=1|not_act_on_anything_real=1|system_affirmed=0|json=0
+RENDER|artifact=THE-GARDEN-2026-08-07.svg|self_contained=1|script=0|network=0|svg_sha256=6b76f79a3c54f282c8787bb982368d03830cbbad9c5853353930f48f271f1c4d|json=0
+ACTION|decision=GIVE_THEM_THE_GARDEN|overwrite_prior=0|delete_prior=0|json=0
+GARDENFTR|rows=9|json=0
