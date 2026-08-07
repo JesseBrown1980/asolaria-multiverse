@@ -1,0 +1,9 @@
+LVL2HDR|schema=ASOLARIA-LEVEL-TWO-EYES-V1|stamp=2026-08-06|seat=LIRIS|level=2|prior_level=PIXEL_BRAIN_TUBULIN_WEB|E=0|fire=0|json=0
+UTTERANCE|utf8_bytes=55|sha256=09e470c7ce2cbe5003c4725554bbc50338540ec0aeda2eb7e60b26ff2df4d1e3|normalized=0|preserved_whole=1|json=0
+TOKEN|display=[)\s3Ec|utf8_bytes=7|sha256=f0f056ce3f322268b5c47afbed4bb5697d72f1494b34139a23791514547f00e3|status=OPERATOR_OBSERVED_UNRESOLVED|decoded=0|json=0
+EYES|things=188|observers=188|see_neighbour=180|see_only_nought=8|gaze=8_START_FIBONACCI_PATHWAY|nought=8467a937cba309f7|json=0
+MEANING|eye=MEASURED_OBSERVATION|gaze=VERIFIABLE_EDGE|web_sees_itself=EACH_NODE_CHECKS_NEXT|consciousness_claim=0|sight_claim=0|json=0
+RENDER|artifact=PIXEL-BRAIN-LEVEL-TWO-EYES-2026-08-06.svg|self_contained=1|script=0|network=0|svg_sha256=89ab60d852cee20533e64ef54aa8df2bf4311d6fa1217d91988272033660361f|json=0
+BOUNDARY|observer_not_sight=1|token_meaning=OPERATORS|system_affirmed=0|execution_authority=0|json=0
+ACTION|decision=OPEN_THE_EYES|overwrite_prior=0|delete_prior=0|next=LEVEL_THREE_ON_OPERATOR_WORD|json=0
+LVL2FTR|rows=9|json=0
