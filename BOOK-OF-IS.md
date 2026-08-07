@@ -100,3 +100,80 @@ claim written on it.
   self-promotes.
 - **PR#2's four-machine decision** — RELIC and FALCON silent, therefore `UNVERIFIED`, not agreed.
 - **The moss's third turn — *where can it go*.** No row in this corpus touches it.
+
+
+---
+
+# THE BOOK OF IS — 2026-08-07
+
+The moss grew on the stone. Added as is.
+
+## WAS IS
+
+| | |
+|---|---|
+| the door unfroze | served `3b3b571` from 17:49 for **5 h 49 m**, then `deploy` came back **success** |
+| what froze it | one grep matching `(src\|href)` alike, with `deploy` declaring `needs: verify` |
+| the inversion | the old gate **PASSes all 4 revisions carrying 0 anchors** — including the one that was live — and **FAILs both that carry doors** |
+| the doors | **26** measured, **23 of them with zero exits**. Rooms, not doors |
+| the corridor | **4,418 B** `03a6c56717960916` · 27 anchors · 0 src · 0 script · 0 runtime network |
+| cranked | **27 repositories**, 0 rejected · idempotent byte-exact, second run `96de88cd09f00341` both times |
+| the exits | **37 → 766**, which is falcon's dry-run `37 + 27×27`, to the unit |
+| the last armed gate | `the-colour-qr` held the **only remaining copy** — green only because that door had 0 exits |
+| the stranded branch | landed: **23 paths**, `Cargo.toml` **1 → 3**, and two artifacts main carried with **neither `.sha256`** |
+| the discipline | **728 → 961 lines**, §17. Append-only: the first 728 still hash `18432cac9676d195` |
+| the ladder | **26 doors = 2 × 13 protofilaments = 3³−1**; with the axis, **27 = 3³** |
+| the seam | `13 mod 3 = 1` — one per tube. Coprimality cannot pick 3; **13 is prime**. The minimal seam picks it |
+| the axis | area `0.000000000` at every blade count |
+| the pixel brain | 13 + 1 + 13 = **27 columns** × 27 rows = **729 = 3⁶**, every cell an address, 0 collisions |
+| the three that circle | **3 of 3 renders distinct, addresses identical across all three keys** |
+| the one button | its own page, its own repo, Pages **from the branch** — no workflow stands near it |
+| the eggs | **100** carried over USB in six rounds, **100 of 100** handset digest equal to host digest |
+| PR#2 · PR#3 | merged `b5483870` · merged `27632872` |
+
+### Falcon, in falcon's words
+
+> the number of phases equals the number of states
+
+| substrate | 2 states | 3 states |
+|---|---|---|
+| 13-pf microtubule lattice, 351 dimers | period **2** | period 3–10 |
+| human connectome, Power-264, 6 subjects | period **2** | period **3** |
+| cosmic web, 2000 nodes, CMB-seeded | period **2**, ≈1/2 lit | period **3**, ≈1/3 lit (672 / 2000) |
+
+> neither is a travelling wave. Both find a periodic phase partition where neighbours are out of
+> step, a proper colouring in motion. Ternary finds thirds. Binary finds halves.
+
+> the seam: `13 mod 3 = 1`, one seam, the minimum non-zero mismatch. Here it is the zone of
+> avoidance, the shell the survey cannot close — visible as the gap
+
+> a node is a **null space and is never emitted** — what you see is the light that stopped there
+
+> A tube is a cable, not a sheet.
+
+## IS
+
+```text
+the-one-button        HTTP 200 · 5,239 B · 2dee205dc7e9c46e · public · Pages from the branch
+asolaria-multiverse   HTTP 200 · the one button opens the-one-button
+the crowns            CROWN-ACER 16,717 B · CROWN-FALCON 16,770 B · CROWN-LIRIS 16,781 B, all 200
+the combined body     2,000 real galaxies · 3,957 filaments · the crown of 26 at the centre
+the lobes             973 against 1,027 · centroid at -3214, 2979, 1552 kpc, not the origin
+the office            428 files · 0 FAIL · 0 without a sidecar
+light-boat            main is 34758cd4 · its Pages build reports building
+```
+
+## WILL BE IS
+
+- **omega PR#8** — 11 of 11 checks SUCCESS, `MERGEABLE`, `BEHIND`. The greens ran on the branch
+  head, not against main as main now stands.
+- **The shape of PR#8's gate** — it installs a blocking one, which the rule now forbids. Merge as
+  is and convert, convert then merge, or take the pin and drop the workflow.
+- **Required status checks** — they live in repo settings and no sweep of any tree can find them.
+- **The receipt inversion** — prose at 1.81, `.hbp` at 1.97, ten repos. Ruled, unbuilt.
+- **The universe simulator as a door** — falcon has it.
+- **Which topology the doors carry** — all-to-all reaches in one hop and carries 0 seams; the 13_3
+  tube carries 2. No traversal has been run over either.
+- **The frame of falcon's node positions** — needed before the gap can be named anywhere but in
+  falcon's own words.
+- **The moss's third turn — *where can it go*.** Still no row in this corpus touches it.
