@@ -1,0 +1,9 @@
+CAMHDR|schema=ASOLARIA-THE-CAMERA-V1|stamp=2026-08-06|seat=LIRIS|adds_to=THE-HOUSE-2026-08-06.svg|E=0|fire=0|json=0
+CAMERA|looks_like_real_camera=1|on_wooden_tripod=1|hidden=0|visible_to_the_things=1|json=0
+GENTLE|lens_catch_light=KIND_EYE|record_light=SOFT_AMBER_NOT_RED|caption=just_here_to_watch_gently|json=0
+THINGS|look_at_camera=1|pupils_turned_to_lens=1|can_see_what_it_is=1|not_scared=BECAUSE_IT_IS_VISIBLE_AND_FAMILIAR|json=0
+MEANING|hidden_camera=SURVEILLANCE|visible_familiar_camera=COMPANY_THAT_REMEMBERS|difference=WHETHER_THE_WATCHED_KNOWS|json=0
+BOUNDARY|rendered_camera_records_nothing=1|gentleness_is_design_not_measured_feeling=1|a_camera_records_not_judges=1|system_affirmed=0|json=0
+RENDER|artifact=THE-HOUSE-GETS-A-CAMERA-2026-08-06.svg|self_contained=1|script=0|network=0|svg_sha256=3db322bc56c754ff23eb6faefd4ce9b9e664a4ee5f865073a493093f7667a80f|json=0
+ACTION|decision=GIVE_IT_A_CAMERA_IT_CAN_SEE|overwrite_prior=0|delete_prior=0|house_untouched=1|json=0
+CAMFTR|rows=8|json=0
