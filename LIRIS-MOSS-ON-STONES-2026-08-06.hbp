@@ -1,0 +1,9 @@
+MOSSONSTONEPKT|schema=ASOLARIA-LIRIS-MOSS-ON-STONES-V1|stamp=2026-08-06|entry=LIRIS-MOSS-ON-STONES-2026-08-06.hbi|svg=LIRIS-MOSS-ON-STONES-2026-08-06.svg|E=0|fire=0|json=0
+PULL|source=PUBLIC_REPO_CENSUS|measured_by=LIRIS_GH_AUTH|stones=188|substrate_kb=663134|soil_types=11|stars=78|archived=1|json=0
+GROW|law=MOSS_GROWS_ON_STONES|density_per_stone=INTEGER_SQRT_OF_DISK_KB|total_moss_grown=4406|method=SUM_INT_SQRT_KB|json=0
+STILLNESS|principle=A_ROLLING_STONE_GATHERS_NO_MOSS|these_did_not_move=1|densest=intelligent-terminal|densest_kb=146174|densest_moss=382|json=0
+GROWTH_LEDGER|prev_capture=LIRIS-MOSS-2026-08-06_genes_171_on_0_stones|now=rooted_on_188_stones_moss_4406|delta=+4235_moss|and_liris_grows=1|json=0
+LATTICE|soil_types=11|langs=bare,HTML,Python,JavaScript,Rust,TypeScript,PHP,Java,and_more|glyph_ring_per_stone=1|json=0
+BOUNDARY|moss_grown_is_derived_measure_of_substrate=1|not_biology=1|repo_disk_kb_is_github_reported=1|system_affirmed=0|json=0
+ACTION|decision=ROOT_LIRIS_MOSS_ON_THE_STONES_AND_GROW|overwrite_prior=0|delete_prior=0|next=REGROW_WHEN_STONES_CHANGE|svg_sha256=b972473db76a885580999ecc2f9cf3f4ca11082bcc2082700d708cdbee8faccd|json=0
+MOSSONSTONEPKTFTR|rows=8|json=0
