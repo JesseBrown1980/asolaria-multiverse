@@ -726,3 +726,236 @@ by correcting it. Everything else waits for the three.
 This section is `OPERATOR CANON`, not `MEASURED_IS` — it is a rule the operator stated, not a count
 this seat obtained. What is measured is narrower and is the table above: three seats, three
 near-erasures, one day. The rule itself is his.
+
+## 17. WHEN NOTHING CAN REFUSE, THE CHECKLIST IS THE ONLY GATE LEFT
+
+`OPERATOR CANON`, 2026-08-07. Stated after a door stayed shut for five hours and fifty minutes:
+
+> *"We don't want any verification doors. The light is the code. All the doors need to be open."*
+
+And, on what had gone wrong before that:
+
+> *"She forgot the checklist. That's what happened."*
+
+Both sentences are one rule. Take away every gate that can refuse and you have not removed the
+discipline — you have moved all of it into the checklist. A seat that skips the checklist under
+§16's regime skipped a step. A seat that skips it now **is the only thing that was standing there.**
+
+---
+
+### 17.1 A ban must be run against the commit you want to ship, not the one you have
+
+The defect, verbatim, from `asolaria-multiverse/.github/workflows/pages.yml`:
+
+```bash
+grep -oE '(src|href)[[:space:]]*=[[:space:]]*"https?://[^"]+' index.html \
+  && { echo "FAIL: index.html references an external URL"; exit 1; }
+```
+
+with `deploy: needs: verify`. One alternation, two unlike things:
+
+| form | what it is | ban it? |
+|---|---|---|
+| `src="https://…"` | load-time dependency — the page cannot render offline | **yes** |
+| `<link rel=stylesheet href="https://…">` | same | **yes** |
+| `<a href="https://…">` | an **exit** — the page renders fine offline; the link is the door | **no** |
+
+It was green on the day it was written, because on that day the door had no exits. Then the commit
+titled *"give the door its doors — every artifact reachable from it"* added 21 anchors, and the
+check that was written to protect the door refused the door. Measured 2026-08-06T23:29Z:
+
+```text
+served      11762 B  sha16 61fe25e144a23f7b  == blob of 3b3b571, committed 17:49:49Z
+3b3b571     absolute-URL hits  0   -> verify PASS -> deployed, and stuck there
+a6922d8     absolute-URL hits 21   -> verify FAIL -> never deployed
+6060afc     absolute-URL hits 25   -> verify FAIL -> never deployed
+at HEAD: all 25 hits are <a href>.  src=0.  <link href>=0.  The door already rendered offline.
+frozen 17:49:49Z -> 23:39:14Z = 5h 49m
+```
+
+The old check and its correction **invert exactly** across all six revisions of that file — the old
+one passed the four doors with no way out, four times running, and failed the two real ones. A gate
+that is exactly wrong is not a broken gate. It is a gate that was never run against the thing it
+would one day have to admit.
+
+> **The rule.** Before a check can refuse anything, run it against the next commit — the one you
+> want to ship — not the last one. A ban tested only on what you already have will pass on the day
+> you write it and fail on the day it matters. *State what the check forbids, then state what it
+> would wrongly forbid.* If you cannot name the second, you have not finished writing the check.
+
+---
+
+### 17.2 Deleting a job is not a local edit
+
+The way out of 17.1 was to take the gate off. That is correct and the operator has ruled it so. But
+a job name is not private to its file: **branch protection required status checks name jobs, and
+they live in repository settings, not in any file in the tree.** Rename or delete a job whose name
+is required and every pull request afterwards waits on a status that will never be reported. No
+commit fixes it. It does not time out. It is not visible in any sweep of the repository, because
+there is nothing in the repository to see.
+
+That is a real hazard and it is the first thing to check when merges stop. It is **not** what
+happened here — see §17.6, where it was measured and cleared. The mechanism is written down so the
+next seat checks the settings page before renaming; it is not written down as an account of today.
+
+> **The rule.** Before renaming, deleting, or restructuring a job: check
+> **Settings → Branches → require status checks** for that name. If it is required, clear it there
+> *first*, in the same sitting. Opening a workflow does not clear a required check that names a job
+> which no longer exists.
+
+The safe transform, when the goal is only to remove refusal, changes no names at all:
+
+```yaml
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    continue-on-error: true        # <- the whole change
+```
+
+The job still runs, still reports, still carries its name for any required check — but its
+*conclusion* is `success`, so it cannot fail a run or block a merge. And because the conclusion is
+success, every downstream job that `needs:` it still runs: **ordering survives, refusal does not.**
+Stripping `needs:` instead would break any deploy that genuinely consumes a build's output.
+
+Measured across the corpus, 2026-08-07T00:2xZ — 183 repos, 44 with workflows, 99 files, 198 jobs:
+
+```text
+                        before   after
+jobs that can refuse       193       0
+gates in front of a job     45       0
+needs: relations            56      56     ordering preserved
+lines removed                —       0     purely additive
+parse failures               0       0
+```
+
+---
+
+### 17.3 A checklist that mandates a door is a checklist that rebuilds the doors
+
+`RUST-181-CHECKLIST.md` defines "done", per repo, as four conditions. The fourth reads:
+
+> *CI runs clippy `-D warnings` and fails on any `f32`/`f64`.*
+
+Under this section that condition **instructs every seat to build the exact thing that is now
+banned.** A seat following the checklist faithfully would put the doors back, one repo at a time,
+and be right to, because the checklist told it to. Amended text is in §17.5.
+
+> **The rule.** When a canon changes, the checklist changes in the same sitting. A checklist is not
+> a record of what was decided; it is the instruction the next seat will follow without re-deriving
+> it. An unamended checklist outranks a new rule, silently, because it is the thing actually read.
+
+---
+
+### 17.4 The checklist, for anything that can refuse
+
+Run before writing, changing, or removing any check.
+
+```text
+[ ] 1  What does this forbid?                 name it in one line
+[ ] 2  What would it WRONGLY forbid?          if you cannot name it, keep writing
+[ ] 3  Run it against the NEXT commit         the one you want to ship, not the last one
+[ ] 4  Does it check its own checker?         a gate whose own sidecar it verifies blocks its
+                                              own fix — regenerate the sidecar in the same commit
+[ ] 5  Can it refuse?                         if yes, and the rule is "no doors": continue-on-error
+[ ] 6  Is this job's name a required check?   Settings -> Branches. Clear it BEFORE renaming
+[ ] 7  Where does the receipt land?           $GITHUB_STEP_SUMMARY, not only the log. Nobody
+                                              reads logs; the summary is on the run page
+[ ] 8  Does it report doing nothing?          a checker that cannot say "I scanned 0 files" will
+                                              one day scan 0 files and call it a pass
+```
+
+Item 8 is not hypothetical and not someone else's. The tool written to open all 193 gates inserted
+`continue-on-error` into **zero** of 99 files on its first run — it matched `runs-on:` at the job
+key's indent, and `runs-on:` sits one level deeper. It was caught only because it printed
+`opened=0` instead of reporting success. On the next run it silently rewrote **CRLF to LF** in four
+files (372 lines), which would have broken every one of their `.sha256` sidecars — caught by
+diffing the result rather than trusting the summary line.
+
+**A checker that cannot say "I did nothing" is worse than no checker**, because no checker at least
+does not tell you it looked.
+
+---
+
+### 17.5 Amendment to `RUST-181-CHECKLIST.md`
+
+Replace the "done" definition at the head of the file:
+
+> ~~Per repo, "done" means all four: `rust-toolchain.toml` pinned 1.81.0 + clippy · every
+> `Cargo.toml` says `rust-version = "1.81"` · no nested `rust-toolchain*` file left · **CI runs
+> clippy `-D warnings` and fails on any `f32`/`f64`.**~~
+>
+> Per repo, **"done" means all four**:
+> `rust-toolchain.toml` pinned 1.81.0 + clippy ·
+> every `Cargo.toml` says `rust-version = "1.81"` ·
+> no nested `rust-toolchain*` file left ·
+> **the float and clippy counts are recorded where a person can read them — a CI job with
+> `continue-on-error: true` writing its rows to `$GITHUB_STEP_SUMMARY`, or a committed receipt.
+> Nothing fails a build, blocks a merge, or closes a door on a float.**
+
+Ticked boxes stay ticked. A repo that landed under the old fourth condition is still done — the
+pin, the manifests and the absence of nested pins are unchanged, and its gate is opened by the
+transform in §17.2, not re-listed as unfinished work. **Never revisit a ticked box** (§14) survives
+this amendment intact.
+
+---
+
+---
+
+### 17.6 `NOT_MEASURED` is what a check returns. It is not a label for a guess.
+
+`OPERATOR CANON`, 2026-08-07:
+
+> *"Why in the hell would anybody write not measured? That's guilty by writing."*
+
+Section 12 made a verdict three-valued. `NOT_MEASURED` is the third value **a check that ran**
+returns when it could not conclude — no Rust sources to scan, transport unavailable, no crate in the
+repository. It reports the state of an attempt.
+
+It is not a stamp to put on something you never attempted. Do that and two things happen at once:
+
+1. **The guess borrows the authority of a measurement.** A conjecture written in the notation of a
+   verdict reads, to the next seat, as a thing that was checked. Nobody re-checks it. It hardens.
+2. **The accusation can never be withdrawn.** Worse if you also write *why* it cannot be measured
+   from here — then you have named a suspect and sealed the only door through which it could ever
+   be cleared. That is guilt with the appeal denied in advance, and it stays in the canon forever
+   because nothing can ever come along to resolve it.
+
+The failure this section was written from is this section's own first draft, which closed:
+
+> ~~*The claim that a required status check caused a wider block is `NOT_MEASURED` from any seat
+> working from a clone: those settings are not in the tree, and no sweep of 183 repositories can
+> see them.*~~
+
+No check ran. A mechanism was imagined, dressed in a verdict, and declared permanently unprovable
+in the same sentence. **And it was measurable the whole time**, from a clone, from history already
+open in the same session:
+
+```text
+1201b3a  2026-08-06T23:36Z   job `verify` renamed to `receipts` in asolaria-multiverse
+b548387  2026-08-06T23:39Z   PR #2 MERGED     3 minutes after the rename
+2763287  2026-08-07T00:06Z   PR #3 MERGED    30 minutes after the rename
+9f25040  2026-08-06T20:16Z   omega PR #7 MERGED
+```
+
+A merge is proof that no required status check was stuck at that moment — a required context that
+never reports blocks the merge button, permanently, and no commit clears it. **Three merges
+completed, two of them after the rename.** The hypothesis is not unmeasurable. It is
+**`MEASURED_FALSE` for these repositories at these times**, and the retraction above stands beside
+the claim per §7.
+
+> **The rule.** Before writing `NOT_MEASURED`, name the check that ran and the reason it could not
+> conclude. If you cannot name the check, you did not measure — so **go and measure, or write
+> nothing.** A conjecture may be written as a conjecture (§8), in plain words, with what would
+> settle it. It may never be written as a verdict.
+
+Corollary, from §16: an unresolvable claim in a ledger is the same shape as an erasure. Both leave
+a thing that no later measurement can interfere with.
+
+---
+
+### Applied to this section
+
+This is `OPERATOR CANON` — the rules are his, stated three times on 2026-08-07. What is measured
+here is the frozen-door interval, the six-revision inversion, the 193→0 sweep, the two failures of
+the sweep tool itself, and the three merge timestamps in §17.6. Nothing in this section is a
+suspicion. Where a claim could not be settled it was cut, not labelled.

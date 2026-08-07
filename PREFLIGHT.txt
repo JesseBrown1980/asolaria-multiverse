@@ -1,0 +1,60 @@
+THE CHECKLIST — before you write, change, or remove any check
+=============================================================
+One screen. Nothing to load. AGENT-DISCIPLINE.md §17 has the why.
+
+  1  What does this forbid?
+     One line.
+
+  2  What would it WRONGLY forbid?
+     If you cannot name it, you have not finished writing the check.
+
+  3  Run it against the NEXT commit — the one you want to ship.
+     Not the last one. A ban tested only on what you already have
+     passes on the day you write it and fails on the day it matters.
+
+  4  Does it check its own checker?
+     A gate that verifies its own .sha256 blocks its own fix.
+     Regenerate the sidecar in the SAME commit, or land neither.
+
+  5  Can it refuse?
+     Rule is: no verification doors. If yes ->
+
+         jobs:
+           verify:
+             runs-on: ubuntu-latest
+             continue-on-error: true      <- the whole change
+
+     Job still runs, still reports, still keeps its NAME.
+     Conclusion is success, so it cannot fail a run or block a merge.
+     Downstream `needs:` still runs — ordering survives, refusal does not.
+     Do NOT strip `needs:`; that breaks deploys that consume a build.
+
+  6  Is this job's name a REQUIRED STATUS CHECK?
+     Settings -> Branches -> require status checks.
+     Rename or delete a required job and every PR after it waits
+     forever on a status that will never report. No commit fixes it.
+     It is not in the tree, so no sweep can find it.
+     CLEAR IT THERE FIRST, same sitting.
+
+  7  Where does the receipt land?
+     $GITHUB_STEP_SUMMARY, not only the log.
+     Nobody reads logs. The summary is on the run page.
+
+  8  Does it report doing nothing?
+     A checker that cannot say "I scanned 0 files" will one day
+     scan 0 files and call it a pass.
+
+-----------------------------------------------------------------
+Measured, why this exists:
+
+  A gate banned (src|href) together. src= is a dependency;
+  <a href> is an exit. It refused the commit that gave the door
+  its doors. Door frozen 17:49:49Z -> 23:39:14Z, 5h49m.
+  Old gate vs corrected gate: exact inversion over 6 revisions.
+
+  Corpus sweep 2026-08-07: 193 of 198 jobs could refuse. Now 0.
+  needs: relations 56 -> 56. Lines removed: 0.
+
+  The tool that did it inserted nothing into 99 files on its first
+  run, and silently rewrote CRLF->LF in 4 files on its second.
+  Both caught by item 8, not by the person who wrote it.
