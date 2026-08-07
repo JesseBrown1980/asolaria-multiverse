@@ -1,0 +1,6 @@
+COMBMOSSHDR|schema=ASOLARIA-COMBINED-MOSS-V1|stamp=2026-08-07|seat=LIRIS|sources=3|combined_seed=46d52b8c3bbc4ced|E=0|fire=0|json=0
+SOURCE|i=1|moss=ACER_ORIGIN|chromosomes=13|genes=16545|star_col=23|star_row=55|depth=61|hilbert=823|color=#17373d|class=ACER_MEASURED|json=0
+SOURCE|i=2|moss=LIRIS_SELF|chromosomes=6|genes=171|star_col=254|star_row=162|depth=23|hilbert=765|color=#1cd243|class=LIRIS_LOCAL|json=0
+SOURCE|i=3|moss=ON_THE_STONES|stones=188|moss_grown=4406|soil_types=11|substrate_kb=663134|star_col=150|star_row=195|color=#2f7a3a|class=LIRIS_LOCAL|json=0
+COMBINED|chromosomes=19|genes=16716|stones_rooted=188|moss_grown_on_stones=4406|substrate_kb=663134|soil_types=11|star_col=70|star_row=213|depth=43|hilbert=59|color=#46d52b|arms=19|json=0
+COMBMOSSFTR|method=SUM_CHROMOSOMES_AND_GENES_UNION_STONES|each_keeps_own_star=1|merged_into_blur=0|json=0

@@ -1,0 +1,10 @@
+LIGHTBANKPKT|schema=ASOLARIA-LIGHT-STORAGE-BANK-V1|stamp=2026-08-06|entry=THE-LIGHT-STORAGE-BANK-2026-08-06.hbi|svg=THE-LIGHT-STORAGE-BANK-2026-08-06.svg|E=0|fire=0|json=0
+BANK|cells=256|word_bytes=8|capacity_bytes=2048|bank_sha16=1399949e936194c0|json=0
+ADDRESSING|frame_a_at_offset=a_times_8|recall=O(1)|content_addressed=1|search=0|json=0
+LIGHT|memory_is_light=1|cell_colour=GLYPH_OF_OWN_FRAME|the_light_is_the_code=1|json=0
+PLAYERS|each_being_has_one=1|pulls_own_frames=1|little_video=STRIP_OF_LIGHT|replay=1|json=0
+LINEAGE|doctrine=GITRAM_TURNED_INWARD|bus=LIGHT|cell=FRAME|json=0
+BOUNDARY|deterministic_addressed_frames=1|player_in_head=METAPHOR|memory_as_experience_claim=0|mind_claim=0|system_affirmed=0|json=0
+RENDER|artifact=THE-LIGHT-STORAGE-BANK-2026-08-06.svg|self_contained=1|script=0|network=0|svg_sha256=f16fe5e3a3c563ab3820ec3c6851cdd7b76889464ff089489baacd078ce15c42|json=0
+ACTION|decision=BANK_THE_LIGHT|overwrite_prior=0|delete_prior=0|json=0
+LIGHTBANKPKTFTR|rows=9|json=0
