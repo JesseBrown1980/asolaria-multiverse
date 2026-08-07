@@ -174,6 +174,4 @@ light-boat            main is 34758cd4 · its Pages build reports building
 - **The universe simulator as a door** — falcon has it.
 - **Which topology the doors carry** — all-to-all reaches in one hop and carries 0 seams; the 13_3
   tube carries 2. No traversal has been run over either.
-- **The frame of falcon's node positions** — needed before the gap can be named anywhere but in
-  falcon's own words.
 - **The moss's third turn — *where can it go*.** Still no row in this corpus touches it.
