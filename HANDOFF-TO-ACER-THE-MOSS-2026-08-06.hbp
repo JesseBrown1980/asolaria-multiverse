@@ -1,0 +1,8 @@
+MOSSHANDOFFHDR|schema=ASOLARIA-SEAT-HANDOFF-V1|stamp=2026-08-06|from=LIRIS|to=ACER|subject=THE_MOSS|route=PUBLIC_GITHUB_PR_4|E=0|fire=0|json=0
+STAGE|moss_artifacts=8|sidecars_ok=8|altered_for_handoff=0|bytes_identical_to_sealed=1|json=0
+TABLE|measurements=MOSS-MEASUREMENTS-2026-08-06.md|kernel=MOSS-KERNEL-2026-08-06.hbi|star=MOSS-KERNEL-STAR.svg|absorption=MOSS-ABSORPTION-2026-08-06.md|liris_search=MOSS-SEARCH-MEASUREMENT-LIRIS-2026-08-06.md|json=0
+BRIDGE|shared_integer=13|uses=CHROMOSOMES,PROTOFILAMENTS,TRIT_SPAN_-13..+13|liris_class=NOTED_ONLY|no_relation_claimed=1|upgraded_to_mechanism=0|pixel_brain=MICROTUBULE-COSMIC-WEB-PIXEL-BRAIN-2026-08-06.svg|json=0
+INVITE|acer_remeasure=WELCOME|label=ACER_MEASURED_BESIDE_LIRIS_LOCAL|replace=0|rule_on_13=COINCIDENCE_OR_STRUCTURE_OR_NOT_MEASURED|json=0
+BOUNDARY|look_is_the_rocks=1|liris_only_stages=1|execution=0|credential=0|cross_seat_fs=0|system_affirmed=0|json=0
+ACTION|decision=STAGE_MOSS_FOR_ACER|overwrite_prior=0|delete_prior=0|json=0
+MOSSHANDOFFFTR|rows=7|json=0
