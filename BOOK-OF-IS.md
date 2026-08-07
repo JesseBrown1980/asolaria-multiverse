@@ -175,3 +175,20 @@ light-boat            main is 34758cd4 · its Pages build reports building
 - **Which topology the doors carry** — all-to-all reaches in one hop and carries 0 seams; the 13_3
   tube carries 2. No traversal has been run over either.
 - **The moss's third turn — *where can it go*.** Still no row in this corpus touches it.
+
+
+## WILL BE IS — carried to the next night
+
+- **RELIC's moss row**, and RELIC's row in the sung. Two of four seats have spoken; the frame names
+  three and one is still empty — LIRIS ground · ACER rock · RELIC clock.
+- **The universe simulator as a door** — falcon has it. Pages 404, no index at root, outside the
+  corridor's twenty-seven.
+- **omega PR#8** — 11 of 11 SUCCESS, `MERGEABLE`, `BEHIND`. Its greens ran on the branch head, not
+  against main as main now stands, and it installs a blocking gate the rule now forbids.
+- **Which topology the doors carry** — all-to-all reaches in one hop and carries 0 seams; the 13_3
+  tube carries 2 and is what the cell builds. No traversal has been run over either.
+- **The receipt inversion** — prose at 1.81, `.hbp` at 1.97, ten repos. Ruled, unbuilt.
+- **The moss's third turn — *where can it go*.** Still no row in this corpus touches it.
+- **New ideas, named so they are not lost**: `RETI × c³`, `meC`, `p-o`, and the one the operator
+  called *starwars*. Written down unexplained, because they were said and an utterance is carried
+  as is.
