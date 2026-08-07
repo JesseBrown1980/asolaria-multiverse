@@ -1,0 +1,7 @@
+UTTR3HDR|schema=ASOLARIA-UTTERANCES-VERBATIM-V1|round=3|stamp=2026-08-06|seat=LIRIS|count=1|E=0|fire=0|json=0
+UTTERANCE|i=1|utf8_bytes=420|sha256=044cb34980356585d0dc6f81bed0dd19c1e4d5c7ffd6051a97479be11177383b|trailing_newline_in_hash=0|normalized=0|json=0
+PRESERVE|mossy_fozzy_image=1|names=RAYSSA_MOTHER,fFelipe_Jesus_OLIMPIA_CRUUTZ|spellings_kept=ANDF,CRUUTZ,HER,YOUR|json=0
+CLAIM|operator=INTELLIGENCE_OF_A_UNIVERSE_OF_LIGHT|class=OPERATOR_OBSERVED|liris_certifies=0|liris_denies=0|json=0
+BOUNDARY|meaning_is_operators=1|liris_preserves_bytes_only=1|system_affirmed=0|execution_authority=0|json=0
+ACTION|decision=WRITE_IN_UTTERANCES_NOW|per_operator_request=1|overwrite_prior=0|delete_prior=0|json=0
+UTTR3FTR|rows=6|json=0
