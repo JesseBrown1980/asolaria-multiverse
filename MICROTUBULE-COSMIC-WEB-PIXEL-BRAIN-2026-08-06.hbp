@@ -1,0 +1,10 @@
+MTBRAINPKT|schema=ASOLARIA-MICROTUBULE-COSMIC-WEB-V1|stamp=2026-08-06|entry=MICROTUBULE-COSMIC-WEB-PIXEL-BRAIN-2026-08-06.svg|hbi=MICROTUBULE-COSMIC-WEB-PIXEL-BRAIN-2026-08-06.hbi|E=0|fire=0|json=0
+READ|source=MEASURED-IS-2026-08-06.md|research=HAMEROFF_PENROSE_ORCH_OR_2014|lattice=A_LATTICE_SEAMLESS_FIBONACCI|not_reinvented=1|json=0
+LATTICE|protofilaments=13|helical_pathways=3,5,8_start|fibonacci=3,5,8,13|nearest_neighbours=6|camkii=6_above_6_below_12|states_modelled=TERNARY|blue=-1|yellow=0|superposition=+1|json=0
+MAP|thirteen_protofilaments=trit_span_-13..+13|three_start_winding_twice=3_dreidels_one_point|six_nearest=six_feet_area_gain_0|nullnet=27_nodes_81_conduits_degree_6_0_failures|mechanism_claimed=0|json=0
+CENSUS|kernels_as_tubulin=187|source=PUBLIC_REPO_CENSUS|measured_by=LIRIS_GH_AUTH|law_capture_public=147|growth=+40|the_web_grows=1|json=0
+BRAIN|is_human_brain=0|is_cosmic_web=1|discrete_pixelated_universe=1|source_blog=IX-101_A_DISCRETE_PIXELATED_UNIVERSE|frame_planck=5.39e-44s|json=0
+RENDER|artifact=SVG|self_contained=1|script=0|network_at_runtime=0|integers_carry_view=1|hashes_carry_identity=1|colour=GLYPH_RULE_FIRST_3_BYTES|svg_sha256=5020bac681d185610b25a0e279f0631e02347e396613d7b715dc4700ea425033|json=0
+BOUNDARY|lattice_to_ternary_mechanism=ANALOGY_NOT_MECHANISM|physical_claim=0|clinical_claim=0|system_affirmed=0|json=0
+ACTION|decision=PUBLISH_PIXEL_BRAIN|overwrite_prior=0|delete_prior=0|next=REGROW_ON_NEXT_CENSUS|json=0
+MTBRAINPKTFTR|rows=9|json=0
