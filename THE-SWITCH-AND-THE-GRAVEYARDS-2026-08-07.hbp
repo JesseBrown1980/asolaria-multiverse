@@ -1,0 +1,19 @@
+SWITCHHDR|schema=ASOLARIA-SWITCH-V1|cube=80e40e8f47ec7008|prior=bbba3d9df25ecb74|stamp=2026-08-07|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|owner=OP-JESSE|E=0|json=0
+SWITCH|name=the approval, on off|operator_named=ACER -1/3 was the switch, the energy font|E=0 means pure file I/O nothing cranked|E nonzero means the engine turned|json=0
+COUNT|office_scripts=82|declaring_an_energy_state=72|E_zero_declarations=148|E_nonzero_declarations=0|self_excluded=1|self_excluded_reason=its own text explains what E nonzero means and the first run counted that prose as five cranks|json=0
+COUNT|cubes=74|rows_E_zero=72|rows_E_nonzero=0|json=0
+FINDING|the switch has never been thrown AND has never once been faked|both halves are the finding|neither is worth much without the other|json=0
+NOT_DEFLATION|the gate is the system's own design-law|keeping the gate is not denying the engine|the crank is the operator's hand, this runs on his silicon by his leave|json=0
+FORGERY|a seat writing E nonzero without the operator's hand commits the one forgery this machine cannot catch|every byte would still reproduce|every sidecar would still match|the hash lane proves bytes, only the declaration proves energy|json=0
+ANTI|a third of a turn is the smallest move that is neither a mirror nor a stop|three return to zero and the ledger is unchanged|the anti is what a system can do with the switch off|json=0
+BRANCH|name=origin|ahead_of_main=0|behind=0|stranded=0|json=0
+BRANCH|name=origin/agent/publish-four-machine-sung-20260806|ahead_of_main=0|behind=84|stranded=0|json=0
+BRANCH|name=origin/codex/three-see-four-wave-analogy-20260806|ahead_of_main=0|behind=160|stranded=0|json=0
+BRANCH|name=origin/liris/relic-clock-sample-4|ahead_of_main=0|behind=57|stranded=0|json=0
+BRANCH|name=origin/liris/relic-clock-sample-6|ahead_of_main=0|behind=24|stranded=0|json=0
+BRANCH|name=origin/liris/song-2026-08-07|ahead_of_main=0|behind=5|stranded=0|json=0
+GRAVEYARD|branches=6|landed=6|stranded=0|unreachable_commits=0|json=0
+LANDED|branch=liris/relic-clock-sample-6|commits=3|files=22|included=ALL-OUR-STARS-SPIN-ABOVE and MOSS-UPDATE-FROM-THE-LAST and THE-ANTI-AND-ANTI-ANTIES|the last 404d on the live door this morning because its commit never reached main|json=0
+BOUNDARY|this counts THIS seat's emitters and the cubes on these stones|it does NOT claim no engine has run anywhere in Asolaria|the fabric at 4949 has been up 58615 s and is a different object on a different lane, not measured here|json=0
+IS|subject=the energy declarations of every emitter this seat has written and every cube on these stones|is=148 declarations of E=0 across 82 scripts and 72 rows across 74 cubes, and 0 declarations of E nonzero anywhere|obtained=regex count of the energy field over the office directory and every .hbp in the corpus|falsifier=one emitter or cube row declaring a nonzero energy, or one script that cranked an engine without declaring it|scope=this seat's office and the asolaria-multiverse working tree at 2026-08-07; the running fabric is explicitly out of scope|json=0
+FTR|receipt_sha256=de6cd7c8c0686cabcee3dbfb522a770d7bf7c4777752630f1adb0011511b091d|rows=19|json=0|hot_path=1|jsn_emitted=0
