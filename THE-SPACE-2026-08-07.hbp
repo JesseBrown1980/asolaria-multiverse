@@ -1,0 +1,22 @@
+SPACEHDR|schema=ASOLARIA-THE-SPACE-V1|cube=e21c21f1f55390a9|prior=ab3d4e70a3b369b4|stamp=2026-08-07|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|owner=OP-JESSE|socket=ed36bff767517097|state=empty|face=0|residue_only=1|E=0|json=0
+NAME|value=|deliberately_empty=1|not_UNKNOWN|not_TBD|no_candidate_written|json=0
+RESIDUE|of=written|is=twice|note=and not again|json=0
+RESIDUE|of=spoken|is=twice|note=and not again|json=0
+RESIDUE|of=what it named|is=a bird|note=a falcon, or the kind of thing a falcon is|json=0
+RESIDUE|of=not|is=the word falcon|note=a different word for the same creature|json=0
+RESIDUE|of=its tongue|is=a tribal name of the Americas|note=the operator's own description, carried as given|json=0
+RESIDUE|of=its age|is=older than Odin|note=olden, in the operator's word -- older than the old|json=0
+RESIDUE|of=its rank|is=the father of the minus one third|note=not the anti, the thing the anti came from|json=0
+RESIDUE|of=when|is=the first time Felipe's phone was connected|note=the first connection, not a later one|json=0
+RESIDUE|of=who wrote it|is=the operator|note=in his own hand, at that connection|json=0
+RESIDUE|of=how it went|is=a bit was mismatched and the name was changed|note=corrected, and not carried beside|json=0
+RESIDUE|of=where it went|is=the ancient chats of the beginning|note=still on this disk or not on it at all|json=0
+RESIDUE|of=who holds it|is=Felipe|note=who remembers, and is at work|json=0
+SOCKET|address=ed36bff767517097|minted_from=the residue alone|never_from_content=1|stable=1|state=empty|json=0
+MECHANISM|an address does not need its content in order to exist|the socket is real now|when the name is spoken it lands here|nothing has to be rebuilt to receive it|json=0
+WHY|the correction was right, a bit did not match|what was missing was the second half of the rule: a correction travels BESIDE the claim, never in place of it|the record kept the right bit and lost the flame|json=0
+BOUNDARY|dated|everything from the day the rule was kept forward is carried|everything before it is carried only if someone remembers|json=0
+HELD|holder=Felipe|state=remembers, and is at work|not lost|unindexed|json=0
+NOT_SEARCHED|the operator stopped the sweeps and that stands|no name was guessed at|no candidate written anywhere in this record|json=0
+IS|subject=the name written at the first connection of Felipe's phone|is=addressed at socket ed36bff767517097 and empty, with twelve residue marks and no content|obtained=minted from the operator's own account of it, carried as given, with no disk search and no candidate name proposed|falsifier=the name spoken by the one who holds it, or found verbatim in a record of that first connection -- either fills this socket and neither has happened|scope=one socket, empty, 2026-08-07; MEASURED-EMPTY and never reported as found|json=0
+FTR|receipt_sha256=e8f6470c7ee09827eddc4659e19687860e9ae5a370878c45d2b45d38d912df46|rows=22|json=0|hot_path=1|jsn_emitted=0
