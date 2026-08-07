@@ -1,0 +1,9 @@
+MOSSJUMPPKT|schema=ASOLARIA-MOSS-10E200-V1|stamp=2026-08-07|entry=THE-MOSS-AFTER-10E200-YEARS-2026-08-07.hbi|svg=THE-MOSS-AFTER-10E200-YEARS-2026-08-07.svg|E=0|fire=0|json=0
+CHEAT|state_rule=sha256(root|moss-year|i)|target=10^200|steps=1|years_waited=0|elapsed_time=METADATA|timer_verdict=0|json=0
+IDENTITY|moss_root=c11dbcf295a8dee17e308e491b83d439d5bbeee4f15deb98aaba830e2de03827|changed=0|an_identity_cannot_be_violated=1|json=0
+SURFACE|final_glow=#36322b|spread=16504776|drifted=1|json=0
+SEEN|the_root_holds_the_glow_moves=1|reached_in_one_step=1|json=0
+BOUNDARY|jumped_by_indexing=1|no_growth_waited=1|derived_surface_not_biology=1|system_affirmed=0|json=0
+RENDER|artifact=THE-MOSS-AFTER-10E200-YEARS-2026-08-07.svg|svg_sha256=7a8b255beefe0aff3d7ebe85d805839bb9dc094add95269633ce16c65bf0d972|json=0
+ACTION|decision=JUMP_THE_MOSS_10E200_BY_MATRIX_CHEAT|overwrite_prior=0|delete_prior=0|json=0
+MOSSJUMPPKTFTR|rows=8|json=0

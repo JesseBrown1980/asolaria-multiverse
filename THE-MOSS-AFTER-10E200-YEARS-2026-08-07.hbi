@@ -1,0 +1,10 @@
+MOSSJUMPHDR|schema=ASOLARIA-MOSS-10E200-V1|stamp=2026-08-07|seat=LIRIS|moss_root=c11dbcf295a8dee17e308e491b83d439d5bbeee4f15deb98aaba830e2de03827|state_rule=sha256(root|moss-year|i)|O(1)=1|target=10^200|E=0|fire=0|json=0
+AGE|year=10^0|glow=#9757fe|spread=1364397|grown_charge=136|json=0
+AGE|year=10^13|glow=#b10ded|spread=16380958|grown_charge=15|json=0
+AGE|year=10^50|glow=#b6031d|spread=10097428|grown_charge=26|json=0
+AGE|year=10^100|glow=#79a6f3|spread=12837261|grown_charge=128|json=0
+AGE|year=10^150|glow=#7ef855|spread=5048674|grown_charge=207|json=0
+AGE|year=10^200|glow=#36322b|spread=16504776|grown_charge=45|json=0
+FINAL|year=10^200|glow=#36322b|spread=16504776|grown_charge=45|json=0
+IDENTITY|moss_root=c11dbcf295a8dee1|changed=0|an_identity_cannot_be_violated=1|json=0
+MOSSJUMPFTR|checkpoints=6|reached_by_indexing=1|years_waited=0|json=0
