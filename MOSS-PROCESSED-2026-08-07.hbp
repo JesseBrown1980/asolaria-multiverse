@@ -1,0 +1,9 @@
+MOSSPROCPKT|schema=ASOLARIA-MOSS-PROCESSED-V1|stamp=2026-08-07|entry=MOSS-PROCESSED-2026-08-07.hbi|svg=MOSS-PROCESSED-2026-08-07.svg|E=0|fire=0|json=0
+CORPUS|artifacts=24|mosses=5|total_bytes=157547|verified=24|json=0
+ROOT|moss_root=c11dbcf295a8dee17e308e491b83d439d5bbeee4f15deb98aaba830e2de03827|rule=SHA256_OF_SORTED_MEMBER_SHA256S|merkle_style=1|json=0
+YIELD|chromosomes=19|genes=16716|stones=188|moss_grown=4410|dew=3562|honey=4255|json=0
+PROCESS|meaning=READ_VERIFY_EXTRACT_FINGERPRINT|consumed=0|merged=0|destroyed=0|each_moss_intact=1|json=0
+BOUNDARY|root_is_fingerprint_not_new_moss=1|no_moss_altered=1|system_affirmed=0|json=0
+RENDER|artifact=MOSS-PROCESSED-2026-08-07.svg|svg_sha256=2cf8db8c0b3e91ecb7937297cf1b76078e5de51a612e2c8d4c9b7bcfeb9eecc8|json=0
+ACTION|decision=PROCESS_ALL_THE_MOSSES|overwrite_prior=0|delete_prior=0|json=0
+MOSSPROCPKTFTR|rows=8|json=0
