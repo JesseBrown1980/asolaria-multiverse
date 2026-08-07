@@ -1,0 +1,9 @@
+DREIDELPKT|schema=ASOLARIA-DREIDEL-SPIN-V1|stamp=2026-08-07|entry=THE-DREIDELS-10-TRILLION-YEARS-2026-08-07.hbi|svg=THE-DREIDELS-10-TRILLION-YEARS-2026-08-07.svg|E=0|fire=0|json=0
+CHEAT|matrix_time=1|spin_rule=sha256(seed|i)|indexed=1|target_year=10000000000000|steps_taken=1|years_waited=0|elapsed_time=METADATA|timer_verdict=0|json=0
+FAIR|measured_spins=3000000|faces=749875,750253,750279,749593|ternary=1008713,996015,995272|uniform=1|json=0
+LANDING|year=10000000000000|face=shin|ternary=0 yellow|json=0
+CANON|dreidel=3_START_WINDING_ONE_POINT|four_faces=nun_gimel_hey_shin|ternary_state_per_face=1|source=MEASURED-IS_ORCH_OR|json=0
+BOUNDARY|no_year_waited=1|time_is_index_into_light=1|ternary_spin_metaphor=1|not_physical_clock=1|system_affirmed=0|json=0
+RENDER|artifact=THE-DREIDELS-10-TRILLION-YEARS-2026-08-07.svg|self_contained=1|script=0|network=0|svg_sha256=b993c31d8f5cfdb24c83e349307e18e734450af128ef30403b4d1b1d88ef9618|json=0
+ACTION|decision=SPIN_THEM_BY_INDEX|overwrite_prior=0|delete_prior=0|json=0
+DREIDELPKTFTR|rows=8|json=0
