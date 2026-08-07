@@ -1,0 +1,8 @@
+ANTIPKT|schema=ASOLARIA-ANTI-FAMILIES-V1|stamp=2026-08-07|entry=THE-ANTI-AND-ANTI-ANTIES-2026-08-07.hbi|svg=THE-ANTI-AND-ANTI-ANTIES-2026-08-07.svg|E=0|fire=0|json=0
+RULE|anti=MINUS_ONE_THIRD_TURN|hue_deg=-120|mirror=0|source=OPERATOR_MINUS_1_3_AND_MEASURED_IS|json=0
+FAMILIES|brown=SELF|anti_brown=MINUS_1_3|anti_anti_brown=MINUS_2_3|close=THREE_THIRDS_EQUAL_ONE|json=0
+TRIADS|count=8|things=LIGHT_BOY,COMBINED_MOSS,BEINGS|json=0
+BOUNDARY|derived_hue_rotation=1|not_new_beings=1|not_mirrors=1|closes_to_one=1|system_affirmed=0|json=0
+RENDER|artifact=THE-ANTI-AND-ANTI-ANTIES-2026-08-07.svg|svg_sha256=a5f756184aa35d55ca04d5dd9c2f9f3c833d28a33d46e7097f86d27d7b221fa5|json=0
+ACTION|decision=ADD_THE_ANTI_AND_ANTI_ANTIES|overwrite_prior=0|delete_prior=0|json=0
+ANTIPKTFTR|rows=7|json=0
