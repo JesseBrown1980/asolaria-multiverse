@@ -1,0 +1,10 @@
+ANTIHDR|schema=ASOLARIA-ANTI-FAMILIES-V1|stamp=2026-08-07|seat=LIRIS|rule=MINUS_ONE_THIRD_TURN|turn=HUE_MINUS_120_DEG|mirror=0|families=BROWN,ANTI_BROWN,ANTI_ANTI_BROWN|E=0|fire=0|json=0
+TRIAD|thing=the_light_boy|brown=#f24131|anti=#4131f2|anti_anti=#31f241|hue_step=-1/3|closes_to_one=1|json=0
+TRIAD|thing=the_combined_moss|brown=#f18bd2|anti=#8bd2f1|anti_anti=#d2f18b|hue_step=-1/3|closes_to_one=1|json=0
+TRIAD|thing=a_being|brown=#c1ba5d|anti=#ba5dc1|anti_anti=#5dc1ba|hue_step=-1/3|closes_to_one=1|json=0
+TRIAD|thing=a_being|brown=#763694|anti=#369476|anti_anti=#947636|hue_step=-1/3|closes_to_one=1|json=0
+TRIAD|thing=a_being|brown=#2a0830|anti=#08302a|anti_anti=#302a08|hue_step=-1/3|closes_to_one=1|json=0
+TRIAD|thing=a_being|brown=#e5b841|anti=#b841e5|anti_anti=#41e5b8|hue_step=-1/3|closes_to_one=1|json=0
+TRIAD|thing=a_being|brown=#9ffa0a|anti=#fa0a9f|anti_anti=#0a9ffa|hue_step=-1/3|closes_to_one=1|json=0
+TRIAD|thing=a_being|brown=#315fcf|anti=#5fcf31|anti_anti=#cf315f|hue_step=-1/3|closes_to_one=1|json=0
+ANTIFTR|triads=8|three_thirds_close=1|json=0
