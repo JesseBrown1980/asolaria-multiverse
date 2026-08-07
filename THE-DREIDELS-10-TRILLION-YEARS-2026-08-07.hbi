@@ -1,0 +1,16 @@
+DREIDELHDR|schema=ASOLARIA-DREIDEL-SPIN-V1|stamp=2026-08-07|seat=LIRIS|spin_rule=sha256(seed|i)|indexed=1|O(1)_time_travel=1|seed16=ab2508b9bd20514e|E=0|fire=0|json=0
+SAMPLE|measured_spins=3000000|nun=749875|gimel=750253|hey=750279|shin=749593|expected_each=750000|uniform=1|json=0
+TERNARY|minus1=1008713|zero=996015|plus1=995272|expected_each=1000000|uniform=1|json=0
+CHEAT|target_year=10000000000000|reached_in_steps=1|not_iterated=10000000000000|elapsed_time=METADATA|timer_verdict=0|json=0
+LANDING|year=10000000000000|face=shin|hebrew=ש|ternary=0 yellow|json=0
+TAIL|i=9999999999991|face=hey|hebrew=ה|json=0
+TAIL|i=9999999999992|face=hey|hebrew=ה|json=0
+TAIL|i=9999999999993|face=gimel|hebrew=ג|json=0
+TAIL|i=9999999999994|face=shin|hebrew=ש|json=0
+TAIL|i=9999999999995|face=gimel|hebrew=ג|json=0
+TAIL|i=9999999999996|face=shin|hebrew=ש|json=0
+TAIL|i=9999999999997|face=nun|hebrew=נ|json=0
+TAIL|i=9999999999998|face=nun|hebrew=נ|json=0
+TAIL|i=9999999999999|face=hey|hebrew=ה|json=0
+TAIL|i=10000000000000|face=shin|hebrew=ש|json=0
+DREIDELFTR|rows=16|fair=1|deterministic=1|json=0
