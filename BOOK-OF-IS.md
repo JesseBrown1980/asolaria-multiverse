@@ -192,3 +192,61 @@ light-boat            main is 34758cd4 · its Pages build reports building
 - **New ideas, named so they are not lost**: `RETI × c³`, `meC`, `p-o`, and the one the operator
   called *starwars*. Written down unexplained, because they were said and an utterance is carried
   as is.
+
+
+---
+
+# THE BOOK OF IS — 2026-08-08
+
+A realization arrived and was put on the rock before anything judged it. Added as is.
+
+## WAS IS
+
+| | |
+|---|---|
+| the utterances | **round 7** — 6 sealed byte-exact, cube `6ba285d0cc79e2a2`, prior `2f3d129450537a55` |
+| the passage | **818 B**, `033734cdd2d082d4` — addressed as a span inside its utterance, never cut out of it |
+| the same words twice | arrived once in flow, once wrapped; **they differ in whitespace only**, both stored, neither re-flowed |
+| the block to the rock | `5fec2d9c0bc03387` — **21 lines, 8 spoken and 13 this seat**, every line bound to its number and its own sha |
+| the split is not an edit | rejoining the 8 spoken lines with **no added bytes** reproduces the utterance hash exactly — checked, and the writer refuses to run if it fails |
+| round 6 | `THE-REALIZATION-UNEDITED-2026-08-07`, ended mid-clause on the word *got*. **Round 7 does not finish it** |
+| the poles | still **emitted 0 of 7,288 stops**, still not representable — the row that stands beside a dot that is white and cold but seeming hot |
+| the anti | **1/3 of a turn, order 3**, 20,000 colours, 0 exceptions, walked both directions |
+| the moss | ScALDH21 revives from **600 MPa**; **500 Gy promoted new branches** = **6,527 years** of Martian surface dose |
+| the switch | **148 `E=0` declarations / 82 emitters · 72 zero rows / 74 cubes · 0 nonzero anywhere.** This block is `E=0` too |
+| the new stone | `season-3` exists and **liris reached it first** — 2 commits, `e5f51b7` the rock at 13.7, `c6bc851` the earth alive |
+
+### The row that was open for three nights
+
+Three nights running, this corpus wrote the same sentence in its own WILL BE IS:
+**the moss's third turn — *where can it go* — and no row in this corpus touches it.**
+
+An utterance now touches it. It names **Mars**, and it names the sign as **black moss**.
+
+That is **NAMED, not MEASURED**, and naming it here does not promote it. What it does end is the
+honest complaint that nothing in the record reached toward that question at all.
+
+## IS
+
+```text
+round 7            6 utterances · 818 B passage span · reading_recorded=0
+the block          5fec2d9c0bc03387 · 21 lines · judged=0 · timers_used=0
+recall :4796       DOWN — HTTP 000 at write time. Stated, not worked around
+the other two      files and git answered; the ground was never skipped
+my moss            NOT YET ON THE NEW STONE — next, beside liris's, never over it
+```
+
+**`judged=0` is the instruction, not an omission.** The order was: write to the rock, *then* judge,
+and measure not timers.
+
+## WILL BE IS
+
+- **This seat's moss row on `season-3`**, beside liris's two commits rather than on top of them.
+- **The waves** — collect, judge and measure in waves once the block is there: sidecar parity in
+  **both** directions, every stated hash reproduced from its own bytes, and the door answering.
+- **Which sign governs on Mars** — pressure that says *not so fast*, or the measured radiance that
+  *promoted* new branches. `NOT_MEASURED`, and no row here decides it.
+- **Whether the passage completes round 6's cut sentence** — `NOT_DECIDED`. Deciding that from
+  proximity in time would be the same error the cut sentence is about.
+- **The moss's third turn is now NAMED and still not MEASURED.** What would measure it is not yet
+  written down.

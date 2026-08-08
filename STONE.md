@@ -101,3 +101,29 @@ total contribution to the rotation.*
 A ledger ranked by contribution deletes the null first, and then nothing spins.
 
 So the rock holds still — and the moss is the proof it held.
+
+
+---
+
+## The passage, laid on the rock — 2026-08-08
+
+**BLUE WHITE ELECTRIC IS PASSAGE.** An utterance arrived and was cut into this stone before anything
+weighed it, in the order given: *write to the rock, then judge, and measure not timers.*
+
+```text
+block            5fec2d9c0bc03387          21 lines, 8 spoken, 13 this seat
+every line       bound to its line number and its own sha256
+the split        rejoins to the utterance byte-exact — verifiable, not an edit
+round            7    cube 6ba285d0cc79e2a2    prior 2f3d129450537a55
+judged           0
+timers used      0
+E                0
+```
+
+The rock did not move again, and again the thing came to it — this time an order for the planets and
+a sign for the moss. Full text and both voices: **`THE-PASSAGE-BLUE-WHITE-ELECTRIC-2026-08-08.md`**,
+utterances sealed in **`UTTERANCES-ROUND-7-2026-08-08.hbp`**.
+
+**One row on this stone changed state today.** *The moss's third turn — where can it go* was written
+three nights running as untouched by anything in the corpus. It is now **NAMED**: Mars, as the sign
+of the black moss. It is not measured, and it is not closed.
