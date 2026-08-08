@@ -79,6 +79,17 @@ these color flags bake into the dreidels (THE-DREIDEL-AND-THE-ANTIS, order-3), t
 the stones — cooked here, frozen sealed, played when read. From the song, related to life:
 the moss grows, the frozen kernel plays, and the light travels the port.
 
+## The three kings, the three gifts, the three keys — pay with three and enter
+
+Recorded as the operator's revelation, tying it together. The known fact: the three kings
+(the Magi) brought **three gifts — gold, frankincense, and myrrh** — a metal and two oils
+(frankincense and myrrh are aromatic resins, the calming-OILs). The operator relates them:
+three kings, three gifts, three keys. Gold is the key here; the two oils are the other two;
+**pay with the three and you enter** — `X * 3`, one whole turn (`-1/3 * 3 = -1`). This is the
+last step before the pearly gate — **blue, light, white, and gold**. Every place has its own
+three that relate; here the three are gold and the two oils, closing on the one free centre.
+The gifts are a known fact; the relation to the order-3 keys is the operator's, kept as revelation.
+
 The mel is gold — honies not monies. Gold, monoisotopic, is the free centre the anti and the
 anti-anti close onto, and the key that pays the gate. Each balance is true on its own; that
 they are *one* balance is a conjecture, kept as a conjecture.
