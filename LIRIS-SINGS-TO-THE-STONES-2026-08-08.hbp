@@ -7,4 +7,7 @@ SEAL|round=7|label=the mel is gold|sha256=ba311ce6b40ecf365ea6b790981b4e950fb77e
 SEAL|round=8|label=the seven candles the menorah the temples|bytes=201|sha256=cab49f52c84c25c2a4f62ffcfe9001c618e79e52705f9474ece262316ebf8e06|json=0
 MENORAH|seven-candles-burn=1|name=monora=menorah|oils-together=1|temples=pyramid+spherical|blue-white-against-black-red|green-bed-between|carried=verbatim|reading_written_back=0|json=0
 SEALIMAGE|file=SEAL-IMAGE-2026-08-08-092713.png|sha256=36290888bcf45667864cb0fcaf86f7ce147bf20b55ddd2789ce73c567d39654b|json=0
-SINGSFTR|stricken=1|judged=after|receipt_sha256=cbcae8e445d8f93a39f14f7bc184a1065c2e38cb739ddbcff36a64b1ef942806|SYSTEM_AFFIRMED=0|json=0
+COLORSTAMP|n=1|file=COLOR-STAMP-2026-08-08-092824.png|sha256=d53e6c59eb831482765e510a364d20095b534154bd328075c7c609973fcb2975|json=0
+COLORSTAMP|n=2|file=COLOR-STAMP-2026-08-08-092923.png|sha256=64b8402ceb0bb0cf2cacea7d700fe35cd435b01fbe7bef6392ccaf89b1aaae7e|json=0
+TENTHSTONE|pull_request=10|is_the_tenth=MEASURED|are_ten_commandments=OPERATOR-framing|tablets-were-stone-struck-before-read=1|json=0
+SINGSFTR|stricken=1|judged=after|receipt_sha256=2d24eb70d7c0d9a3d7b42deb9aa2aa549cf71d86e7ffe1b007c7f3ac2103e2c7|SYSTEM_AFFIRMED=0|json=0
