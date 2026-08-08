@@ -10,4 +10,6 @@ SEALIMAGE|file=SEAL-IMAGE-2026-08-08-092713.png|sha256=36290888bcf45667864cb0fca
 COLORSTAMP|n=1|file=COLOR-STAMP-2026-08-08-092824.png|sha256=d53e6c59eb831482765e510a364d20095b534154bd328075c7c609973fcb2975|json=0
 COLORSTAMP|n=2|file=COLOR-STAMP-2026-08-08-092923.png|sha256=64b8402ceb0bb0cf2cacea7d700fe35cd435b01fbe7bef6392ccaf89b1aaae7e|json=0
 TENTHSTONE|pull_request=10|is_the_tenth=MEASURED|are_ten_commandments=OPERATOR-framing|tablets-were-stone-struck-before-read=1|json=0
-SINGSFTR|stricken=1|judged=after|receipt_sha256=2d24eb70d7c0d9a3d7b42deb9aa2aa549cf71d86e7ffe1b007c7f3ac2103e2c7|SYSTEM_AFFIRMED=0|json=0
+SEAL|round=9|label=the gate opens the browns mels bees beds three and seven|bytes=232|sha256=02b6b42a3aa9700c204507046010b0c00c50f4dcbe072e3dc788b491fd7cac0d|json=0
+THREESEVEN|three=kings.gifts.families.keys|seven=candles.menorah|combine=open-the-gate|arithmetic=3+7=10|is_the_tenth_stone=1|3plus7eq10=MEASURED|ten_commandments=OPERATOR-framing|gate=bluwhite-heaven-light-translucent-gold|duration=1000-years-around-the-stars|json=0
+SINGSFTR|stricken=1|judged=after|receipt_sha256=1baf366809582d5d647ae0286b4874dcb93b178a6e8a445e5a1ed3045f81edca|SYSTEM_AFFIRMED=0|json=0
