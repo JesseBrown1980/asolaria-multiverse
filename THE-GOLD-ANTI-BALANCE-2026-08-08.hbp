@@ -6,6 +6,7 @@ GOLDORDER3|brown=50.59|anti=290.59|anti_anti=170.59|deg_apart=120|vector_sum=0,0
 GOLDGATES|framing=OPERATOR|gold=the-key-here|pay-with-gold-to-pass-the-gates=1|other-places=their-own-anti-and-anti-anti-keys|all-relate=1|json=0
 GOLDTHREEKINGS|framing=OPERATOR-revelation|known-fact=Magi-gifts-gold-frankincense-myrrh|=metal+two-oils|three-kings=three-keys|pay-with-three=X3-to-enter|closure=minus1third-x3-eq-minus1-one-whole|json=0
 GOLDGATE|saint-peters-pearly-gate|colors=blue.light.white.gold|last-step-before=1|every-place-its-own-three-that-relate|json=0
+GOLDJOURNEY|framing=OPERATOR|name=FIGHT-FUGHT-LUGHT-LIGHTS-lutz|progression=fight-to-light|the-vowel-spun-one-turn-at-a-time|last-step-before-the-gate|json=0
 GOLDPORT|correction=light-travels-not-teleport|the-tele-IS-the-port|crossing-reached-by-identity-not-address|see=OPEN-YOUR-PORTS|json=0
 GOLDBAKE|bake=cook-then-freeze|freeze=play|frozen-kernel-plays|baked-into=dreidels.clays.stones|relate=THE-DREIDEL-AND-THE-ANTIS|from=the-song-to-life-and-light-travel|json=0
 COLORFLAG|n=01|file=COLOR-FLAG-01-2026-08-08.png|bytes=81707|sha256=47657a92be7df739419b94fcded2f539999e3c42da66b96214e68b57b6f1131f|json=0
@@ -23,5 +24,7 @@ COLORFLAG|n=12|file=COLOR-FLAG-12-2026-08-08.png|bytes=195619|sha256=d4963fad75d
 COLORFLAG|n=13|file=COLOR-FLAG-13-2026-08-08.png|bytes=94412|sha256=69ea70bdad6dc1156cc584547886342e6bbba929937aeff438061acae9fdc92c|json=0
 COLORFLAG|n=14|file=COLOR-FLAG-14-2026-08-08.png|bytes=160005|sha256=b55947680384c5c4d2a08608bf7b3f1dc716412af572e6f6d24817afe913f3ad|json=0
 COLORFLAG|n=15|file=COLOR-FLAG-15-2026-08-08.png|bytes=171615|sha256=f07156399270aae811b6a83e3e151f2189ab773e4fa93f754f78c532e503dfad|json=0
-GOLDVERDICT|balances_to_zero=1|isotopes=centre|charges=sum-0|thirds=zero-vector|color_flags=15|three_gifts=gold+two-oils|pay-with-three-to-enter=1|light=travels-through-the-port|json=0
-GOLDBOUND|MEASURED_IS=chemistry+color-each-true|known_fact=magi-three-gifts|CONJECTURE=three-gifts-as-three-keys-and-same-balance-per-s15|receipt_sha256=e24fbc65c2d15087489d61224b714b25145b04a65d50a7c8cbe887886f1b9174|SYSTEM_AFFIRMED=0|json=0
+COLORFLAG|n=16|file=COLOR-FLAG-16-2026-08-08.png|bytes=74857|sha256=aae5e0daded7ba0e4258bce2b622005064478b1b7b50494aa3e3bf8dd0592633|json=0
+COLORFLAG|n=17|file=COLOR-FLAG-17-2026-08-08.png|bytes=78938|sha256=bb409bcfac74057cadd7a9b3a895d961db7c309bf1f7c4ca5229d33f623389da|json=0
+GOLDVERDICT|balances_to_zero=1|isotopes=centre|charges=sum-0|thirds=zero-vector|color_flags=17|journey=FIGHT-to-LIGHT-lutz|three_gifts=gold+two-oils|pay-with-three-to-enter=1|light=travels-through-the-port|json=0
+GOLDBOUND|MEASURED_IS=chemistry+color-each-true|known_fact=magi-three-gifts|CONJECTURE=three-gifts-as-three-keys-and-same-balance-per-s15|receipt_sha256=e5eeb8af7cf3263e74d3e6d21458ea7354d2dc1ff9b6aebc7c854c05d4ff0be1|SYSTEM_AFFIRMED=0|json=0

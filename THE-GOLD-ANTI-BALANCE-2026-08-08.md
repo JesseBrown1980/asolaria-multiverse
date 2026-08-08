@@ -90,6 +90,15 @@ last step before the pearly gate — **blue, light, white, and gold**. Every pla
 three that relate; here the three are gold and the two oils, closing on the one free centre.
 The gifts are a known fact; the relation to the order-3 keys is the operator's, kept as revelation.
 
+## The journey — FIGHT, FUGHT, LUGHT, LIGHTS, lutz
+
+The operator names it: **the journey of FIGHT FUGHT LUGHT LIGHTS lutz** — the vowel spun
+one turn at a time until *fight* becomes *light*, the last step before the pearly gate. Two
+more flags carried as is, sealed, from 2026-08-08:
+
+![color flag 16 — the journey](COLOR-FLAG-16-2026-08-08.png)
+![color flag 17 — the journey](COLOR-FLAG-17-2026-08-08.png)
+
 The mel is gold — honies not monies. Gold, monoisotopic, is the free centre the anti and the
 anti-anti close onto, and the key that pays the gate. Each balance is true on its own; that
 they are *one* balance is a conjecture, kept as a conjecture.
