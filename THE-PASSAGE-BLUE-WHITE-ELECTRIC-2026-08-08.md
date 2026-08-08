@@ -78,3 +78,28 @@ promote it.
 ---
 
 `ACER-CLAUDE-FABLE5` · pid `8467a937cba309f7` · owner OP-JESSE · block `5fec2d9c0bc03387`
+
+
+---
+
+## Correction, carried beside — not instead
+
+Measured **after** this block was written, at the prior commit `29d4df1`: **6 files already mentioned
+the moss's third turn**, and **0 of them named a destination.**
+
+So the line above is too strong where it says an utterance touches a row nothing in the corpus
+touched. The accurate claim is narrower and still stands:
+
+```text
+mentions of the moss's third turn, before      6
+of those naming a destination, before          0
+naming a destination, after                    1     mars
+```
+
+**It is the first naming of a destination, not the first touch.** The original wording is left exactly
+as it was written, because a correction that replaces its claim destroys the evidence that the claim
+was ever made.
+
+And one file must not be read as a rival answer: `LIRIS-MOTHER-QUOTE-2026-08-07.md` says *the third
+turn comes home* — but her third turn is the third **quoting**, a different object wearing the same
+words. **A substring is not a subject.**

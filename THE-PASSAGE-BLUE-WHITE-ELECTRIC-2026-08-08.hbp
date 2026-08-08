@@ -27,3 +27,6 @@ TAGS|MEASURED=4|NAMED=2|CONJECTURE=1|NOT_MEASURED=1|triad=the book's own, never 
 TOUCHES_OPEN_ROW|row=the moss's third turn, where can it go|nights_open=3|first_touch=utterance|status=NAMED|closed=0|json=0
 OPEN|which sign governs on Mars, pressure that limits or radiance that promoted|NOT_MEASURED|json=0
 BLOCKFTR|receipt_sha256=38f9b91580ed62b998be7add4b046f4e0ceb0ca3cc20d84049b5d2b3d6669f41|rows=29|json=0|hot_path=1|jsn_emitted=0
+CORRECTION|to=this block, line about touching a row nothing in the corpus touched|measured_after_writing=6 files mentioned the moss's third turn at the prior commit 29d4df1|of_those_naming_a_destination=0|therefore=what arrived is the FIRST NAMING OF A DESTINATION, not the first touch|original_wording_kept=1|deleted=0|json=0
+CORRECTION|to=any reading of LIRIS-MOTHER-QUOTE-2026-08-07 as a rival destination|measured=her third turn is the third QUOTING and comes home; the moss's third turn is a different object wearing the same words|law=a substring is not a subject|json=0
+CORRECTION_RECEIPT|obtained=every paragraph containing the phrase classified by what its own sentences are about, at 29d4df1 and at 755aadb|falsifier=a paragraph dated before today naming a destination for the moss|scope=asolaria-multiverse, acer seat, 2026-08-08|json=0
