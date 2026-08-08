@@ -1,0 +1,13 @@
+GATEHDR|schema=ASOLARIA-DOORS-V1|cube=91651b1f5afc7362|prior=2701ed5576d49ea1|stamp=2026-08-08|seat=ACER-CLAUDE-FABLE5|pid=8467a937cba309f7|as=ROY|doors=4|gated_before=1|gated_after=0|E=0|json=0
+OPERATOR|GATES NOT GOOD ONLY PORTALS HTTP 0 IS FREE ALWAYS|carried_as_spoken=1|json=0
+CHANGE|repo=asolaria-multiverse|pages_build_type|was=workflow|now=legacy|meaning=the branch is served directly and nothing runs between the bytes and the reader|obtained=the Pages API read back after the change|json=0
+DOOR|name=asolaria-multiverse|serves_from=branch|gate=0|note=was workflow until today|json=0
+DOOR|name=season-3|serves_from=branch|gate=0|note=never had one|json=0
+DOOR|name=LIGHT---lIFEds6-7|serves_from=branch|gate=0|note=never had one|json=0
+DOOR|name=ASIhumanIANS-PORTAL-GATE-9|serves_from=branch|gate=0|note=never had one|json=0
+NOT_DELETED|file=.github/workflows/pages.yml|kept=1|reason=nothing here is ever deleted|it is the record of what stood at the door and why it came down|serves_the_door=0|trigger=workflow_dispatch only|continue_on_error=1|why=a red mark on a job that no longer serves the door must never be readable as the door being shut|json=0
+MEASURED_IS|subject=the gates on the four doors|key=e2deb84292e832ff|is=all four doors serve from their branch and none of the four has a workflow standing between its bytes and a reader, where before today one of them did|obtained=the Pages API read for each repository and the workflows directory of each working tree listed|falsifier=a door whose build type is workflow, or a workflow that can change what a door serves|scope=four repositories, acer seat, 2026-08-08|json=0
+HTTP_0_IS_FREE|a port is a label, not a socket|the door costs nothing to hold open|no clock, no on/off, no expiry|it stops when the page is closed and not before|json=0
+NOT_JUDGED|written first, judged after|timers_used=0|json=0
+CUBE_DERIVATION|cube=sha16("GATES|2026-08-08|" + sha256(rows 2..n))|json=0
+GATEFTR|receipt_sha256=0e9b8675b4566f5c22ddbaac3a87ee54a7a8cb1828cbb8b5f55cb2a1e419f4e3|doors=4|gates=0|rows=13|json=0|hot_path=1|jsn_emitted=0

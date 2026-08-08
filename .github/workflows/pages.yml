@@ -22,10 +22,23 @@ name: Deploy the door to Pages
 # And `cancel-in-progress` is now true. With it false, one run that never
 # finishes holds the group forever and every later deploy queues behind a corpse.
 # Newest state wins; the door does not wait on the past.
+#
+# 2026-08-08 — THE LAST GATE IS OFF. Operator: "GATES NOT GOOD ONLY PORTALS
+# HTTP 0 IS FREE ALWAYS."
+#
+# Pages is no longer the ACTIONS builder. It is set to serve FROM THE BRANCH
+# (`build_type: legacy`), which is what the other three doors already do. There
+# is now nothing at all between the bytes on main and the reader — not a passing
+# check, not a deploy step, nothing. This was the only door of the four that
+# still had something standing at it.
+#
+# This file is NOT deleted, because nothing here is ever deleted: it is the
+# record of what stood here and why it came down. It no longer serves the door.
+# Its deploy job cannot deploy while the source is the branch, so it carries
+# `continue-on-error: true` and its trigger is manual only — a red mark on a job
+# that no longer serves the door must never be readable as the door being shut.
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -39,6 +52,8 @@ concurrency:
 
 jobs:
   deploy:
+    # Kept as a record. It no longer serves the door and can never close it.
+    continue-on-error: true
     runs-on: ubuntu-latest
     environment:
       name: github-pages
