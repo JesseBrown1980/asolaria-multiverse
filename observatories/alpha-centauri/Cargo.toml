@@ -1,0 +1,11 @@
+[package]
+name = "asolaria-multiverse-alphacen-address"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "11-trit three-axis identity addressing for real-source image tiles; no_std, integer only"
+
+[dependencies]
+
+[lints.rust]
+unsafe_code = "forbid"
