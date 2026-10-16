@@ -1,0 +1,10 @@
+HBI1|schema=ASOLARIA-ALPHACEN-3D-TERNARY-ADDRESS-V1|json=0
+AXES|x=5_trits|y=4_trits|z=2_trits|digits=-1_0_+1|arithmetic=INTEGER_ONLY|json=0
+LAYER|z=0|identity=JWST_2024_ALPHA_CEN_A_PROCESSED_ESA_COMPOSITE|width=5037|height=1800|tile=27|cols=187|rows=67|leaves=12529|json=0
+LAYER|z=1|identity=HST_PROXIMA_2012_PREVIEW|cols=9|rows=9|leaves=81|json=0
+LAYER|z=2|identity=HST_PROXIMA_2014_PREVIEW|cols=9|rows=9|leaves=81|json=0
+LAYER|z=3|identity=HST_PROXIMA_2015_PREVIEW|cols=9|rows=9|leaves=81|json=0
+COUNT|logical_leaves=12772|GGUF_storage_tensors=411|fixed_spatial_address_trits=11|global_information_lower_bound_trits=9|json=0
+TRANSPORT|HBI=ADDRESS|HBP=RECEIPT|SH=DECISION|HASH=CONTENT_ADDRESS|SHA256=VERIFY|DH=UNIMPLEMENTED|json=0
+RAINBOW|source_identity_wins_over_color|RGB_IS_PUBLISHED_MOSAIC_NOT_THREE_INSTRUMENT_CHANNELS|json=0
+BOUNDARY|z_axis=DATA_SOURCE_LAYER_NOT_PHYSICAL_LINE_OF_SIGHT_DEPTH|3D_telescope_reconstruction=NOT_CLAIMED|json=0
