@@ -1,0 +1,5 @@
+HBI1|schema=ASOLARIA-ALPHACEN-PORTAL-ROUTING-V1|json=0
+PORTAL|name=ALPHA_CEN_CONSTELLATION|relative=Asolaria_GGUF_Constellation_Explorer_FIXED.html|kind=SOURCE_HASHED_BROWSER_VIEW|json=0
+PORTAL|name=COLOUR_QR|url=https://jessebrown1980.github.io/the-colour-qr/|kind=RGB_QR_INDEXED_TRANSPORT|external=TRUE|json=0
+PORTAL|name=AETHER|url=https://huggingface.co/Jessedbrown/asolaria-aether|kind=HUGGING_FACE_MODEL_REPOSITORY|external=TRUE|json=0
+BOUNDARY|aether_interoperation=UNVERIFIED|colour_QR_separate_repo=TRUE|AETHER_IS_NOT_A_JOB|shared_token=NONE|json=0
