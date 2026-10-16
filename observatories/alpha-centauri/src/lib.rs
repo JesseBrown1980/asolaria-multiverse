@@ -40,7 +40,11 @@ pub fn encode<const N: usize>(mut v: usize) -> Option<[Trit; N]> {
         *digit = Trit::from_digit(v % 3);
         v /= 3;
     }
-    if v == 0 { Some(out) } else { None }
+    if v == 0 {
+        Some(out)
+    } else {
+        None
+    }
 }
 
 /// Recover an integer ordinal from the balanced-trit fixed-width sequence.
@@ -155,13 +159,25 @@ mod tests {
             Source::HubbleProxima2014,
             Source::HubbleProxima2015,
         ];
-        assert_eq!(sources.map(|s| { let (w, h, _) = s.geometry(); w * h }).iter().sum::<usize>(), 243);
+        assert_eq!(
+            sources
+                .map(|s| {
+                    let (w, h, _) = s.geometry();
+                    w * h
+                })
+                .iter()
+                .sum::<usize>(),
+            243
+        );
     }
 
     #[test]
     fn source_identity_cannot_be_reassigned_by_epoch() {
         let coords = (3, 7);
-        assert_ne!(address(Source::WebbProcessed2024, coords.0, coords.1), address(Source::HubbleProxima2015, coords.0, coords.1));
+        assert_ne!(
+            address(Source::WebbProcessed2024, coords.0, coords.1),
+            address(Source::HubbleProxima2015, coords.0, coords.1)
+        );
     }
 
     #[test]
