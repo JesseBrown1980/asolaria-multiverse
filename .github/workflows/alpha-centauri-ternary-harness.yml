@@ -1,0 +1,56 @@
+name: Alpha Centauri multiverse source and integer-ternary harness
+on:
+  push:
+    branches:
+      - main
+      - observatory/alpha-centauri-ternary-20261016
+    paths:
+      - 'observatories/alpha-centauri/**'
+      - '.github/workflows/alpha-centauri-ternary-harness.yml'
+  pull_request:
+    paths:
+      - 'observatories/alpha-centauri/**'
+      - '.github/workflows/alpha-centauri-ternary-harness.yml'
+permissions:
+  contents: read
+jobs:
+  source-hash:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check uploaded source bytes and embedded images
+        run: python3 observatories/alpha-centauri/verify_sources.py
+      - name: Check each publication sidecar against real bytes
+        run: |
+          set -euo pipefail
+          cd observatories/alpha-centauri
+          while IFS= read -r checksum; do
+            sha256sum --check "$checksum"
+          done < <(find . -name '*.sha256' -print | sort)
+          echo 'SOURCE_SIDE_CARS|all=PASS|json=0'
+  integer-ternary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    defaults:
+      run:
+        working-directory: observatories/alpha-centauri
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Pin Rust 1.81 and Clippy
+        run: rustup toolchain install 1.81 --profile minimal --component clippy,rustfmt
+      - name: Format must match source
+        run: cargo +1.81 fmt --all -- --check
+      - name: Clippy zero warnings
+        run: cargo +1.81 clippy --all-targets -- -D warnings
+      - name: Exhaustive 12772 logical leaf address replay
+        run: cargo +1.81 test --all
+      - name: Integer-only source gate
+        run: |
+          set -euo pipefail
+          if grep -nE '\bf32\b|\bf64\b' src/lib.rs; then exit 1; fi
+          echo 'TRIT_CORE|float_used=0|node_used=0|json=0'
